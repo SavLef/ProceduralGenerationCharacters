@@ -1,2 +1,3 @@
-﻿  Main.cpp
-  PCG_Character.vcxproj -> C:\Users\Mist\Documents\GitHub\ProcChar\PCG_Character\Debug\PCG_Character.exe
+﻿  Character.cpp
+C:\Users\Mist\Documents\GitHub\ProcChar\ProceduralGenerationCharacters\PCG_Character\Character.cpp(124,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PCG_Character.vcxproj -> C:\Users\Mist\Documents\GitHub\ProcChar\ProceduralGenerationCharacters\Debug\PCG_Character.exe
