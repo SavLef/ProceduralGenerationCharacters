@@ -3,8 +3,11 @@
 
 #include <iostream>
 #include "Character.h"
+#include "MarkovChain.h"
 
 Character* Char;
+MarkovChain* RaceGenerated;
+
 int choice;
 
 int main()
@@ -19,8 +22,8 @@ int main()
 
 	if (choice == 1)
 	{
-		Char = new Character;
-		Char->GenStats();
+		RaceGenerated = new MarkovChain;
+		RaceGenerated->RandomRace("human", "elf", "melos", "lol", "haha");
 	}
 
 	
