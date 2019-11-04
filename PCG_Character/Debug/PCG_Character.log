@@ -1,4 +1,4 @@
 ﻿  MarkovChain.cpp
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(46,22): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(87,22): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  PCG_Character.vcxproj -> C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\Debug\PCG_Character.exe
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(46,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(200,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PCG_Character.vcxproj -> C:\Users\Exeline\Source\Repos\SavLef\ProceduralGenerationCharacters\Debug\PCG_Character.exe
