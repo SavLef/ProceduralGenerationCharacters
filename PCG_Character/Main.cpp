@@ -2,11 +2,11 @@
 //
 
 #include <iostream>
-#include "Character.h"
+
 #include <stdlib.h>
 #include "MarkovChain.h"
 
-Character* Char;
+
 MarkovChain* RaceGenerated;
 
 int choice;
@@ -27,7 +27,7 @@ int main()
 		system("CLS");
 		RaceGenerated = new MarkovChain;
 		RaceGenerated->ClassStateOne("Paladin", 20, "Warrior", 12, "Mage", 12, "Priest", 11, "Warlock", 12, "Death Knight", 10, "Rogue", 10, "Hunter", 8, "Monk", 4);
-		RaceGenerated->CalculateRace(100,"Human", 15,"Night Elf",12, "Draenai", 6, "Worgen", 5, "Dwarf", 4, "Gnome", 4, "Orc", 8, "Troll", 6, "Blood Elf", 15, "Tauren", 7, "Goblin", 3, "Undead", 7);
+		RaceGenerated->CalculateRace(50,"Human", 15,"Night Elf",12, "Draenai", 6, "Worgen", 5, "Dwarf", 4, "Gnome", 4, "Orc", 8, "Troll", 6, "Blood Elf", 15, "Tauren", 7, "Goblin", 3, "Undead", 7);
 		
 	}
 

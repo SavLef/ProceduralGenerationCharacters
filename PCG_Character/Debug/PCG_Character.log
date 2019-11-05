@@ -1,4 +1,32 @@
-﻿  MarkovChain.cpp
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(46,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(200,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  PCG_Character.vcxproj -> C:\Users\Exeline\Source\Repos\SavLef\ProceduralGenerationCharacters\Debug\PCG_Character.exe
+﻿  Character.cpp
+  Main.cpp
+  MarkovChain.cpp
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(17,39): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(48,23): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(89,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(93,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(98,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(103,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(107,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(111,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(115,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(119,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(123,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(127,62): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(149,39): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(151,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(156,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(161,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(166,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(170,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(175,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(180,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(184,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(188,42): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(192,43): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(196,43): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(200,43): warning C4305:  '+=': truncation from 'double' to 'float'
+  Generating Code...
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(204,22): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(139): warning C4715:  'MarkovChain::ClassStateOne_Backend': not all control paths return a value
+  PCG_Character.vcxproj -> C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\Debug\PCG_Character.exe
