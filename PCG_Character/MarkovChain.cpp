@@ -79,9 +79,8 @@ void MarkovChain::ClassStateOne(string Class_1, float percent_1, string Class_2,
 string MarkovChain::ClassStateOne_Backend()
 {
 	vector <string> Classes;
-	if (race_selection == "Human")
-	{
-		for (float i = 0; i < Class_State_Percent[0].at(0); i+= 0.1)
+
+	for (float i = 0; i < Class_State_Percent[0].at(0); i+= 0.1)
 		{
 			Classes.push_back(Class_State_Name[0].at(0));
 		}
@@ -126,10 +125,8 @@ string MarkovChain::ClassStateOne_Backend()
 
 
 		std::random_shuffle(Classes.begin(), Classes.end());
-
-		class_selection[0] = Classes.at(0);
-		return class_selection[0];
-	}
+		return Classes.at(0);
+	
 	Classes.empty();
 }
 
@@ -199,9 +196,6 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::srand(std::time(0));
 	std::random_shuffle(Races.begin(), Races.end());
 	race_selection = Races.at(0);
-
-
-	cout << race_selection << endl;
 
 	Arfui = new Character;
 	Arfui->setRace(race_selection);

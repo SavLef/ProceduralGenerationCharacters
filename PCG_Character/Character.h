@@ -16,9 +16,9 @@ public:
 	string getRace();
 
 public: 
-	string Race;
-	string Class;
-	string Lore;
+	string Race = "";
+	string Class = "";
+	string Lore = "";
 	vector <string> Inventory;
 	int STR=0, AGI=0, SPR=0, INT=0, STM=0;
 };
