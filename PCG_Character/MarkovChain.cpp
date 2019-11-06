@@ -14,7 +14,7 @@ void MarkovChain::RandomRace(float amount, string Race_1, string Race_2, string 
 
 	vector<string> Races;
 	
-	for (float i = 0; i < amount; i+= 0.1)
+	for (float i = 0; i < amount; i+= 0.1f)
 	{
 		if (Race_1 != "")
 		{
@@ -80,45 +80,45 @@ string MarkovChain::ClassStateOne_Backend()
 {
 	vector <string> Classes;
 
-	for (float i = 0; i < Class_State_Percent[0].at(0); i+= 0.1)
+	for (float i = 0; i < Class_State_Percent[0].at(0); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(0));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(1); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(1); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(1));
 		}
 
-		for (float i = 0; i < Class_State_Percent[0].at(2); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(2); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(2));
 		}
 
-		for (float i = 0; i < Class_State_Percent[0].at(3); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(3); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(3));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(4); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(4); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(4));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(5); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(5); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(5));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(6); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(6); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(6));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(7); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(7); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(7));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(8); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(8); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(8));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(9); i+= 0.1)
+		for (float i = 0; i < Class_State_Percent[0].at(9); i+= 0.1f)
 		{
 			Classes.push_back(Class_State_Name[0].at(9));
 		}
@@ -138,72 +138,85 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 {
 	
 	vector<string> Races;
-	for (float i = 0; i < amount; i+= 0.1)
+	for (float i = 0; i < amount; i+= 0.1f)
 		{
-	for (float i = 0; i < percent_1; i+= 0.1)
+	for (float i = 0; i < percent_1; i+= 0.1f)
 	{
 		Races.push_back(Race_1);
 	}
 
-	for (float i = 0; i < percent_2; i+= 0.1)
+	for (float i = 0; i < percent_2; i+= 0.1f)
 	{
 		Races.push_back(Race_2);
 	}
 
-	for (float i = 0; i < percent_3; i+= 0.1)
+	for (float i = 0; i < percent_3; i+= 0.1f)
 	{
 		Races.push_back(Race_3);
 	}
 
-	for (float i = 0; i < percent_4; i+= 0.1)
+	for (float i = 0; i < percent_4; i+= 0.1f)
 	{
 		Races.push_back(Race_4);
 	}
-	for (float i = 0; i < percent_5; i+= 0.1)
+	for (float i = 0; i < percent_5; i+= 0.1f)
 	{
 		Races.push_back(Race_5);
 	}
 
-	for (float i = 0; i < percent_6; i+= 0.1)
+	for (float i = 0; i < percent_6; i+= 0.1f)
 	{
 		Races.push_back(Race_6);
 	}
 
-	for (float i = 0; i < percent_7; i+= 0.1)
+	for (float i = 0; i < percent_7; i+= 0.1f)
 	{
 		Races.push_back(Race_7);
 	}
-	for (float i = 0; i < percent_8; i+= 0.1)
+	for (float i = 0; i < percent_8; i+= 0.1f)
 	{
 		Races.push_back(Race_8);
 	}
-	for (float i = 0; i < percent_9; i+= 0.1)
+	for (float i = 0; i < percent_9; i+= 0.1f)
 	{
 		Races.push_back(Race_9);
 	}
-	for (float i = 0; i < percent_10; i+= 0.1)
+	for (float i = 0; i < percent_10; i+= 0.1f)
 	{
 		Races.push_back(Race_10);
 	}
-	for (float i = 0; i < percent_11; i+= 0.1)
+	for (float i = 0; i < percent_11; i+= 0.1f)
 	{
 		Races.push_back(Race_11);
 	}
-	for (float i = 0; i < percent_12; i+= 0.1)
+	for (float i = 0; i < percent_12; i+= 0.1f)
 	{
 		Races.push_back(Race_12);
 	}
-	std::srand(std::time(0));
+	std::srand(std::time(0) + clock());
 	std::random_shuffle(Races.begin(), Races.end());
 	race_selection = Races.at(0);
 
 	Arfui = new Character;
 	Arfui->setRace(race_selection);
 
+	//CHECK FOR CLASS ASSIGNMENT
 	 if (Arfui->getRace() == Race_1)
 	 {
-		
 		 Arfui->setClass(ClassStateOne_Backend());
+	 }
+
+	 //CHECK FOR STAT DISTRIBUTION
+	 if (Arfui->getClass() == Class_State_Name[0].at(0))
+	 {
+		 std::srand(std::time(0) + clock());
+		 Arfui->addSTR(rand() % 10 + 1);
+		 std::srand(std::time(0));
+		 Arfui->addSTM(rand() % 10 + 1);
+		 std::srand(std::time(0) + clock());
+		 Arfui->addINT(rand() % 18 + 1);
+		 std::srand(std::time(0));
+		 Arfui->addSPR(rand() % 15 + 1);
 	 }
 
 	 Arfui->PrintSheet();
