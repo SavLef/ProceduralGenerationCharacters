@@ -12,27 +12,43 @@ MarkovChain* RaceGenerated;
 int choice;
 int charamount = 100;
 vector <string> Races;
+vector <string> Classes;
 
 void inptraces()
 {
-	Races.push_back("Human");
-	Races.push_back("Night Elf");
-	Races.push_back("Draenai");
-	Races.push_back("Worgen");
-	Races.push_back("Dwarf");
-	Races.push_back("Gnome");
-	Races.push_back("Orc");
-	Races.push_back("Troll");
-	Races.push_back("Blood Elf");
-	Races.push_back("Tauren");
-	Races.push_back("Goblin");
-	Races.push_back("Undead");
+	Races.push_back("Human"); //0
+	Races.push_back("Night Elf"); //1
+	Races.push_back("Draenai"); //2
+	Races.push_back("Worgen"); //3
+	Races.push_back("Dwarf"); //4 
+	Races.push_back("Gnome");//5
+	Races.push_back("Orc");//6
+	Races.push_back("Troll");//7
+	Races.push_back("Blood Elf");//8
+	Races.push_back("Tauren");//9
+	Races.push_back("Goblin");//10
+	Races.push_back("Undead");//11
+}
+
+void inptclasses()
+{
+	Classes.push_back("Paladin");//0
+	Classes.push_back("Warrior");//1
+	Classes.push_back("Mage");//2
+	Classes.push_back("Priest");//3
+	Classes.push_back("Warlock");//4
+	Classes.push_back("DeathKnight");//5
+	Classes.push_back("Rogue");//6
+	Classes.push_back("Hunter");//7
+	Classes.push_back("Monk");//8
+	Classes.push_back("Shaman");//9
+	Classes.push_back("Druid");//10
+	Classes.push_back("DemonHunter");//8
 }
 
 void update()
 {
-	while (choice != -99)
-	{
+	
 		system("CLS");
 		std::cout << "Characters created! Choose what to do." << std::endl;
 		std::cout << "1. Print all generated characters." << std::endl;
@@ -42,7 +58,7 @@ void update()
 		std::cin >> choice;
 
 
-		while (choice != 1 && choice != 2 && choice != 3 && choice !=-1 || choice == 99 )
+		while (choice != 1 && choice != 2 && choice != 3 && choice != -99 || choice == 99 )
 		{
 			
 			std::cout << "Characters created! Choose what to do." << std::endl;
@@ -108,35 +124,70 @@ void update()
 			break;
 		}
 
-		case -1:
-			break;
-		
-		}
-	}
 
+		case 3:
+
+		{
+			system("CLS");
+			for (int i = 0; i < Classes.size(); i++)
+			{
+				std::cout << i + 1 << ":  " << Classes.at(i) << std::endl;
+			}
+			std::cout << "99 : Back" << std::endl;
+			std::cin >> choice;
+			choice -= 1;
+
+			if (choice > Classes.size() || choice < 0)
+			{
+				choice = 99;
+			}
+
+			for (int j = 0; j < Classes.size(); j++)
+			{
+				if (choice == j)
+				{
+					for (int i = 0; i < charamount; i++)
+
+					{
+						if (RaceGenerated->Characters.at(i).getClass() == Classes.at(choice))
+						{
+							RaceGenerated->Characters.at(i).PrintSheet();
+						}
+					}
+				}
+			}
+
+			std::cout << "Press Enter to continue..." << std::endl;
+			cin.get();
+			cin.get();
+			break;
+
+
+
+		}
+
+		}
 }
 
 int main()
 {
 	inptraces();
-	std::cout << "Press 1 to generate your Character" << std::endl;
+	inptclasses();
+	std::cout << "How many characters do you want to generate? 1-10000" << std::endl;
 	std::cin >> choice;
-	while (choice != 1) 
+	while (choice < 1 || choice > 1000) 
 	{
-		std::cout << "Press 1 to generate your Character" << std::endl;
+		std::cout << "How many characters do you want to generate? 1-10000" << std::endl;
 		std::cin >> choice;
 		
 	}
-
-	if (choice == 1)
-	{
-		system("CLS");
-		RaceGenerated = new MarkovChain;
-		RaceGenerated->ClassStateOne("Paladin", 20, "Warrior", 12, "Mage", 12, "Priest", 11, "Warlock", 12, "Death Knight", 10, "Rogue", 10, "Hunter", 8, "Monk", 4);
-		RaceGenerated->CalculateRace(charamount, Races.at(0), 15, Races.at(1),12, Races.at(2), 6, Races.at(3), 5, Races.at(4), 4, Races.at(5), 4, Races.at(6), 8, Races.at(7), 6, Races.at(8), 15, Races.at(9), 7, Races.at(10), 3, Races.at(11), 7);
+	charamount = choice;
+	system("CLS");
+	RaceGenerated = new MarkovChain;
+	RaceGenerated->ClassStateOne(Classes.at(0), 20, Classes.at(1), 12, Classes.at(2), 12, Classes.at(3), 11, Classes.at(4), 12, Classes.at(5), 10, Classes.at(6), 10, Classes.at(7), 8, Classes.at(8), 4);
+	RaceGenerated->CalculateRace(charamount, Races.at(0), 15, Races.at(1),12, Races.at(2), 6, Races.at(3), 5, Races.at(4), 4, Races.at(5), 4, Races.at(6), 8, Races.at(7), 6, Races.at(8), 15, Races.at(9), 7, Races.at(10), 3, Races.at(11), 7);
 		
-	}
-
+	
 
 	while (choice != -99)
 	{
@@ -146,4 +197,3 @@ int main()
 }
 
 
-void inptclasses() {};

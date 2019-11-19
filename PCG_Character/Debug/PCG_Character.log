@@ -1,6 +1,9 @@
 ﻿  Main.cpp
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(77,22): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(85,15): warning C4018:  '>': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(90,22): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(136,32): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(93,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(101,15): warning C4018:  '>': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(106,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(132,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(140,15): warning C4018:  '>': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(145,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(188,31): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
   PCG_Character.vcxproj -> C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\Debug\PCG_Character.exe
