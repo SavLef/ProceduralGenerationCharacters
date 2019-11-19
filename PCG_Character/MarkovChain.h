@@ -30,7 +30,9 @@ public:
 	vector <string> Class_State_Name[12];
 	vector <float> Class_State_Percent[12];
 
-	Character* Arfui;
+	Character Arfui;
+
+	vector <Character> Characters;
 
 };
 

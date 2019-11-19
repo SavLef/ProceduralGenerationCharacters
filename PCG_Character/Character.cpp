@@ -85,6 +85,20 @@ void Character::addSTM(int value)
 	}
 }
 
+void Character::ClearSheet()
+{
+	Race = "";
+	Class = "";
+	Lore = "";
+	Inventory.clear();
+	STR = 1; 
+	AGI = 1; 
+	SPR = 1; 
+	INT = 1;
+	STM = 1;
+	pointstospend = 20;
+}
+
 void Character::PrintSheet()
 {
 	cout << "Character Race: " << Race << endl;

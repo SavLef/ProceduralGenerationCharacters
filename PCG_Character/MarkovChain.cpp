@@ -138,7 +138,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 {
 	
 	vector<string> Races;
-	for (float i = 0; i < amount; i+= 0.1f)
+	for (float i = 0; i < amount; i+= 1)
 		{
 	for (float i = 0; i < percent_1; i+= 0.1f)
 	{
@@ -197,30 +197,34 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::random_shuffle(Races.begin(), Races.end());
 	race_selection = Races.at(0);
 
-	Arfui = new Character;
-	Arfui->setRace(race_selection);
+	
+	Arfui.setRace(race_selection);
 
 	//CHECK FOR CLASS ASSIGNMENT
-	 if (Arfui->getRace() == Race_1)
+	 if (Arfui.getRace() == Race_1)
 	 {
-		 Arfui->setClass(ClassStateOne_Backend());
+		 Arfui.setClass(ClassStateOne_Backend());
 	 }
 
 	 //CHECK FOR STAT DISTRIBUTION
-	 if (Arfui->getClass() == Class_State_Name[0].at(0))
+	 if (Arfui.getClass() == Class_State_Name[0].at(0))
 	 {
 		 std::srand(std::time(0) + clock());
-		 Arfui->addSTR(rand() % 10 + 1);
+		 Arfui.addSTR(rand() % 10 + 1);
 		 std::srand(std::time(0));
-		 Arfui->addSTM(rand() % 10 + 1);
+		 Arfui.addSTM(rand() % 10 + 1);
 		 std::srand(std::time(0) + clock());
-		 Arfui->addINT(rand() % 18 + 1);
+		 Arfui.addINT(rand() % 18 + 1);
 		 std::srand(std::time(0));
-		 Arfui->addSPR(rand() % 15 + 1);
+		 Arfui.addSPR(rand() % 15 + 1);
 	 }
 
-	 Arfui->PrintSheet();
-	 delete Arfui;
+	// Arfui.PrintSheet();
+	 Characters.push_back(Arfui);
+	 Arfui.ClearSheet();
+
+	
+
 	
 		}
 }

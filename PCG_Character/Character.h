@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 class Character
 {
 public:
@@ -16,6 +17,7 @@ public:
 	void addSPR(int value);
 	void addINT(int value);
 	void addSTM(int value);
+	void ClearSheet();
 	void PrintSheet();
 
 	string getRace();
