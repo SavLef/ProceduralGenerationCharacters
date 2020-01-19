@@ -196,6 +196,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::srand(std::time(0) + clock());
 	std::random_shuffle(Races.begin(), Races.end());
 	race_selection = Races.at(0);
+	Races.clear();
 
 	
 	Arfui.setRace(race_selection);
@@ -221,11 +222,11 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 
 	// Arfui.PrintSheet();
 	 Characters.push_back(Arfui);
+	 system("CLS");
+	 std::cout << "Characters generated: " << Characters.size() << std::endl;
 	 Arfui.ClearSheet();
 
-	
-
-	
+	 
 		}
 }
 

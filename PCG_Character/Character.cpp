@@ -1,4 +1,5 @@
 #include "Character.h"
+#include <fstream>
 
 void Character::setClass(string Classes)
 {
@@ -101,14 +102,11 @@ void Character::ClearSheet()
 
 void Character::PrintSheet()
 {
-	cout << "Character Race: " << Race << endl;
-	cout << "Character Class: " << Class << endl;
-	cout << "Strength: " << STR << endl;
-	cout << "Stamina: " << STM << endl;
-	cout << "Intellect: " << INT << endl;
-	cout << "Spirit: " << SPR << endl;
-	cout << "Agility: " << AGI << endl;
-	cout << "------------" << endl;
+
+	std::ofstream myFile;
+	myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);
+	myFile << Race << "," << Class << "," << STR << "," << STM << "," << INT << "," << SPR << "," << AGI << std::endl;
+	myFile.close();
 }
 
 string Character::getRace()

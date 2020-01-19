@@ -2,9 +2,11 @@
 //
 
 #include <iostream>
-
+#include <fstream>
 #include <stdlib.h>
 #include "MarkovChain.h"
+
+std::ofstream myFile("Characterlist.csv");
 
 
 MarkovChain* RaceGenerated;
@@ -13,6 +15,9 @@ int choice;
 int charamount = 100;
 vector <string> Races;
 vector <string> Classes;
+
+
+
 
 void inptraces()
 {
@@ -48,7 +53,10 @@ void inptclasses()
 
 void update()
 {
-	
+		std::ofstream myFile;
+		myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);
+		myFile << "Race" << "," << "Class" << "," << "STR" << "," << "STM" << "," << "INT" << "," << "SPR" << "," << "AGI" << std::endl;
+
 		system("CLS");
 		std::cout << "Characters created! Choose what to do." << std::endl;
 		std::cout << "1. Print all generated characters." << std::endl;
@@ -171,6 +179,9 @@ void update()
 
 int main()
 {
+	
+	
+
 	inptraces();
 	inptclasses();
 	std::cout << "How many characters do you want to generate? 1-10000" << std::endl;
@@ -192,6 +203,7 @@ int main()
 	while (choice != -99)
 	{
 		update();
+		std::ofstream myFile("Characterlist.csv");
 	}
 	
 }
