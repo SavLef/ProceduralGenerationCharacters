@@ -18,7 +18,7 @@ int choice;
 int charamount = 100;
 vector <string> Races;
 vector <string> Classes;
-
+vector <int> RacesPercentage;
 
 
 
@@ -26,10 +26,29 @@ void inptraces()
 {
 	ifstream dbfile("Database.csv");
 	string value;
+	int perc;
+
 	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ',');
+
+	perc = std::stoi(value);
+	RacesPercentage.push_back(perc);
+
+	std::getline(dbfile, value, ',');// read a string until next comma
+	Races.push_back(value);
 	while (dbfile.good())
 	{
-		std::getline(dbfile, value, '\n'); // read a string until next comma
+
+		
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ',');// read a string until next comma
+
+		if (value != "")
+		{
+			perc = std::stoi(value);
+			RacesPercentage.push_back(perc);
+		}
+		std::getline(dbfile, value, ',');// read a string until next comma
 		Races.push_back(value);
 	}
 
@@ -40,6 +59,7 @@ void inptclasses()
 {
 	ifstream dbfile("Database.csv");
 	string value;
+	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ','); // read a string until next comma
 	while (dbfile.good())
 	{
@@ -195,7 +215,7 @@ int main()
 	system("CLS");
 	RaceGenerated = new MarkovChain;
 	RaceGenerated->ClassStateOne(Classes.at(0), 20, Classes.at(1), 12, Classes.at(2), 12, Classes.at(3), 11, Classes.at(4), 12, Classes.at(5), 10, Classes.at(6), 10, Classes.at(7), 8, Classes.at(8), 4);
-	RaceGenerated->CalculateRace(charamount, Races.at(0), 15, Races.at(1),12, Races.at(2), 6, Races.at(3), 5, Races.at(4), 4, Races.at(5), 4, Races.at(6), 8, Races.at(7), 6, Races.at(8), 15, Races.at(9), 7, Races.at(10), 3, Races.at(11), 7);
+	RaceGenerated->CalculateRace(charamount, Races.at(0), RacesPercentage.at(0), Races.at(1), RacesPercentage.at(1), Races.at(2), RacesPercentage.at(2), Races.at(3), RacesPercentage.at(3), Races.at(4), RacesPercentage.at(4), Races.at(5), RacesPercentage.at(5), Races.at(6), RacesPercentage.at(6), Races.at(7), RacesPercentage.at(7), Races.at(8), RacesPercentage.at(8), Races.at(9), RacesPercentage.at(9), Races.at(10), RacesPercentage.at(10), Races.at(11), RacesPercentage.at(11));
 		
 	
 
