@@ -9,6 +9,9 @@
 std::ofstream myFile("Characterlist.csv");
 
 
+
+
+
 MarkovChain* RaceGenerated;
 
 int choice;
@@ -21,40 +24,36 @@ vector <string> Classes;
 
 void inptraces()
 {
-	Races.push_back("Human"); //0
-	Races.push_back("Night Elf"); //1
-	Races.push_back("Draenai"); //2
-	Races.push_back("Worgen"); //3
-	Races.push_back("Dwarf"); //4 
-	Races.push_back("Gnome");//5
-	Races.push_back("Orc");//6
-	Races.push_back("Troll");//7
-	Races.push_back("Blood Elf");//8
-	Races.push_back("Tauren");//9
-	Races.push_back("Goblin");//10
-	Races.push_back("Undead");//11
+	ifstream dbfile("Database.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	while (dbfile.good())
+	{
+		std::getline(dbfile, value, '\n'); // read a string until next comma
+		Races.push_back(value);
+	}
+
+	
 }
 
 void inptclasses()
 {
-	Classes.push_back("Paladin");//0
-	Classes.push_back("Warrior");//1
-	Classes.push_back("Mage");//2
-	Classes.push_back("Priest");//3
-	Classes.push_back("Warlock");//4
-	Classes.push_back("DeathKnight");//5
-	Classes.push_back("Rogue");//6
-	Classes.push_back("Hunter");//7
-	Classes.push_back("Monk");//8
-	Classes.push_back("Shaman");//9
-	Classes.push_back("Druid");//10
-	Classes.push_back("DemonHunter");//8
+	ifstream dbfile("Database.csv");
+	string value;
+	std::getline(dbfile, value, ','); // read a string until next comma
+	while (dbfile.good())
+	{
+		std::getline(dbfile, value, ','); // read a string until next comma
+		Classes.push_back(value);
+	}
+	
 }
 
 void update()
 {
-		std::ofstream myFile;
-		myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);
+		/*std::ofstream myFile;
+		myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);*/
+		std::ofstream myFile("Characterlist.csv");
 		myFile << "Race" << "," << "Class" << "," << "STR" << "," << "STM" << "," << "INT" << "," << "SPR" << "," << "AGI" << std::endl;
 
 		system("CLS");
@@ -203,7 +202,7 @@ int main()
 	while (choice != -99)
 	{
 		update();
-		std::ofstream myFile("Characterlist.csv");
+		
 	}
 	
 }
