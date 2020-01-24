@@ -1,11 +1,11 @@
 Race,Class,STR,STM,INT,SPR,AGI
-Blood Elf,,1,1,1,1,1
-Draenai,,1,1,1,1,1
 Human,Warlock,1,1,1,1,1
-Night Elf,,1,1,1,1,1
-Dwarf,,1,1,1,1,1
-Draenai,,1,1,1,1,1
-Troll,,1,1,1,1,1
-Tauren,,1,1,1,1,1
-Draenai,,1,1,1,1,1
-Troll,,1,1,1,1,1
+Blood Elf,Rogue,1,1,1,1,1
+Blood Elf,Warrior,1,1,1,1,1
+Blood Elf,Paladin,1,1,1,1,1
+Gnome,Priest,1,1,1,1,1
+Blood Elf,Priest,1,1,1,1,1
+Worgen,Rogue,1,1,1,1,1
+Night Elf,Paladin,1,1,1,1,1
+Gnome,Mage,1,1,1,1,1
+Night Elf,Warlock,1,1,1,1,1
