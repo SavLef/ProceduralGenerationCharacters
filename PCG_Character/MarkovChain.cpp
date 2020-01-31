@@ -571,104 +571,394 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 
 	// }
 	//CHECK FOR STAT DISTRIBUTION
-	//if (Arfui.getClass() == Class_State_Name[0].at(0))
-	//{
-	//	counter = 0;
-	//	ifstream dbfile("Database_Stats.csv");
-	//	string value;
-	//	std::getline(dbfile, value, '\n');
-	//	std::getline(dbfile, value, ','); // read a string until next comma
-	//	std::getline(dbfile, value, ','); // read a string until next comma
-	//	while (dbfile.good() && counter < Class_State_Name->size())
-	//	{
+	if (Arfui.getClass() == Class_State_Name[0].at(0))
+	{
+		counter = 0;
+		ifstream dbfile("Database_Stats.csv");
+		string value;
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		while (dbfile.good() && counter < Class_State_Name->size())
+		{
 
 
-	//		if (value != "")
-	//		{
-	//			perce = std::stoi(value);
-	//			StatPercent.push_back(perce);
-	//		}
-	//		std::getline(dbfile, value, '\n');
-	//		counter++;
+			if (value != "")
+			{
+				perce = std::stoi(value);
+				StatPercent.push_back(perce);
+			}
+			std::getline(dbfile, value, '\n');
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); // read a string until next comma
+			counter++;
 
-	//	}
-	//
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(1))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(2))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(3))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(4))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(5))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(6))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(7))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(8))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(9))
-	//{
-
-	//}
-
-	//else if (Arfui.getClass() == Class_State_Name[0].at(10))
-	//{
-
-	//}
-	//
-	//else if (Arfui.getClass() == Class_State_Name[0].at(11))
-	//{
-
-	//}
+		}
 	
-	Arfui.StatCalc();
-	/*if (Arfui.getClass() == Class_State_Name[0].at(0))
-	 {
-		 std::srand(std::time(0) + clock());
-		 Arfui.addSTR(rand() % 10 + 1);
-		 std::srand(std::time(0));
-		 Arfui.addSTM(rand() % 10 + 1);
-		 std::srand(std::time(0) + clock());
-		 Arfui.addINT(rand() % 18 + 1);
-		 std::srand(std::time(0));
-		 Arfui.addSPR(rand() % 15 + 1);
-	 }*/
+	}
 
+	else if (Arfui.getClass() == Class_State_Name[0].at(1))
+	{
+		counter = 0;
+		ifstream dbfile("Database_Stats.csv");
+		string value;
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		while (dbfile.good() && counter < Class_State_Name->size())
+		{
+
+
+			if (value != "")
+			{
+				perce = std::stoi(value);
+				StatPercent.push_back(perce);
+			}
+			std::getline(dbfile, value, '\n');
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); // read a string until next comma
+			counter++;
+
+		}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(2))
+	{
+		counter = 0;
+		ifstream dbfile("Database_Stats.csv");
+		string value;
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		while (dbfile.good() && counter < Class_State_Name->size())
+		{
+
+
+			if (value != "")
+			{
+				perce = std::stoi(value);
+				StatPercent.push_back(perce);
+			}
+			std::getline(dbfile, value, '\n');
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); // read a string until next comma
+			counter++;
+
+		}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(3))
+	{
+		counter = 0;
+		ifstream dbfile("Database_Stats.csv");
+		string value;
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		while (dbfile.good() && counter < Class_State_Name->size())
+		{
+
+
+			if (value != "")
+			{
+				perce = std::stoi(value);
+				StatPercent.push_back(perce);
+			}
+			std::getline(dbfile, value, '\n');
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); // read a string until next comma
+			std::getline(dbfile, value, ','); 
+			std::getline(dbfile, value, ','); 
+			counter++;
+
+		}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(4))
+	{
+	counter = 0;
+	ifstream dbfile("Database_Stats.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); 
+	std::getline(dbfile, value, ','); 
+	while (dbfile.good() && counter < Class_State_Name->size())
+	{
+
+
+		if (value != "")
+		{
+			perce = std::stoi(value);
+			StatPercent.push_back(perce);
+		}
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');
+		counter++;
+
+	}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(5))
+	{
+	counter = 0;
+	ifstream dbfile("Database_Stats.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ',');
+	std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+	while (dbfile.good() && counter < Class_State_Name->size())
+	{
+
+
+		if (value != "")
+		{
+			perce = std::stoi(value);
+			StatPercent.push_back(perce);
+		}
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+		counter++;
+
+	}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(6))
+	{
+	counter = 0;
+	ifstream dbfile("Database_Stats.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ',');
+	std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+	while (dbfile.good() && counter < Class_State_Name->size())
+	{
+
+
+		if (value != "")
+		{
+			perce = std::stoi(value);
+			StatPercent.push_back(perce);
+		}
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+		counter++;
+
+	}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(7))
+	{
+	counter = 0;
+	ifstream dbfile("Database_Stats.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ',');
+	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+	while (dbfile.good() && counter < Class_State_Name->size())
+	{
+
+
+		if (value != "")
+		{
+			perce = std::stoi(value);
+			StatPercent.push_back(perce);
+		}
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+		counter++;
+
+	}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(8))
+	{
+	counter = 0;
+	ifstream dbfile("Database_Stats.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ',');
+	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+	while (dbfile.good() && counter < Class_State_Name->size())
+	{
+
+
+		if (value != "")
+		{
+			perce = std::stoi(value);
+			StatPercent.push_back(perce);
+		}
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+		counter++;
+
+	}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(9))
+	{
+	counter = 0;
+	ifstream dbfile("Database_Stats.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ',');
+	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+	while (dbfile.good() && counter < Class_State_Name->size())
+	{
+
+
+		if (value != "")
+		{
+			perce = std::stoi(value);
+			StatPercent.push_back(perce);
+		}
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+		counter++;
+
+	}
+	}
+
+	else if (Arfui.getClass() == Class_State_Name[0].at(10))
+	{
+	counter = 0;
+	ifstream dbfile("Database_Stats.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ',');
+	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+	while (dbfile.good() && counter < Class_State_Name->size())
+	{
+
+
+		if (value != "")
+		{
+			perce = std::stoi(value);
+			StatPercent.push_back(perce);
+		}
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+		counter++;
+
+	}
+	}
+	
+	else if (Arfui.getClass() == Class_State_Name[0].at(11))
+	{
+	counter = 0;
+	ifstream dbfile("Database_Stats.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ','); // read a string until next comma
+	std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');
+	while (dbfile.good() && counter < Class_State_Name->size())
+	{
+
+
+		if (value != "")
+		{
+			perce = std::stoi(value);
+			StatPercent.push_back(perce);
+		}
+		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ','); // read a string until next comma
+		std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
+		std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');
+		counter++;
+
+	}
+	}
+	
+	Arfui.StatCalc(StatPercent);
+
+	StatPercent.clear();
+	
 	//CHECK FOR INTENTORY
 
 	//CHECK FOR LORE
 	
 
 	// Arfui.PrintSheet();
+
 	 Characters.push_back(Arfui);
 	 system("CLS");
 	 std::cout << "Characters generated: " << Characters.size() << std::endl;

@@ -2,6 +2,8 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 class Character
@@ -13,7 +15,7 @@ public:
 	void setClass(string Classes);
 	void setRace(string Races);
 	void addStats(int value, int index);
-	void StatCalc();
+	void StatCalc(vector <int> statpercents);
 	void InitStats(int statnumber);
 	void ClearSheet();
 	void PrintSheet();
@@ -31,6 +33,7 @@ public:
 
 	vector <int> stats;
 	vector <string> statname;
+	vector <int> statpercent;
 
 	int nostats;
 	int pointstospend = 20;

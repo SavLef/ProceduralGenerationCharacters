@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <array>
+#include <ctime>
 #include "Character.h"
 #include <fstream>
 

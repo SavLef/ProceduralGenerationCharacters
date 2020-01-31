@@ -18,27 +18,34 @@ void Character::setRace(string Races)
 
 void Character::addStats(int value, int index)
 {
-	if (pointstospend > value)
+	int newvalue;
+
+	newvalue = rand() % (value+1) + 1;
+
+	if (pointstospend > newvalue)
 	{
-		stats.at(index) += value;
-		pointstospend -= value;
+		stats.at(index) += newvalue;
+		pointstospend -= newvalue;
 	}
 
-	else if (pointstospend > 0 && pointstospend < value)
+	else if (pointstospend > 0 && pointstospend < newvalue)
 	{
 		stats.at(index) += pointstospend;
 		pointstospend -= pointstospend;
 	}
+
 }
 
 
 
-void Character::StatCalc()
+void Character::StatCalc(vector <int> statpercents)
 {
+	statpercent = statpercents;
 	
-
-	
-
+	for (int i = 0; i < statpercent.size(); i++)
+	{
+		addStats(statpercent.at(i), i);
+	}
 }
 
 void Character::InitStats(int statnumber)
@@ -57,7 +64,7 @@ void Character::ClearSheet()
 	Inventory.clear();
 	stats.clear();
 	stats.resize(nostats);
-	pointstospend = 20;
+	pointstospend = 50;
 }
 
 void Character::PrintSheet()
