@@ -6,7 +6,7 @@
 
 MarkovChain::MarkovChain()
 {
-
+	
 }
 
 void MarkovChain::RandomRace(float amount, string Race_1, string Race_2, string Race_3, string Race_4, string Race_5, string Race_6)
@@ -49,6 +49,11 @@ void MarkovChain::RandomRace(float amount, string Race_1, string Race_2, string 
 		std::random_shuffle(Races.begin(), Races.end());
 	}
 	
+}
+
+void MarkovChain::SendStats(int statnumber)
+{
+	Arfui.InitStats(statnumber);
 }
 
 void MarkovChain::ClassStateOne(string Class_1, string Class_2,  string Class_3,  string Class_4, string Class_5,  string Class_6,  string Class_7,  string Class_8,  string Class_9,  string Class_10,  string Class_11,  string Class_12)
@@ -565,10 +570,88 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 
 
 	// }
+	//CHECK FOR STAT DISTRIBUTION
+	//if (Arfui.getClass() == Class_State_Name[0].at(0))
+	//{
+	//	counter = 0;
+	//	ifstream dbfile("Database_Stats.csv");
+	//	string value;
+	//	std::getline(dbfile, value, '\n');
+	//	std::getline(dbfile, value, ','); // read a string until next comma
+	//	std::getline(dbfile, value, ','); // read a string until next comma
+	//	while (dbfile.good() && counter < Class_State_Name->size())
+	//	{
 
-	 //CHECK FOR STAT DISTRIBUTION
 
-	/* if (Arfui.getClass() == Class_State_Name[0].at(0))
+	//		if (value != "")
+	//		{
+	//			perce = std::stoi(value);
+	//			StatPercent.push_back(perce);
+	//		}
+	//		std::getline(dbfile, value, '\n');
+	//		counter++;
+
+	//	}
+	//
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(1))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(2))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(3))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(4))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(5))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(6))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(7))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(8))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(9))
+	//{
+
+	//}
+
+	//else if (Arfui.getClass() == Class_State_Name[0].at(10))
+	//{
+
+	//}
+	//
+	//else if (Arfui.getClass() == Class_State_Name[0].at(11))
+	//{
+
+	//}
+	
+	Arfui.StatCalc();
+	/*if (Arfui.getClass() == Class_State_Name[0].at(0))
 	 {
 		 std::srand(std::time(0) + clock());
 		 Arfui.addSTR(rand() % 10 + 1);

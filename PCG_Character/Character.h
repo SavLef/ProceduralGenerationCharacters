@@ -7,16 +7,14 @@ using namespace std;
 class Character
 {
 public:
-	Character() {};
+	Character();
 	~Character() {};
 
 	void setClass(string Classes);
 	void setRace(string Races);
-	void addSTR(int value);
-	void addAGI(int value);
-	void addSPR(int value);
-	void addINT(int value);
-	void addSTM(int value);
+	void addStats(int value, int index);
+	void StatCalc();
+	void InitStats(int statnumber);
 	void ClearSheet();
 	void PrintSheet();
 
@@ -27,7 +25,14 @@ public:
 	string Class = "";
 	string Lore = "";
 	vector <string> Inventory;
-	int STR=1, AGI=1, SPR=1, INT=1, STM=1;
+
+	string s_ST1, s_ST2, s_ST3, s_ST4, s_ST5, s_ST6, s_ST7;
+	int ST1 = 1, ST2 = 1, ST3 = 1, ST4 = 1, ST5 = 1, ST6 = 1, ST7 = 1;
+
+	vector <int> stats;
+	vector <string> statname;
+
+	int nostats;
 	int pointstospend = 20;
 };
 

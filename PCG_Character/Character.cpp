@@ -1,6 +1,11 @@
 #include "Character.h"
 #include <fstream>
 
+Character::Character()
+{
+
+}
+
 void Character::setClass(string Classes)
 {
 	Class = Classes;
@@ -11,79 +16,37 @@ void Character::setRace(string Races)
 	Race = Races;
 }
 
-void Character::addSTR(int value)
+void Character::addStats(int value, int index)
 {
 	if (pointstospend > value)
 	{
-		STR += value;
+		stats.at(index) += value;
 		pointstospend -= value;
 	}
 
 	else if (pointstospend > 0 && pointstospend < value)
 	{
-		STR += pointstospend;
+		stats.at(index) += pointstospend;
 		pointstospend -= pointstospend;
 	}
 }
 
-void Character::addAGI(int value)
-{
-	if (pointstospend > value)
-	{
-		AGI += value;
-		pointstospend -= value;
-	}
 
-	else if (pointstospend > 0 && pointstospend < value)
-	{
-		AGI += pointstospend;
-		pointstospend -= pointstospend;
-	}
+
+void Character::StatCalc()
+{
+	
+
+	
+
 }
 
-void Character::addSPR(int value)
+void Character::InitStats(int statnumber)
 {
-	if (pointstospend > value)
-	{
-		SPR += value;
-		pointstospend -= value;
-	}
+	
+	stats.resize(statnumber);
+	nostats = statnumber;
 
-	else if (pointstospend > 0 && pointstospend < value)
-	{
-		SPR += pointstospend;
-		pointstospend -= pointstospend;
-	}
-}
-
-void Character::addINT(int value)
-{
-	if (pointstospend > value)
-	{
-		INT += value;
-		pointstospend -= value;
-	}
-
-	else if (pointstospend > 0 && pointstospend < value)
-	{
-		INT += pointstospend;
-		pointstospend -= pointstospend;
-	}
-}
-
-void Character::addSTM(int value)
-{
-	if (pointstospend >= value)
-	{
-		STM += value;
-		pointstospend -= value;
-	}
-
-	else if (pointstospend > 0 && pointstospend < value)
-	{
-		STM += pointstospend;
-		pointstospend -= pointstospend;
-	}
 }
 
 void Character::ClearSheet()
@@ -92,11 +55,8 @@ void Character::ClearSheet()
 	Class = "";
 	Lore = "";
 	Inventory.clear();
-	STR = 1; 
-	AGI = 1; 
-	SPR = 1; 
-	INT = 1;
-	STM = 1;
+	stats.clear();
+	stats.resize(nostats);
 	pointstospend = 20;
 }
 
@@ -105,7 +65,13 @@ void Character::PrintSheet()
 
 	std::ofstream myFile;
 	myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);
-	myFile << Race << "," << Class << "," << STR << "," << STM << "," << INT << "," << SPR << "," << AGI << std::endl;
+	myFile << Race << "," << Class << ",";
+	for (int i = 0; i < stats.size(); i++)
+	{
+		myFile << "," << stats.at(i) ;
+	}
+	myFile << std::endl;
+
 	myFile.close();
 }
 

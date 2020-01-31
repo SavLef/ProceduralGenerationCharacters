@@ -1,11 +1,11 @@
-Race,Class,STR,STM,INT,SPR,AGI
-Human,Warlock,1,1,1,1,1
-Blood Elf,Rogue,1,1,1,1,1
-Blood Elf,Warrior,1,1,1,1,1
-Blood Elf,Paladin,1,1,1,1,1
-Gnome,Priest,1,1,1,1,1
-Blood Elf,Priest,1,1,1,1,1
-Worgen,Rogue,1,1,1,1,1
-Night Elf,Paladin,1,1,1,1,1
-Gnome,Mage,1,1,1,1,1
-Night Elf,Warlock,1,1,1,1,1
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE
+Night Elf,Rogue,,0,0,0,0,0,0,0
+Blood Elf,Priest,,0,0,0,0,0,0,0
+Worgen,Mage,,0,0,0,0,0,0,0
+Orc,Death Knight,,0,0,0,0,0,0,0
+Draenai,Priest,,0,0,0,0,0,0,0
+Draenai,Death Knight,,0,0,0,0,0,0,0
+Troll,Hunter,,0,0,0,0,0,0,0
+Human,Hunter,,0,0,0,0,0,0,0
+Orc,Mage,,0,0,0,0,0,0,0
+Troll,Hunter,,0,0,0,0,0,0,0
