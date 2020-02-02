@@ -1,4 +1,88 @@
-﻿  Character.cpp
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(45,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(76,20): warning C4018: '<': signed/unsigned mismatch
+﻿  MarkovChain.cpp
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(48,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(230,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(251,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(258,35): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(276,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(283,35): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(302,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(309,35): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(329,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(336,35): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(357,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(364,35): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(386,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(393,34): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(417,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(424,35): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(447,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(454,34): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(480,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(487,34): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(513,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(520,34): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(547,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(554,34): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(583,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(590,34): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(612,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(639,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(667,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(697,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(729,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(762,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(795,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(828,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(861,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(894,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(927,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(960,34): warning C4018: '<': signed/unsigned mismatch
   PCG_Character.vcxproj -> C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\Debug\PCG_Character.exe

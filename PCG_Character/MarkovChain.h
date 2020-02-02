@@ -26,8 +26,8 @@ public:
 	string race_selection = "";
 	string class_selection[12];
 	
-	vector <string> Class_State_Name[12];
-	vector <float> Class_State_Percent[12];
+	vector <string> Class_State_Name;
+	vector <float> Class_State_Percent;
 
 	vector <int> Class_Percent_Chance;
 

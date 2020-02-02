@@ -5,6 +5,7 @@
 #include <fstream>
 #include <stdlib.h>
 #include "MarkovChain.h"
+#include "Algorithms.h"
 
 std::ofstream myFile("Characterlist.csv");
 
@@ -45,7 +46,7 @@ void inptraces()
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, ',');// read a string until next comma
 
-		if (value != "")
+		if (value != "" && value != "-")
 		{
 			perc = std::stoi(value);
 			RacesPercentage.push_back(perc);
@@ -59,16 +60,7 @@ void inptraces()
 
 void inptclasses()
 {
-	ifstream dbfile("Database.csv");
-	string value;
-	std::getline(dbfile, value, ','); // read a string until next comma
-	std::getline(dbfile, value, ','); // read a string until next comma
-	while (dbfile.good())
-	{
-		std::getline(dbfile, value, ','); // read a string until next comma
-		Classes.push_back(value);
-	}
-	dbfile.close();
+	Algorithms::string_ReadFromCSV(&Classes,"Database.csv",2,0,1,0);
 }
 
 void inptstats()
@@ -250,7 +242,7 @@ int main()
 	system("CLS");
 	RaceGenerated = new MarkovChain;
 	RaceGenerated->SendStats(StatName.size());
-	RaceGenerated->ClassStateOne(Classes.at(0), Classes.at(1), Classes.at(2),  Classes.at(3),  Classes.at(4),  Classes.at(5),  Classes.at(6),  Classes.at(7),  Classes.at(8));
+	RaceGenerated->ClassStateOne(Classes.at(0), Classes.at(1), Classes.at(2),  Classes.at(3),  Classes.at(4),  Classes.at(5),  Classes.at(6),  Classes.at(7),  Classes.at(8), Classes.at(9), Classes.at(10), Classes.at(11));
 	RaceGenerated->CalculateRace(charamount, Races.at(0), RacesPercentage.at(0), Races.at(1), RacesPercentage.at(1), Races.at(2), RacesPercentage.at(2), Races.at(3), RacesPercentage.at(3), Races.at(4), RacesPercentage.at(4), Races.at(5), RacesPercentage.at(5), Races.at(6), RacesPercentage.at(6), Races.at(7), RacesPercentage.at(7), Races.at(8), RacesPercentage.at(8), Races.at(9), RacesPercentage.at(9), Races.at(10), RacesPercentage.at(10), Races.at(11), RacesPercentage.at(11));
 	
 	

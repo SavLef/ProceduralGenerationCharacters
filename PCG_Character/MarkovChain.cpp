@@ -58,25 +58,29 @@ void MarkovChain::SendStats(int statnumber)
 
 void MarkovChain::ClassStateOne(string Class_1, string Class_2,  string Class_3,  string Class_4, string Class_5,  string Class_6,  string Class_7,  string Class_8,  string Class_9,  string Class_10,  string Class_11,  string Class_12)
 {
-	Class_State_Name[0].push_back(Class_1);
+	Class_State_Name.push_back(Class_1);
 
-	Class_State_Name[0].push_back(Class_2);
+	Class_State_Name.push_back(Class_2);
 	
-	Class_State_Name[0].push_back(Class_3);
+	Class_State_Name.push_back(Class_3);
 
-	Class_State_Name[0].push_back(Class_4);
+	Class_State_Name.push_back(Class_4);
 
-	Class_State_Name[0].push_back(Class_5);
+	Class_State_Name.push_back(Class_5);
 
-	Class_State_Name[0].push_back(Class_6);
+	Class_State_Name.push_back(Class_6);
 
-	Class_State_Name[0].push_back(Class_7);
+	Class_State_Name.push_back(Class_7);
 
-	Class_State_Name[0].push_back(Class_8);
+	Class_State_Name.push_back(Class_8);
 
-	Class_State_Name[0].push_back(Class_9);
+	Class_State_Name.push_back(Class_9);
 	
-	Class_State_Name[0].push_back(Class_10);
+	Class_State_Name.push_back(Class_10);
+
+	Class_State_Name.push_back(Class_11);
+
+	Class_State_Name.push_back(Class_12);
 	
 	
 }
@@ -86,54 +90,64 @@ string MarkovChain::ClassStateOne_Backend()
 	vector <string> Classes;
 
 
-	for (float i = 0; i < Class_State_Percent[0].at(0); i+= 0.1f)
+	for (float i = 0; i < Class_State_Percent.at(0); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(0));
+			Classes.push_back(Class_State_Name.at(0));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(1); i+= 0.1f)
+		for (float i = 0; i < Class_State_Percent.at(1); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(1));
-		}
-
-		for (float i = 0; i < Class_State_Percent[0].at(2); i+= 0.1f)
-		{
-			Classes.push_back(Class_State_Name[0].at(2));
+			Classes.push_back(Class_State_Name.at(1));
 		}
 
-		for (float i = 0; i < Class_State_Percent[0].at(3); i+= 0.1f)
+		for (float i = 0; i < Class_State_Percent.at(2); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(3));
+			Classes.push_back(Class_State_Name.at(2));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(4); i+= 0.1f)
+
+		for (float i = 0; i < Class_State_Percent.at(3); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(4));
+			Classes.push_back(Class_State_Name.at(3));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(5); i+= 0.1f)
+		for (float i = 0; i < Class_State_Percent.at(4); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(5));
+			Classes.push_back(Class_State_Name.at(4));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(6); i+= 0.1f)
+		for (float i = 0; i < Class_State_Percent.at(5); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(6));
+			Classes.push_back(Class_State_Name.at(5));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(7); i+= 0.1f)
+		for (float i = 0; i < Class_State_Percent.at(6); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(7));
+			Classes.push_back(Class_State_Name.at(6));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(8); i+= 0.1f)
+		for (float i = 0; i < Class_State_Percent.at(7); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(8));
+			Classes.push_back(Class_State_Name.at(7));
 		}
-		for (float i = 0; i < Class_State_Percent[0].at(9); i+= 0.1f)
+		for (float i = 0; i < Class_State_Percent.at(8); i+= 0.1f)
 		{
-			Classes.push_back(Class_State_Name[0].at(9));
+			Classes.push_back(Class_State_Name.at(8));
+		}
+		for (float i = 0; i < Class_State_Percent.at(9); i+= 0.1f)
+		{
+			Classes.push_back(Class_State_Name.at(9));
+		}
+
+		for (float i = 0; i < Class_State_Percent.at(10); i += 0.1f)
+		{
+			Classes.push_back(Class_State_Name.at(10));
+		}
+
+		for (float i = 0; i < Class_State_Percent.at(11); i += 0.1f)
+		{
+			Classes.push_back(Class_State_Name.at(11));
 		}
 
 
 		std::random_shuffle(Classes.begin(), Classes.end());
 		return Classes.at(0);
-		Class_State_Percent->clear();
-	Classes.empty();
+		Class_State_Percent.clear();
+		Classes.clear();
 }
 
 
@@ -228,22 +242,23 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 		ifstream dbfile("Database.csv");
 		string value;
+
+		int counter = 0;
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ',');
 		std::getline(dbfile, value, ',');
-		while (dbfile.good() && counter < Class_State_Name->size() )
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 			
 			
 			if (value != "")
 			{
 				perce = std::stoi(value);
-				Class_State_Percent[0].push_back(perce);
+				Class_State_Percent.push_back(perce);
 			}
 			std::getline(dbfile, value, ',');// read a string until next comma
 			counter++;
-			Races.push_back(value);
 		}
 	}
 
@@ -251,23 +266,24 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 		ifstream dbfile("Database.csv");
 		string value;
+		int counter = 0;
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ',');
 		std::getline(dbfile, value, ',');
-		while (dbfile.good() && counter < Class_State_Name->size())
+
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
 			if (value != "")
 			{
 				perce = std::stoi(value);
-				Class_State_Percent[0].push_back(perce);
+				Class_State_Percent.push_back(perce);
 			}
 			std::getline(dbfile, value, ',');// read a string until next comma
 			counter++;
-			Races.push_back(value);
 		}
 	}
 
@@ -275,24 +291,25 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 		ifstream dbfile("Database.csv");
 		string value;
+
+		int counter = 0;
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ',');
 		std::getline(dbfile, value, ',');
-		while (dbfile.good() && counter < Class_State_Name->size())
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
 			if (value != "")
 			{
 				perce = std::stoi(value);
-				Class_State_Percent[0].push_back(perce);
+				Class_State_Percent.push_back(perce);
 			}
 			std::getline(dbfile, value, ',');// read a string until next comma
 			counter++;
-			Races.push_back(value);
 		}
 	}
 
@@ -300,6 +317,8 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 		ifstream dbfile("Database.csv");
 		string value;
+
+		int counter = 0;
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
@@ -307,18 +326,17 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ',');
 		std::getline(dbfile, value, ',');
-		while (dbfile.good() && counter < Class_State_Name->size())
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
 			if (value != "")
 			{
 				perce = std::stoi(value);
-				Class_State_Percent[0].push_back(perce);
+				Class_State_Percent.push_back(perce);
 			}
 			std::getline(dbfile, value, ',');// read a string until next comma
 			counter++;
-			Races.push_back(value);
 		}
 	}
 
@@ -326,6 +344,8 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 		ifstream dbfile("Database.csv");
 		string value;
+
+		int counter = 0;
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
@@ -334,18 +354,17 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ',');
 		std::getline(dbfile, value, ',');
-		while (dbfile.good() && counter < Class_State_Name->size())
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
 			if (value != "")
 			{
 				perce = std::stoi(value);
-				Class_State_Percent[0].push_back(perce);
+				Class_State_Percent.push_back(perce);
 			}
 			std::getline(dbfile, value, ',');// read a string until next comma
 			counter++;
-			Races.push_back(value);
 		}
 	}
 
@@ -353,6 +372,8 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 	ifstream dbfile("Database.csv");
 	string value;
+
+	int counter = 0;
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
@@ -362,18 +383,18 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
 		if (value != "")
 		{
 			perce = std::stoi(value);
-			Class_State_Percent[0].push_back(perce);
+			Class_State_Percent.push_back(perce);
 		}
 		std::getline(dbfile, value, ',');// read a string until next comma
 		counter++;
-		Races.push_back(value);
+		
 	}
 	}
 
@@ -381,6 +402,8 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 		ifstream dbfile("Database.csv");
 		string value;
+
+		int counter = 0;
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, '\n');
@@ -391,24 +414,25 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ',');
 		std::getline(dbfile, value, ',');
-		while (dbfile.good() && counter < Class_State_Name->size())
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
 			if (value != "")
 			{
 				perce = std::stoi(value);
-				Class_State_Percent[0].push_back(perce);
+				Class_State_Percent.push_back(perce);
 			}
 			std::getline(dbfile, value, ',');// read a string until next comma
 			counter++;
-			Races.push_back(value);
 		}
 	}
 	else if (Arfui.getRace() == Race_8)
 	{
 	ifstream dbfile("Database.csv");
 	string value;
+
+	int counter = 0;
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
@@ -420,14 +444,14 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
 		if (value != "")
 		{
 			perce = std::stoi(value);
-			Class_State_Percent[0].push_back(perce);
+			Class_State_Percent.push_back(perce);
 		}
 		std::getline(dbfile, value, ',');// read a string until next comma
 		counter++;
@@ -439,6 +463,8 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 	ifstream dbfile("Database.csv");
 	string value;
+
+	int counter = 0;
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
@@ -451,18 +477,17 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
 		if (value != "")
 		{
 			perce = std::stoi(value);
-			Class_State_Percent[0].push_back(perce);
+			Class_State_Percent.push_back(perce);
 		}
 		std::getline(dbfile, value, ',');// read a string until next comma
 		counter++;
-		Races.push_back(value);
 	}
 	}
 
@@ -470,6 +495,8 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 	ifstream dbfile("Database.csv");
 	string value;
+
+	int counter = 0;
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
@@ -483,18 +510,18 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
 		if (value != "")
 		{
 			perce = std::stoi(value);
-			Class_State_Percent[0].push_back(perce);
+			Class_State_Percent.push_back(perce);
 		}
 		std::getline(dbfile, value, ',');// read a string until next comma
 		counter++;
-		Races.push_back(value);
+		
 	}
 	}
 
@@ -502,6 +529,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 	ifstream dbfile("Database.csv");
 	string value;
+	int counter = 0;
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
@@ -516,18 +544,18 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter <Class_State_Name.size())
 	{
 
 
 		if (value != "")
 		{
 			perce = std::stoi(value);
-			Class_State_Percent[0].push_back(perce);
+			Class_State_Percent.push_back(perce);
 		}
 		std::getline(dbfile, value, ',');// read a string until next comma
 		counter++;
-		Races.push_back(value);
+		
 	}
 	}
 
@@ -535,6 +563,8 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	{
 	ifstream dbfile("Database.csv");
 	string value;
+
+	int counter = 0;
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
 	std::getline(dbfile, value, '\n');
@@ -550,18 +580,18 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
 		if (value != "")
 		{
 			perce = std::stoi(value);
-			Class_State_Percent[0].push_back(perce);
+			Class_State_Percent.push_back(perce);
 		}
 		std::getline(dbfile, value, ',');// read a string until next comma
 		counter++;
-		Races.push_back(value);
+		
 	}
 	}
 	
@@ -571,7 +601,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 
 	// }
 	//CHECK FOR STAT DISTRIBUTION
-	if (Arfui.getClass() == Class_State_Name[0].at(0))
+	if (Arfui.getClass() == Class_State_Name.at(0))
 	{
 		counter = 0;
 		ifstream dbfile("Database_Stats.csv");
@@ -579,7 +609,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ','); // read a string until next comma
-		while (dbfile.good() && counter < Class_State_Name->size())
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
@@ -597,7 +627,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(1))
+	else if (Arfui.getClass() == Class_State_Name.at(1))
 	{
 		counter = 0;
 		ifstream dbfile("Database_Stats.csv");
@@ -606,7 +636,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ','); // read a string until next comma
-		while (dbfile.good() && counter < Class_State_Name->size())
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
@@ -624,7 +654,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(2))
+	else if (Arfui.getClass() == Class_State_Name.at(2))
 	{
 		counter = 0;
 		ifstream dbfile("Database_Stats.csv");
@@ -634,7 +664,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ','); // read a string until next comma
-		while (dbfile.good() && counter < Class_State_Name->size())
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
@@ -653,7 +683,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(3))
+	else if (Arfui.getClass() == Class_State_Name.at(3))
 	{
 		counter = 0;
 		ifstream dbfile("Database_Stats.csv");
@@ -664,7 +694,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ','); // read a string until next comma
 		std::getline(dbfile, value, ','); // read a string until next comma
-		while (dbfile.good() && counter < Class_State_Name->size())
+		while (dbfile.good() && counter < Class_State_Name.size())
 		{
 
 
@@ -684,7 +714,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 		}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(4))
+	else if (Arfui.getClass() == Class_State_Name.at(4))
 	{
 	counter = 0;
 	ifstream dbfile("Database_Stats.csv");
@@ -696,7 +726,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ','); 
 	std::getline(dbfile, value, ','); 
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
@@ -717,7 +747,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(5))
+	else if (Arfui.getClass() == Class_State_Name.at(5))
 	{
 	counter = 0;
 	ifstream dbfile("Database_Stats.csv");
@@ -729,7 +759,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
@@ -750,7 +780,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(6))
+	else if (Arfui.getClass() == Class_State_Name.at(6))
 	{
 	counter = 0;
 	ifstream dbfile("Database_Stats.csv");
@@ -762,7 +792,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
@@ -783,7 +813,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(7))
+	else if (Arfui.getClass() == Class_State_Name.at(7))
 	{
 	counter = 0;
 	ifstream dbfile("Database_Stats.csv");
@@ -795,7 +825,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
@@ -816,7 +846,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(8))
+	else if (Arfui.getClass() == Class_State_Name.at(8))
 	{
 	counter = 0;
 	ifstream dbfile("Database_Stats.csv");
@@ -828,7 +858,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
@@ -849,7 +879,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(9))
+	else if (Arfui.getClass() == Class_State_Name.at(9))
 	{
 	counter = 0;
 	ifstream dbfile("Database_Stats.csv");
@@ -861,7 +891,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
@@ -882,7 +912,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	}
 	}
 
-	else if (Arfui.getClass() == Class_State_Name[0].at(10))
+	else if (Arfui.getClass() == Class_State_Name.at(10))
 	{
 	counter = 0;
 	ifstream dbfile("Database_Stats.csv");
@@ -894,7 +924,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
@@ -915,7 +945,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	}
 	}
 	
-	else if (Arfui.getClass() == Class_State_Name[0].at(11))
+	else if (Arfui.getClass() == Class_State_Name.at(11))
 	{
 	counter = 0;
 	ifstream dbfile("Database_Stats.csv");
@@ -927,7 +957,7 @@ void MarkovChain::CalculateRace(float amount, string Race_1,float percent_1, str
 	std::getline(dbfile, value, ','); // read a string until next comma
 	std::getline(dbfile, value, ',');std::getline(dbfile, value, ',');
 	std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ','); std::getline(dbfile, value, ',');
-	while (dbfile.good() && counter < Class_State_Name->size())
+	while (dbfile.good() && counter < Class_State_Name.size())
 	{
 
 
