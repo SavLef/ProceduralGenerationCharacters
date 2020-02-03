@@ -103,9 +103,9 @@ for (int j = 0; j < Race_vector->size(); j++)
 	Arfui.setClass(ClassStateOne_Backend());
 
 	//CALCULATE STATS
-	for (int j = 0; j < Race_vector->size(); j++)
+	for (int j = 0; j < Class_State_Name.size(); j++)
 	{
-		if (Arfui.getRace() == Race_vector->at(j))
+		if (Arfui.getClass() == Class_State_Name.at(j))
 		{
 			counter = 0;
 			ifstream dbfile("Database_Stats.csv");
