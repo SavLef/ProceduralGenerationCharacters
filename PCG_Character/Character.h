@@ -16,7 +16,9 @@ public:
 	void setRace(string Races);
 	void addStats(int value, int index);
 	void StatCalc(vector <int> statpercents);
-	void InitStats(int statnumber);
+	void InitStats(vector <string> statnumber);
+	void ReadInventory(vector <string> Neutral_Inventory_Items, vector <string> Race_Inventory_Items, vector <string> Class_Inventory_Items);
+	void CalculateInventory();
 	void ClearSheet();
 	void PrintSheet();
 

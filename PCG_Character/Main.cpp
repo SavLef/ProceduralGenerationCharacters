@@ -97,17 +97,6 @@ void inptstats()
 
 void update()
 {
-		/*std::ofstream myFile;
-		myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);*/
-		std::ofstream myFile("Characterlist.csv");
-
-		myFile << "Race" << "," << "Class" << ",";
-		for (int i = 0; i < StatName.size(); i++)
-		{
-			myFile << "," << StatName.at(i);
-		}
-		myFile << std::endl;
-
 		system("CLS");
 		std::cout << "Characters created! Choose what to do." << std::endl;
 		std::cout << "1. Print all generated characters." << std::endl;
@@ -245,7 +234,7 @@ int main()
 	charamount = choice;
 	system("CLS");
 	RaceGenerated = new MarkovChain;
-	RaceGenerated->SendStats(StatName.size());
+	RaceGenerated->SendStats(StatName);
 	RaceGenerated->ClassStateOne(&Classes);
 	RaceGenerated->CalculateRace(&Races,&RacesPercentage,charamount);
 	

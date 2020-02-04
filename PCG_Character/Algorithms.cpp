@@ -58,7 +58,7 @@ void Algorithms::int_ReadFromCSV(vector<int>* DataVector, std::string filename, 
 		std::getline(dbfile, value, ','); // read a string until next comma
 	}
 
-	while (dbfile.good()  &&value != "-\n15" && value != "-\n15" && value !="-")
+	while (dbfile.good()  &&value != "-\n15" && value !="-")
 	{
 
 		for (int i = 0; i < columnskip2; i++)

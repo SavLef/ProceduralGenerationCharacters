@@ -17,12 +17,13 @@ public:
 public: 
 	
 	void  CalculateRace(vector<string>* Races, vector<int>*race_percentage, int charsize);
-	void SendStats(int statnumber);
+	void SendStats(vector<string> statnumber);
 	void  ClassStateOne(vector<string>*classes);
 	void StateStats();
 	void StateClass(vector <string> race_vector);
 	void StateRace(vector <string> race_vector, vector<int> Race_Percentage_Vector);
 	void StateInventory();
+	void StateInventory_Neutral();
 	string  ClassStateOne_Backend();
 
 	string race_selection = "";
@@ -37,6 +38,15 @@ public:
 
 	vector <Character> Characters;
 	vector <int> StatPercent;
+
+	vector <string> Neutral_Inventory;
+	vector <string> Neutral_Inventory_Percentage;
+
+	vector <string> Class_Inventory;
+	vector <string> Class_Inventory_Percentage;
+
+	vector <string> Race_Inventory;
+	vector <string> Race_Inventory_Percentage;
 
 };
 

@@ -3,8 +3,9 @@
 #include <ctime>
 
 
-void MarkovChain::SendStats(int statnumber)
+void MarkovChain::SendStats(vector <string> statnumber)
 {
+
 	Arfui.InitStats(statnumber);
 }
 
@@ -134,15 +135,16 @@ void MarkovChain::StateInventory()
 	int perce;
 	int counter = 0;
 
+	
+	//READ FOR CLASS
 	for (int j = 0; j < Class_State_Name.size(); j++)
 	{
 		if (Arfui.getClass() == Class_State_Name.at(j))
 		{
 			counter = 0;
-			ifstream dbfile("Database_Inventory.csv");
+			ifstream dbfile("Database_Inventory_Class.csv");
 			string value;
 			std::getline(dbfile, value, '\n');
-			std::getline(dbfile, value, ','); // read a string until next comma
 			std::getline(dbfile, value, ','); // read a string until next comma
 
 			for (int i = 0; i < j; i++)
@@ -156,8 +158,7 @@ void MarkovChain::StateInventory()
 
 				if (value != "")
 				{
-					perce = std::stoi(value);
-					StatPercent.push_back(perce);
+					Class_Inventory.push_back(value);
 				}
 				std::getline(dbfile, value, '\n');
 				std::getline(dbfile, value, ','); // read a string until next comma
@@ -172,6 +173,29 @@ void MarkovChain::StateInventory()
 			dbfile.close();
 		}
 	}
+}
+
+void MarkovChain::StateInventory_Neutral()
+{
+	//READ FOR NEUTRAL
+
+	int counter = 0;
+	ifstream dbfile("Database_Inventory_Neutral.csv");
+	string value;
+	std::getline(dbfile, value, '\n');
+
+	while (dbfile.good() && value != "")
+	{
+		if (value != "")
+
+		{
+			Class_Inventory.push_back(value);
+		}
+		std::getline(dbfile, value, '\n');
+		counter++;
+
+	}
+	dbfile.close();
 }
 
 string MarkovChain::ClassStateOne_Backend()
@@ -216,7 +240,13 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	StatPercent.clear();
 	
 	//CHECK FOR INTENTORY ASSIGNMENT PERCENTAGE
+	StateInventory_Neutral();
 	StateInventory();
+
+	Arfui.ReadInventory(Neutral_Inventory, Race_Inventory, Class_Inventory);
+	Class_Inventory.clear();
+	Race_Inventory.clear();
+
 	//CALCULATE INVENTORY
 
 	//CHECK FOR LORE ASSIGNMENT

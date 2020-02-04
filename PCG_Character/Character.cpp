@@ -48,12 +48,21 @@ void Character::StatCalc(vector <int> statpercents)
 	}
 }
 
-void Character::InitStats(int statnumber)
+void Character::InitStats(vector<string> statnumber)
 {
 	
-	stats.resize(statnumber);
-	nostats = statnumber;
+	stats.resize(statnumber.size());
+	nostats = statnumber.size();
 
+	statname = statnumber;
+
+}
+
+void Character::ReadInventory(vector<string> Neutral_Inventory_Items, vector<string> Race_Inventory_Items, vector<string> Class_Inventory_Items)
+{
+	Inventory.insert(Inventory.end(), Neutral_Inventory_Items.begin(), Neutral_Inventory_Items.end());
+	Inventory.insert(Inventory.end(), Race_Inventory_Items.begin(), Race_Inventory_Items.end());
+	Inventory.insert(Inventory.end(), Class_Inventory_Items.begin(), Class_Inventory_Items.end());
 }
 
 void Character::ClearSheet()
@@ -72,11 +81,35 @@ void Character::PrintSheet()
 
 	std::ofstream myFile;
 	myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);
+
+	//CAPTIONS
+	myFile << "Race" << "," << "Class" << ",";
+	for (int i = 0; i < statname.size(); i++)
+	{
+		myFile << "," << statname.at(i);
+	}
+	myFile << "," << "INVENTORY" << ",";
+	myFile << std::endl;
+
+	//ACTUAL VALUES
 	myFile << Race << "," << Class << ",";
 	for (int i = 0; i < stats.size(); i++)
 	{
-		myFile << "," << stats.at(i) ;
+		myFile << "," << stats.at(i);
 	}
+		
+	for (int i = 0; i < Inventory.size(); i++)
+	{
+		for (int j = 0; j < stats.size()+3; j++)
+		{
+			myFile << ",";
+		}
+		myFile << Inventory.at(i);
+		myFile << std::endl;
+		
+	}
+
+	myFile << std::endl;
 	myFile << std::endl;
 
 	myFile.close();
