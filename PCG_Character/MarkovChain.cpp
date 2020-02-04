@@ -128,13 +128,55 @@ void MarkovChain::StateRace(vector<string> Race_vector, vector<int> Race_Percent
 	Arfui.setRace(race_selection);
 }
 
-void MarkovChain::StateInventory()
+void MarkovChain::StateInventory(vector<string> Race_vector)
 {
 
 	//READ ITEM DATABASE
 	float perce;
 	int counter = 0;
 
+	//READ FOR RACE
+	for (int j = 0; j < Race_vector.size(); j++)
+	{
+		if (Arfui.getRace() == Race_vector.at(j))
+		{
+			counter = 0;
+			ifstream dbfile("Database_Inventory_Race.csv");
+			string value;
+			std::getline(dbfile, value, '\n');
+
+
+			for (int i = 0; i < j; i++)
+			{
+				std::getline(dbfile, value, ','); // read a string until next comma
+				std::getline(dbfile, value, ','); // read a string until next comma
+			}
+			std::getline(dbfile, value, ','); // read a string until next comma
+			while (dbfile.good() && counter < Race_vector.size())
+			{
+				if (value != "")
+				{
+					Race_Inventory.push_back(value);
+					std::getline(dbfile, value, ','); // read a string until next comma
+					if (value != "")
+					{
+						perce = std::stof(value);
+						Race_Inventory_Percentage.push_back(perce);
+					}
+				}
+				std::getline(dbfile, value, '\n');
+				for (int t = 0; t < j; t++)
+				{
+					std::getline(dbfile, value, ','); // read a string until next comma
+					std::getline(dbfile, value, ','); // read a string until next comma
+				}
+				std::getline(dbfile, value, ','); // read a string until next comma
+				counter++;
+
+			}
+			dbfile.close();
+		}
+	}
 	
 	//READ FOR CLASS
 	for (int j = 0; j < Class_State_Name.size(); j++)
@@ -178,6 +220,8 @@ void MarkovChain::StateInventory()
 			dbfile.close();
 		}
 	}
+
+
 }
 
 void MarkovChain::StateInventory_Neutral()
@@ -254,7 +298,7 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	
 	//CHECK FOR INTENTORY ASSIGNMENT PERCENTAGE
 	StateInventory_Neutral();
-	StateInventory();
+	StateInventory(*Race_vector);
 
 	Arfui.ReadInventory(Neutral_Inventory, Neutral_Inventory_Percentage, Race_Inventory, Race_Inventory_Percentage, Class_Inventory, Class_Inventory_Percentage);
 	Class_Inventory.clear();

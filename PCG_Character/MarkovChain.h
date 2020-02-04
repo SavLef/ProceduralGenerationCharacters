@@ -22,7 +22,7 @@ public:
 	void StateStats();
 	void StateClass(vector <string> race_vector);
 	void StateRace(vector <string> race_vector, vector<int> Race_Percentage_Vector);
-	void StateInventory();
+	void StateInventory(vector<string> Race_vector);
 	void StateInventory_Neutral();
 	string  ClassStateOne_Backend();
 
