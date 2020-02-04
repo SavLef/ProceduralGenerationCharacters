@@ -1,9 +1,9 @@
 ﻿  Character.cpp
 C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(45,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(75,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(91,28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(135,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(144,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(151,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(153,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(64,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(77,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(137,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(146,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(153,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(155,21): warning C4018: '<': signed/unsigned mismatch
   PCG_Character.vcxproj -> C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\Debug\PCG_Character.exe

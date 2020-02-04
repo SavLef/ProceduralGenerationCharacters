@@ -61,6 +61,8 @@ void Character::InitStats(vector<string> statnumber)
 void Character::ReadInventory(vector<string> Neutral_Inventory_Items, vector<float> Neutral_Inventory_Percentage, vector<string> Race_Inventory_Items, vector<float> Race_Inventory_Percentage, vector<string> Class_Inventory_Items, vector<float> Class_Inventory_Percentage)
 {
 	//calculate inventory slots
+	std::srand(std::time(0) + clock());
+
 	inventoryslots = rand() % 10 + 5;
 	emptyslots = inventoryslots;
 
@@ -88,7 +90,7 @@ void Character::ReadInventory(vector<string> Neutral_Inventory_Items, vector<flo
 			{
 				temprolls.push_back(0);
 			}
-			std::srand(std::time(0) + clock());
+		
 			std::random_shuffle(temprolls.begin(), temprolls.end());
 			tempselection = temprolls.at(0);
 
