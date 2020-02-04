@@ -17,7 +17,7 @@ public:
 	void addStats(int value, int index);
 	void StatCalc(vector <int> statpercents);
 	void InitStats(vector <string> statnumber);
-	void ReadInventory(vector <string> Neutral_Inventory_Items, vector <string> Race_Inventory_Items, vector <string> Class_Inventory_Items);
+	void ReadInventory(vector<string> Neutral_Inventory_Items, vector<float> Neutral_Inventory_Percentage, vector<string> Race_Inventory_Items, vector<float> Race_Inventory_Percentage, vector<string> Class_Inventory_Items, vector<float> Class_Inventory_Percentage);
 	void CalculateInventory();
 	void ClearSheet();
 	void PrintSheet();

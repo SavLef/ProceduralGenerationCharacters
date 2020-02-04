@@ -40,13 +40,13 @@ public:
 	vector <int> StatPercent;
 
 	vector <string> Neutral_Inventory;
-	vector <string> Neutral_Inventory_Percentage;
+	vector <float> Neutral_Inventory_Percentage;
 
 	vector <string> Class_Inventory;
-	vector <string> Class_Inventory_Percentage;
+	vector <float> Class_Inventory_Percentage;
 
 	vector <string> Race_Inventory;
-	vector <string> Race_Inventory_Percentage;
+	vector <float> Race_Inventory_Percentage;
 
 };
 

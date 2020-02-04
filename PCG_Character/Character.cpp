@@ -58,7 +58,7 @@ void Character::InitStats(vector<string> statnumber)
 
 }
 
-void Character::ReadInventory(vector<string> Neutral_Inventory_Items, vector<string> Race_Inventory_Items, vector<string> Class_Inventory_Items)
+void Character::ReadInventory(vector<string> Neutral_Inventory_Items, vector<float> Neutral_Inventory_Percentage, vector<string> Race_Inventory_Items, vector<float> Race_Inventory_Percentage, vector<string> Class_Inventory_Items, vector<float> Class_Inventory_Percentage)
 {
 	Inventory.insert(Inventory.end(), Neutral_Inventory_Items.begin(), Neutral_Inventory_Items.end());
 	Inventory.insert(Inventory.end(), Race_Inventory_Items.begin(), Race_Inventory_Items.end());
@@ -97,7 +97,7 @@ void Character::PrintSheet()
 	{
 		myFile << "," << stats.at(i);
 	}
-		
+	myFile << std::endl;
 	for (int i = 0; i < Inventory.size(); i++)
 	{
 		for (int j = 0; j < stats.size()+3; j++)

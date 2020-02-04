@@ -132,7 +132,7 @@ void MarkovChain::StateInventory()
 {
 
 	//READ ITEM DATABASE
-	int perce;
+	float perce;
 	int counter = 0;
 
 	
@@ -145,28 +145,33 @@ void MarkovChain::StateInventory()
 			ifstream dbfile("Database_Inventory_Class.csv");
 			string value;
 			std::getline(dbfile, value, '\n');
-			std::getline(dbfile, value, ','); // read a string until next comma
+			
 
 			for (int i = 0; i < j; i++)
 			{
 				std::getline(dbfile, value, ','); // read a string until next comma
+				std::getline(dbfile, value, ','); // read a string until next comma
 			}
-
+			std::getline(dbfile, value, ','); // read a string until next comma
 			while (dbfile.good() && counter < Class_State_Name.size())
 			{
-
-
 				if (value != "")
 				{
 					Class_Inventory.push_back(value);
+					std::getline(dbfile, value, ','); // read a string until next comma
+					if (value != "")
+					{
+						perce = std::stof(value);
+						Class_Inventory_Percentage.push_back(perce);
+					}
 				}
 				std::getline(dbfile, value, '\n');
-				std::getline(dbfile, value, ','); // read a string until next comma
-				std::getline(dbfile, value, ','); // read a string until next comma
 				for (int t = 0; t < j; t++)
 				{
 					std::getline(dbfile, value, ','); // read a string until next comma
+					std::getline(dbfile, value, ','); // read a string until next comma
 				}
+				std::getline(dbfile, value, ','); // read a string until next comma
 				counter++;
 
 			}
@@ -180,18 +185,26 @@ void MarkovChain::StateInventory_Neutral()
 	//READ FOR NEUTRAL
 
 	int counter = 0;
+	float perce = 0;
 	ifstream dbfile("Database_Inventory_Neutral.csv");
 	string value;
-	std::getline(dbfile, value, '\n');
+	std::getline(dbfile, value, ',');
 
 	while (dbfile.good() && value != "")
 	{
 		if (value != "")
 
 		{
-			Class_Inventory.push_back(value);
+			Neutral_Inventory.push_back(value);
+			std::getline(dbfile, value, ','); // read a string until next comma
+			if (value != "")
+			{
+				perce = std::stof(value);
+				Neutral_Inventory_Percentage.push_back(perce);
+			}
 		}
 		std::getline(dbfile, value, '\n');
+		std::getline(dbfile, value, ',');
 		counter++;
 
 	}
@@ -243,9 +256,10 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	StateInventory_Neutral();
 	StateInventory();
 
-	Arfui.ReadInventory(Neutral_Inventory, Race_Inventory, Class_Inventory);
+	Arfui.ReadInventory(Neutral_Inventory, Neutral_Inventory_Percentage, Race_Inventory, Race_Inventory_Percentage, Class_Inventory, Class_Inventory_Percentage);
 	Class_Inventory.clear();
 	Race_Inventory.clear();
+	Neutral_Inventory.clear();
 
 	//CALCULATE INVENTORY
 

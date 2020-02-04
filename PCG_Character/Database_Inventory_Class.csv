@@ -1,16 +1,12 @@
-Paladin,Warrior,Mage,Priest,Warlock,Death Knight,Rogue,Hunter,Monk,Shaman,Druid,Demon Hunter,Slav
-Greatsword of Pride's Fall,Dreadnaught Battleplate,Frostfire Circlet,Staff of Redeemed Souls,Staff of Redeemed Souls,Greatsword of Pride's Fall,Thunderfury Blessed Blade of the WindSeeker,Thunderfury Blessed Blade of the WindSeeker,Staff of Redeemed Souls,Earthshatter Chestguard,Dreamwalker Cover,Warglaive of Azzinoth - Main Hand,Trousers
-Thunderfury Blessed Blade of the WindSeeker,Dreadnaught Breastplate,Frostfire Gloves,Brightening Wand,Brightening Wand,Thunderfury Blessed Blade of the WindSeeker,,,,Earthshatter Faceguard,Dreamwalker Gloves,Warglaive of Azzinoth - Off Hand,
-,Dreadnaught Gauntlets,Frostfire Leggings,,,,,,,Earthshatter Gloves,Dreamwalker Handgrips,Thunderfury Blessed Blade of the WindSeeker,
-,Dreadnaught Greathelm,Frostfire Robe,,,,,,,Earthshatter Grips,Dreamwalker Handguards,,
-,Dreadnaught Handguards,Frostfire Shoulderpads,,,,,,,Earthshatter Handguards,Dreamwalker Headguard,,
-,Dreadnaught Helmet,Brightening Wand,,,,,,,Earthshatter Hauberk,Dreamwalker Headpiece,,
-,Dreadnaught Legguards,Thunderfury Blessed Blade of the WindSeeker,,,,,,,Earthshatter Headpiece,Dreamwalker Leggings,,
-,Dreadnaught Legplates,,,,,,,,Earthshatter Helm,Dreamwalker Legguards,,
-,Dreadnaught Pauldrons,,,,,,,,Earthshatter Kilt,Dreamwalker Mantle,,
-,Dreadnaught Shoulderplates,,,,,,,,Earthshatter Legguards,Dreamwalker Shoulderpads,,
-,"Thunderfury, Blessed Blade of the WindSeeker",,,,,,,,Earthshatter Shoulderguards,Dreamwalker Spaulders,,
-,,,,,,,,,Earthshatter Shoulderpads,Dreamwalker Trousers,,
-,,,,,,,,,Earthshatter Spaulders,Dreamwalker Vestments,,
-,,,,,,,,,Earthshatter Tunic,,,
-,,,,,,,,,Earthshatter War-Kilt,,,
+Paladin,%,Warrior,%,Mage,%,Priest,%,Warlock,%,Death Knight,%,Rogue,%,Hunter,%,Monk,%,Shaman,%,Druid,%,Demon Hunter,%,Slav,%
+PALADIN ITEM 1,2,WARRIOR ITEM 1,1,MAGE ITEM 1,1,PRIEST ITEM 1,1,WARLOCK ITEM 1,1,DEATH KNIGHT ITEM 1,1,ROGUE ITEM 1,1,HUNTER ITEM 1,1,MONK ITEM 1,1,SHAMAN ITEM 1,1,DRUID ITEM 1,1,DH ITEM 1,1,SLAV ITEM 1,100
+PALADIN ITEM 2,3,WARRIOR ITEM 2,1,MAGE ITEM 2,1,PRIEST ITEM 2,1,WARLOCK ITEM 2,1,DEATHKNIGHT ITEM 2,1,,,,,,,SHAMAN ITEM 2,1,DRUID ITEM 2,1,DH ITEM 2,1,,
+,,,1,MAGE ITEM 3,1,,,,,,,,,,,,,SHAMAN ITEM 3,,,,DH ITEM 3,1,,
+,,,1,,1,,,,,,,,,,,,,SHAMAN ITEM 4,,,,,,,
+,,,1,,1,,,,,,,,,,,,,SHAMAN ITEM 5,,,,,,,
+,,,1,,1,,,,,,,,,,,,,,,,,,,,
+,,,1,,1,,,,,,,,,,,,,,,,,,,,
+,,,1,,,,,,,,,,,,,,,,,,,,,,
+,,,1,,,,,,,,,,,,,,,,,,,,,,
+,,,1,,,,,,,,,,,,,,,,,,,,,,
+,,,1,,,,,,,,,,,,,,,,,,,,,,

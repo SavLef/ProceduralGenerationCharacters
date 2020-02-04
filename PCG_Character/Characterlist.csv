@@ -1,284 +1,305 @@
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Tauren,Warrior,,8,1,5,4,0,0,0,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Dreadnaught Battleplate
-,,,,,,,,,Frostfire Gloves
-,,,,,,,,,Frostfire Leggings
-,,,,,,,,,Frostfire Robe
-,,,,,,,,,Frostfire Shoulderpads
-,,,,,,,,,Brightening Wand
-,,,,,,,,,Thunderfury Blessed Blade of the WindSeeker
-,,,,,,,,, Blessed Blade of the WindSeeker"
+Human,Paladin,,11,8,1,0,0,0,0
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,PALADIN ITEM 1
+,,,,,,,,,,PALADIN ITEM 2
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Blood Elf,Demon Hunter,,1,1,9,11,1,2,8,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Warglaive of Azzinoth - Main Hand
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
+Troll,Druid,,4,3,7,10,3,1,3
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,DRUID ITEM 1
+,,,,,,,,,,DRUID ITEM 2
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Troll,Shaman,,1,9,1,8,5,6,2,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Earthshatter Chestguard
-,,,,,,,,,Dreamwalker Gloves
-,,,,,,,,,Dreamwalker Handgrips
-,,,,,,,,,Dreamwalker Handguards
-,,,,,,,,,Dreamwalker Headguard
-,,,,,,,,,Dreamwalker Headpiece
-,,,,,,,,,Dreamwalker Leggings
-,,,,,,,,,Dreamwalker Legguards
-,,,,,,,,,Dreamwalker Mantle
-,,,,,,,,,Dreamwalker Shoulderpads
-,,,,,,,,,Earthshatter Shoulderguards
-,,,,,,,,,Dreamwalker Trousers
+Gnome,Monk,,1,6,3,4,1,2,4
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,MONK ITEM 1
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Human,Demon Hunter,,1,1,11,1,3,2,7,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Warglaive of Azzinoth - Main Hand
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
+Blood Elf,Paladin,,6,3,7,2,4,3,3
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,PALADIN ITEM 1
+,,,,,,,,,,PALADIN ITEM 2
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Goblin,Priest,,2,1,3,1,10,1,7,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Staff of Redeemed Souls
-,,,,,,,,,Brightening Wand
+Orc,Hunter,,3,1,1,10,1,5,3
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,HUNTER ITEM 1
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Troll,Druid,,3,10,8,4,3,2,4,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Dreamwalker Cover
-,,,,,,,,,Warglaive of Azzinoth - Off Hand
-,,,,,,,,,Thunderfury Blessed Blade of the WindSeeker
-,,,,,,,,,Dreamwalker Spaulders
+Night Elf,Demon Hunter,,1,1,4,11,6,2,10
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,DH ITEM 1
+,,,,,,,,,,DH ITEM 2
+,,,,,,,,,,DH ITEM 3
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Human,Death Knight,,5,1,6,2,1,7,6,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Greatsword of Pride's Fall
+Night Elf,Druid,,2,8,1,9,4,2,2
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,DRUID ITEM 1
+,,,,,,,,,,DRUID ITEM 2
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Night Elf,Demon Hunter,,1,1,11,5,7,2,3,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Warglaive of Azzinoth - Main Hand
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
-,,,,,,,,,
-
+Tauren,Warrior,,2,1,11,5,2,4,1
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,WARRIOR ITEM 1
+,,,,,,,,,,WARRIOR ITEM 2
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Orc,Death Knight,,3,1,4,2,2,4,9,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Greatsword of Pride's Fall
+Tauren,Shaman,,1,9,4,7,3,1,1
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,SHAMAN ITEM 1
+,,,,,,,,,,SHAMAN ITEM 2
+,,,,,,,,,,SHAMAN ITEM 3
+,,,,,,,,,,SHAMAN ITEM 4
+,,,,,,,,,,SHAMAN ITEM 5
 
 
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Orc,Rogue,,2,1,6,4,2,2,2,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,Suntouched Amulet
-,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,Uncorrupted Voidwing
-,,,,,,,,,Mark of Honour
-,,,,,,,,,Devastation's Hour
-,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,Reins of the Azure Drake
-,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,Reins of the Twilight Drake
-,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,Reins of the Black War Mammoth
-,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,Reins of the Grand Black War Mammoth
-,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,Reins of the White Polar Bear
-,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,Reins of the Black Polar Bear
-,,,,,,,,,Thunderfury Blessed Blade of the WindSeeker
+Night Elf,Demon Hunter,,1,1,8,2,3,5,10
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,DH ITEM 1
+,,,,,,,,,,DH ITEM 2
+,,,,,,,,,,DH ITEM 3
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Blood Elf,Hunter,,3,1,3,11,1,2,1
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,HUNTER ITEM 1
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Dwarf,Hunter,,2,1,3,5,1,8,3
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,HUNTER ITEM 1
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Blood Elf,Paladin,,5,7,9,5,3,3,3
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,PALADIN ITEM 1
+,,,,,,,,,,PALADIN ITEM 2
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Human,Priest,,2,6,7,1,7,1,7
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,PRIEST ITEM 1
+,,,,,,,,,,PRIEST ITEM 2
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Tauren,Warrior,,3,1,6,3,5,1,4
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,WARRIOR ITEM 1
+,,,,,,,,,,WARRIOR ITEM 2
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Gnome,Slav,,4,8,5,1,6,4,4
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,MAGE ITEM 1
+,,,,,,,,,,MAGE ITEM 2
+,,,,,,,,,,MAGE ITEM 3
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Blood Elf,Priest,,2,2,4,1,9,1,7
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,PRIEST ITEM 1
+,,,,,,,,,,PRIEST ITEM 2
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Blood Elf,Death Knight,,2,1,6,3,2,9,2
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,DEATH KNIGHT ITEM 1
+,,,,,,,,,,DEATHKNIGHT ITEM 2
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Night Elf,Druid,,3,10,10,4,2,1,2
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,DRUID ITEM 1
+,,,,,,,,,,DRUID ITEM 2
+
+
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
+Draenai,Shaman,,1,7,3,10,4,1,3
+,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,Mark of Honour
+,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,Reins of the Brown Polar Bear
+,,,,,,,,,,SHAMAN ITEM 1
+,,,,,,,,,,SHAMAN ITEM 2
+,,,,,,,,,,SHAMAN ITEM 3
+,,,,,,,,,,SHAMAN ITEM 4
+,,,,,,,,,,SHAMAN ITEM 5
 
 
