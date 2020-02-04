@@ -1,0 +1,201 @@
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE
+Blood Elf,Rogue,,1,1,6,6,3,3,0
+Goblin,Warlock,,3,6,2,4,3,4,4
+Blood Elf,Hunter,,1,1,4,8,1,11,3
+Troll,Druid,,3,5,6,11,1,2,3
+Undead,Priest,,3,7,5,2,4,4,7
+Draenai,Paladin,,9,2,2,3,3,4,3
+Draenai,Shaman,,1,10,1,4,4,6,3
+Gnome,Monk,,1,7,1,4,4,4,9
+Orc,Monk,,1,3,5,9,5,2,1
+Goblin,Priest,,5,10,7,4,5,1,1
+Orc,Warrior,,11,1,4,2,4,7,5
+Gnome,Death Knight,,1,1,2,2,2,8,2
+Human,Priest,,3,10,2,3,5,4,3
+Orc,Warlock,,5,1,2,2,4,1,4
+Goblin,Rogue,,2,1,4,11,2,6,1
+Night Elf,Death Knight,,5,1,10,3,3,5,2
+Undead,Priest,,3,1,4,3,9,3,1
+Human,Hunter,,3,1,1,9,1,10,5
+Worgen,Priest,,5,3,6,1,8,3,3
+Tauren,Druid,,1,8,2,7,2,3,4
+Tauren,Druid,,4,6,1,1,1,4,4
+Undead,Hunter,,4,1,1,2,1,1,1
+Night Elf,Monk,,1,9,11,5,2,5,3
+Blood Elf,Slav,,5,5,7,1,2,3,4
+Blood Elf,Demon Hunter,,1,1,9,3,7,6,4
+Gnome,Priest,,3,8,7,1,7,3,3
+Human,Slav,,3,8,1,3,5,1,5
+Undead,Hunter,,3,1,3,8,1,5,4
+Human,Hunter,,1,1,1,2,1,3,4
+Human,Rogue,,2,1,3,8,3,2,1
+Dwarf,Hunter,,1,1,4,8,1,5,2
+Worgen,Hunter,,1,1,1,8,1,8,5
+Undead,Priest,,5,1,5,4,8,2,2
+Troll,Druid,,1,4,5,8,3,3,4
+Night Elf,Hunter,,4,1,4,1,1,6,1
+Blood Elf,Warlock,,1,11,3,4,6,3,8
+Tauren,Paladin,,9,8,2,4,4,6,1
+Human,Warlock,,5,9,3,3,8,4,6
+Tauren,Monk,,1,10,1,9,1,5,9
+Human,Warlock,,1,4,2,1,6,2,4
+Tauren,Warrior,,6,1,9,1,1,3,4
+Human,Warlock,,2,3,1,1,2,1,4
+Human,Paladin,,1,11,10,2,7,1,1
+Troll,Druid,,2,10,3,2,1,2,2
+Human,Warrior,,3,1,9,5,4,7,6
+Blood Elf,Slav,,3,5,1,3,2,5,7
+Draenai,Priest,,2,1,2,3,9,3,1
+Human,Warrior,,4,1,2,3,4,4,4
+Human,Priest,,2,9,6,3,11,3,2
+Human,Death Knight,,5,1,11,2,2,4,3
+Orc,Shaman,,1,4,1,9,8,2,2
+Tauren,Druid,,2,3,8,6,3,2,4
+Tauren,Shaman,,1,9,3,11,7,3,3
+Worgen,Druid,,1,5,7,5,1,3,2
+Human,Paladin,,10,2,4,5,1,2,2
+Worgen,Druid,,3,8,6,3,2,4,3
+Blood Elf,Paladin,,7,5,11,2,7,3,1
+Night Elf,Priest,,1,11,4,1,1,4,6
+Tauren,Shaman,,1,8,5,9,5,6,2
+Tauren,Paladin,,5,4,3,3,9,4,1
+Blood Elf,Paladin,,10,7,6,2,8,3,1
+Tauren,Paladin,,2,7,2,3,2,3,1
+Blood Elf,Priest,,2,2,7,1,5,3,4
+Worgen,Death Knight,,3,1,1,2,2,6,6
+Human,Paladin,,1,11,4,2,3,1,4
+Worgen,Druid,,4,1,10,1,1,1,1
+Troll,Hunter,,3,1,3,7,1,9,3
+Tauren,Warrior,,3,1,7,4,3,3,4
+Undead,Rogue,,4,1,6,3,3,3,1
+Tauren,Warrior,,1,1,7,1,2,7,5
+Undead,Warlock,,5,3,1,4,2,5,5
+Gnome,Warlock,,2,6,4,4,5,2,6
+Human,Death Knight,,10,1,2,1,1,4,5
+Draenai,Warrior,,4,1,4,3,5,6,4
+Blood Elf,Demon Hunter,,1,1,5,2,3,5,5
+Blood Elf,Death Knight,,4,1,3,1,3,9,5
+Tauren,Paladin,,8,1,8,2,4,1,1
+Troll,Warlock,,3,7,3,2,2,2,2
+Orc,Hunter,,1,1,4,6,1,5,5
+Dwarf,Hunter,,3,1,1,1,1,1,2
+Blood Elf,Demon Hunter,,1,1,5,8,7,2,10
+Human,Rogue,,3,1,3,10,2,5,1
+Night Elf,Druid,,3,11,3,8,3,2,4
+Human,Priest,,1,8,2,2,2,1,5
+Blood Elf,Demon Hunter,,1,1,2,7,2,3,3
+Gnome,Warlock,,3,10,1,4,3,2,5
+Dwarf,Death Knight,,9,1,11,3,1,9,9
+Gnome,Rogue,,4,1,3,11,1,7,4
+Worgen,Warlock,,5,9,2,3,9,4,4
+Gnome,Rogue,,2,1,1,11,3,1,3
+Worgen,Druid,,2,11,9,11,1,4,4
+Dwarf,Paladin,,2,7,2,5,8,3,3
+Worgen,Slav,,3,4,2,3,6,9,5
+Human,Priest,,2,8,5,4,4,1,1
+Worgen,Death Knight,,6,1,6,1,2,8,3
+Human,Warrior,,2,1,10,2,4,2,4
+Human,Slav,,1,7,3,5,2,5,4
+Orc,Death Knight,,7,1,9,3,1,6,2
+Blood Elf,Death Knight,,6,1,3,1,1,1,4
+Human,Rogue,,1,1,4,6,1,3,2
+Night Elf,Demon Hunter,,1,1,2,2,4,6,5
+Blood Elf,Rogue,,4,1,1,4,1,6,5
+Draenai,Priest,,1,8,6,1,5,2,1
+Dwarf,Warrior,,5,1,5,3,2,3,3
+Orc,Death Knight,,7,1,10,1,3,1,1
+Human,Paladin,,2,4,5,1,6,1,2
+Blood Elf,Slav,,5,3,5,4,4,9,5
+Undead,Warlock,,5,7,1,2,2,5,7
+Worgen,Rogue,,4,1,4,5,3,10,1
+Human,Paladin,,5,4,4,1,6,4,3
+Tauren,Druid,,4,9,6,8,1,4,1
+Goblin,Priest,,3,5,3,4,4,1,2
+Blood Elf,Slav,,4,11,7,3,2,4,5
+Human,Rogue,,1,1,3,11,3,6,3
+Worgen,Death Knight,,5,1,3,3,1,10,7
+Night Elf,Demon Hunter,,1,1,8,10,4,5,7
+Orc,Warlock,,4,7,3,3,3,5,6
+Orc,Shaman,,1,5,5,6,5,5,2
+Troll,Druid,,3,6,4,10,2,3,2
+Draenai,Hunter,,4,1,3,4,1,8,1
+Night Elf,Rogue,,4,1,1,8,1,6,2
+Worgen,Druid,,1,9,3,11,2,3,4
+Human,Hunter,,1,1,3,6,1,10,1
+Human,Paladin,,5,5,7,4,4,6,1
+Undead,Warlock,,1,8,3,1,1,2,3
+Blood Elf,Slav,,4,3,2,2,4,6,1
+Draenai,Paladin,,11,10,6,4,5,5,3
+Draenai,Monk,,1,6,1,8,2,3,8
+Undead,Rogue,,2,1,6,8,3,3,6
+Troll,Priest,,5,2,7,2,10,3,7
+Tauren,Hunter,,4,1,2,5,1,4,5
+Gnome,Warlock,,2,11,4,2,8,2,3
+Blood Elf,Paladin,,7,7,3,2,2,4,1
+Orc,Shaman,,1,3,1,5,5,6,6
+Blood Elf,Rogue,,1,1,3,1,3,1,2
+Blood Elf,Slav,,1,6,3,5,3,3,6
+Night Elf,Druid,,4,1,6,2,4,3,4
+Tauren,Monk,,1,8,6,6,3,5,8
+Draenai,Paladin,,10,5,11,4,1,5,4
+Blood Elf,Paladin,,7,1,4,3,4,3,3
+Draenai,Shaman,,1,7,4,2,8,4,4
+Dwarf,Slav,,5,4,6,1,4,8,4
+Undead,Priest,,5,10,5,4,2,3,6
+Orc,Hunter,,4,1,3,1,1,7,4
+Human,Rogue,,1,1,3,10,1,4,5
+Blood Elf,Demon Hunter,,1,1,11,1,3,4,1
+Night Elf,Slav,,5,6,7,4,3,7,6
+Human,Paladin,,4,11,8,4,2,4,1
+Orc,Death Knight,,4,1,4,2,1,8,6
+Human,Warlock,,3,9,2,1,8,1,6
+Tauren,Druid,,4,1,3,3,1,3,2
+Worgen,Rogue,,3,1,4,4,3,3,6
+Tauren,Paladin,,11,4,1,1,9,3,2
+Human,Warlock,,3,4,2,1,5,6,1
+Blood Elf,Death Knight,,8,1,5,1,3,1,5
+Night Elf,Warrior,,1,1,3,5,2,5,6
+Human,Warlock,,5,11,3,4,6,4,2
+Undead,Warlock,,3,3,4,4,5,6,5
+Night Elf,Rogue,,3,1,6,4,2,6,5
+Goblin,Shaman,,1,8,2,4,6,2,4
+Human,Demon Hunter,,1,1,10,6,6,4,2
+Troll,Druid,,3,8,3,1,3,4,2
+Blood Elf,Demon Hunter,,1,1,5,11,9,2,9
+Worgen,Priest,,4,10,4,2,5,1,1
+Undead,Death Knight,,11,1,10,1,3,5,6
+Orc,Hunter,,4,1,3,3,1,11,2
+Dwarf,Monk,,1,1,4,8,5,1,2
+Orc,Warrior,,8,1,3,4,1,6,4
+Troll,Slav,,2,7,6,4,4,1,5
+Blood Elf,Death Knight,,11,1,3,3,3,7,5
+Human,Slav,,3,6,3,5,2,6,1
+Night Elf,Priest,,5,3,6,4,9,1,4
+Tauren,Druid,,2,10,11,9,4,2,1
+Night Elf,Demon Hunter,,1,1,4,5,5,3,9
+Draenai,Priest,,2,2,6,1,2,1,7
+Human,Demon Hunter,,1,1,9,8,1,4,4
+Human,Demon Hunter,,1,1,4,4,5,3,3
+Night Elf,Druid,,1,2,1,7,2,1,3
+Troll,Warrior,,2,1,6,4,1,5,6
+Tauren,Druid,,1,4,11,9,4,4,4
+Tauren,Hunter,,3,1,2,7,1,11,5
+Night Elf,Warrior,,2,1,9,2,5,6,5
+Draenai,Hunter,,3,1,1,10,1,5,5
+Human,Rogue,,1,1,5,7,2,7,3
+Night Elf,Druid,,4,1,4,8,3,4,2
+Gnome,Hunter,,1,1,4,2,1,7,1
+Blood Elf,Death Knight,,9,1,10,2,3,7,8
+Human,Paladin,,8,2,11,1,6,5,2
+Undead,Warlock,,3,3,4,4,3,5,3
+Undead,Priest,,1,10,4,1,6,1,4
+Gnome,Slav,,1,7,6,2,2,4,5
+Orc,Hunter,,2,1,4,6,1,6,2
+Worgen,Priest,,5,9,3,1,11,3,1
+Dwarf,Shaman,,1,6,3,9,4,1,2
+Dwarf,Shaman,,1,5,6,10,6,1,2
+Tauren,Shaman,,1,7,5,10,5,3,1
+Dwarf,Hunter,,1,1,1,7,1,5,3
+Tauren,Monk,,1,11,7,7,6,2,7
+Night Elf,Demon Hunter,,1,1,1,9,5,1,4
+Blood Elf,Monk,,1,3,6,3,3,5,4

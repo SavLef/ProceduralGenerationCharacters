@@ -19,6 +19,10 @@ public:
 	void  CalculateRace(vector<string>* Races, vector<int>*race_percentage, int charsize);
 	void SendStats(int statnumber);
 	void  ClassStateOne(vector<string>*classes);
+	void StateStats();
+	void StateClass(vector <string> race_vector);
+	void StateRace(vector <string> race_vector, vector<int> Race_Percentage_Vector);
+	void StateInventory();
 	string  ClassStateOne_Backend();
 
 	string race_selection = "";
