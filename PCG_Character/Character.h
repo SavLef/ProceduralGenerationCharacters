@@ -4,6 +4,8 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <array>
+
 using namespace std;
 
 class Character
@@ -29,6 +31,8 @@ public:
 	string Class = "";
 	string Lore = "";
 	vector <string> Inventory;
+	vector <string> Real_Inventory;
+	vector <float> Inventory_Percentage;
 
 	string s_ST1, s_ST2, s_ST3, s_ST4, s_ST5, s_ST6, s_ST7;
 	int ST1 = 1, ST2 = 1, ST3 = 1, ST4 = 1, ST5 = 1, ST6 = 1, ST7 = 1;
@@ -37,6 +41,8 @@ public:
 	vector <string> statname;
 	vector <int> statpercent;
 
+	int inventoryslots = 0;
+	int emptyslots = 0;
 	int nostats;
 	int pointstospend = 20;
 };

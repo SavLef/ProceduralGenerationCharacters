@@ -1,305 +1,176 @@
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Human,Paladin,,11,8,1,0,0,0,0
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,PALADIN ITEM 1
-,,,,,,,,,,PALADIN ITEM 2
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Draenai,Slav,,2,2,1,3,2,6,4,,2 out of 10
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Troll,Druid,,4,3,7,10,3,1,3
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,DRUID ITEM 1
-,,,,,,,,,,DRUID ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Goblin,Rogue,,2,1,6,11,1,9,4,,3 out of 14
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,ROGUE ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Gnome,Monk,,1,6,3,4,1,2,4
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,MONK ITEM 1
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Death Knight,,9,1,9,1,1,2,7,,3 out of 8
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,DEATH KNIGHT ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Blood Elf,Paladin,,6,3,7,2,4,3,3
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,PALADIN ITEM 1
-,,,,,,,,,,PALADIN ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Troll,Slav,,2,4,2,5,4,3,6,,2 out of 13
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,MAGE ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Orc,Hunter,,3,1,1,10,1,5,3
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,HUNTER ITEM 1
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Demon Hunter,,1,1,7,5,5,3,9,,2 out of 7
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,DH ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Night Elf,Demon Hunter,,1,1,4,11,6,2,10
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,DH ITEM 1
-,,,,,,,,,,DH ITEM 2
-,,,,,,,,,,DH ITEM 3
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Orc,Hunter,,2,1,3,1,1,8,2,,3 out of 10
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,HUNTER ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Night Elf,Druid,,2,8,1,9,4,2,2
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,DRUID ITEM 1
-,,,,,,,,,,DRUID ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Dwarf,Warlock,,1,1,4,3,1,3,2,,2 out of 6
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,WARLOCK ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Tauren,Warrior,,2,1,11,5,2,4,1
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,WARRIOR ITEM 1
-,,,,,,,,,,WARRIOR ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Orc,Shaman,,1,8,4,3,4,1,2,,3 out of 7
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,SHAMAN ITEM 1
+,,,,,,,,,,,SHAMAN ITEM 3
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Tauren,Shaman,,1,9,4,7,3,1,1
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,SHAMAN ITEM 1
-,,,,,,,,,,SHAMAN ITEM 2
-,,,,,,,,,,SHAMAN ITEM 3
-,,,,,,,,,,SHAMAN ITEM 4
-,,,,,,,,,,SHAMAN ITEM 5
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Dwarf,Warrior,,4,1,11,1,5,7,6,,2 out of 13
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,WARRIOR ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Night Elf,Demon Hunter,,1,1,8,2,3,5,10
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,DH ITEM 1
-,,,,,,,,,,DH ITEM 2
-,,,,,,,,,,DH ITEM 3
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Worgen,Druid,,3,3,4,1,1,3,4,,2 out of 7
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,DRUID ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Blood Elf,Hunter,,3,1,3,11,1,2,1
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,HUNTER ITEM 1
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Gnome,Slav,,5,9,2,2,1,2,4,,2 out of 10
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,MAGE ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Dwarf,Hunter,,2,1,3,5,1,8,3
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,HUNTER ITEM 1
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Gnome,Monk,,1,6,1,10,8,3,8,,2 out of 11
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,MONK ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Blood Elf,Paladin,,5,7,9,5,3,3,3
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,PALADIN ITEM 1
-,,,,,,,,,,PALADIN ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Paladin,,6,2,3,4,6,5,3,,3 out of 5
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,PALADIN ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Human,Priest,,2,6,7,1,7,1,7
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,PRIEST ITEM 1
-,,,,,,,,,,PRIEST ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Undead,Warrior,,11,1,9,3,4,5,4,,3 out of 10
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,WARRIOR ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Tauren,Warrior,,3,1,6,3,5,1,4
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,WARRIOR ITEM 1
-,,,,,,,,,,WARRIOR ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Rogue,,4,1,6,10,1,8,1,,3 out of 11
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,ROGUE ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Gnome,Slav,,4,8,5,1,6,4,4
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,MAGE ITEM 1
-,,,,,,,,,,MAGE ITEM 2
-,,,,,,,,,,MAGE ITEM 3
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Night Elf,Slav,,1,5,6,3,3,6,6,,4 out of 14
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,MAGE ITEM 1
+,,,,,,,,,,,MAGE ITEM 2
+,,,,,,,,,,,MAGE ITEM 3
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Blood Elf,Priest,,2,2,4,1,9,1,7
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,PRIEST ITEM 1
-,,,,,,,,,,PRIEST ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Paladin,,1,7,10,3,3,2,2,,9 out of 9
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,Reins of the Bronze Drake
+,,,,,,,,,,,Reins of the Blue Drake
+,,,,,,,,,,,Reins of the Red Drake
+,,,,,,,,,,,Reins of the Ice Mammoth
+,,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,,Reins of the Brown Polar Bear
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Blood Elf,Death Knight,,2,1,6,3,2,9,2
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,DEATH KNIGHT ITEM 1
-,,,,,,,,,,DEATHKNIGHT ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Goblin,Rogue,,1,1,2,8,2,5,2,,2 out of 6
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,ROGUE ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Night Elf,Druid,,3,10,10,4,2,1,2
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,DRUID ITEM 1
-,,,,,,,,,,DRUID ITEM 2
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Undead,Monk,,1,5,6,9,1,2,5,,2 out of 12
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,MONK ITEM 1
 
 
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,INVENTORY,
-Draenai,Shaman,,1,7,3,10,4,1,3
-,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,Decaying Fusion Core
-,,,,,,,,,,Mark of Honour
-,,,,,,,,,,Reins of the Bronze Drake
-,,,,,,,,,,Reins of the Blue Drake
-,,,,,,,,,,Reins of the Red Drake
-,,,,,,,,,,Reins of the Ice Mammoth
-,,,,,,,,,,Reins of the Grand Ice Mammoth
-,,,,,,,,,,Reins of the Brown Polar Bear
-,,,,,,,,,,SHAMAN ITEM 1
-,,,,,,,,,,SHAMAN ITEM 2
-,,,,,,,,,,SHAMAN ITEM 3
-,,,,,,,,,,SHAMAN ITEM 4
-,,,,,,,,,,SHAMAN ITEM 5
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Death Knight,,6,1,10,1,3,1,6,,2 out of 6
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,DEATH KNIGHT ITEM 1
 
 
+___________________________________________________________________________________________________________________________________________________________________________________________

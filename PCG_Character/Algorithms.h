@@ -4,6 +4,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
+#include <array>
+#include <ctime>
 
 using namespace std;
 
