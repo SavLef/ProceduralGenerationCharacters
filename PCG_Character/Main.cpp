@@ -98,6 +98,7 @@ void inptstats()
 void update()
 {
 		system("CLS");
+		std::ofstream myFile("Characterlist.csv");
 		std::cout << "Characters created! Choose what to do." << std::endl;
 		std::cout << "1. Print all generated characters." << std::endl;
 		std::cout << "2. Filter by Race" << std::endl;
@@ -213,21 +214,22 @@ void update()
 
 
 		}
-
+		
 		}
 }
 
 int main()
 {
-	
 	inptstats();
 	inptraces();
 	inptclasses();
-	std::cout << "How many characters do you want to generate? 1-10000" << std::endl;
+
+	std::cout << "How many characters do you want to generate? Up to 1000" << std::endl;
 	std::cin >> choice;
+
 	while (choice < 1 || choice > 1000) 
 	{
-		std::cout << "How many characters do you want to generate? 1-10000" << std::endl;
+		std::cout << "How many characters do you want to generate? Up to 1000" << std::endl;
 		std::cin >> choice;
 		
 	}
@@ -238,8 +240,6 @@ int main()
 	RaceGenerated->ClassStateOne(&Classes);
 	RaceGenerated->CalculateRace(&Races,&RacesPercentage,charamount);
 	
-	
-
 	while (choice != -99)
 	{
 		update();
