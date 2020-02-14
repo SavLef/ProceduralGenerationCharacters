@@ -24,6 +24,8 @@ public:
 	void StateRace(vector <string> race_vector, vector<int> Race_Percentage_Vector);
 	void StateInventory(vector<string> Race_vector);
 	void StateInventory_Neutral();
+	void StateLore_Neutral();
+	void CalculateLore();
 	string  ClassStateOne_Backend();
 
 	string race_selection = "";
@@ -47,6 +49,18 @@ public:
 
 	vector <string> Race_Inventory;
 	vector <float> Race_Inventory_Percentage;
+
+	vector <string> Lore_Origin; vector <float> Lore_Origin_Percentage;
+	vector <string> Lore_ConnectorWord; vector <float> Lore_ConnectorWord_Percentage;
+	vector <string> Lore_CITY; vector <float> Lore_CITY_Percentage;
+	vector <string> Lore_ConnectorWordSecond; vector <float> Lore_ConnectorWordSecond_Percentage;
+	vector <string> Lore_Characteristic; vector<float> Lore_Characteristic_Percentage;
+	vector <string> Lore_Occupation; vector <float> Lore_Occupation_Percentage;
+	vector <string> Lore_ConnectorWordThird; vector <float> Lore_ConnectorWordThird_Percentage;
+	vector <string> Lore_Ambition; vector <float> Lore_Ambition_Percentage;
+	vector <string> Lore_Ambition_2; vector <float> Lore_Ambition_2_Percentage;
+	vector <string> Lore_Ambition3; vector <float> Lore_Ambition3_Percentage;
+
 
 };
 

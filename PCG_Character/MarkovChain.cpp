@@ -255,6 +255,224 @@ void MarkovChain::StateInventory_Neutral()
 	dbfile.close();
 }
 
+void MarkovChain::StateLore_Neutral()
+{
+	//READ FOR NEUTRAL
+
+	int resetcount = 0;
+	int counter = 0;
+	float perce = 0;
+	string value;
+
+
+	//TILL CURRENT END OF DB
+	while (resetcount <= 18)
+	{
+		ifstream dbfile("Database_Lore_Neutral.csv");
+		std::getline(dbfile, value, '\n');
+		for (int i = 0; i <= resetcount; i++)
+		{
+			std::getline(dbfile, value, ',');
+		}
+
+		while (dbfile.good() && value != "")
+		{
+			if (value != "")
+
+			{	
+				switch (resetcount)
+				{
+				case 0:Lore_Origin.push_back(value); break;
+				case 2:Lore_ConnectorWord.push_back(value); break;
+				case 4:Lore_CITY.push_back(value); break;
+				case 6:Lore_ConnectorWordSecond.push_back(value); break;
+				case 8:Lore_Characteristic.push_back(value); break;
+				case 10:Lore_Occupation.push_back(value); break;
+				case 12:Lore_Ambition.push_back(value); break;
+				case 14:Lore_ConnectorWordThird.push_back(value); break;
+				case 16:Lore_Ambition_2.push_back(value); break;
+				case 18:Lore_Ambition3.push_back(value); break;
+				
+					
+				}
+				
+				std::getline(dbfile, value, ','); // read a string until next comma
+				if (value != "")
+				{
+					perce = std::stof(value);
+
+					switch (resetcount)
+					{
+					case 0:Lore_Origin_Percentage.push_back(perce); break;
+					case 2:Lore_ConnectorWord_Percentage.push_back(perce); break;
+					case 4:Lore_CITY_Percentage.push_back(perce); break;
+					case 6:Lore_ConnectorWordSecond_Percentage.push_back(perce); break;
+					case 8:Lore_Characteristic_Percentage.push_back(perce); break;
+					case 10:Lore_Occupation_Percentage.push_back(perce); break;
+					case 12:Lore_Ambition_Percentage.push_back(perce); break;
+					case 14:Lore_ConnectorWordThird_Percentage.push_back(perce); break;
+					case 16:Lore_Ambition_2_Percentage.push_back(perce); break;
+					case 18:Lore_Ambition3_Percentage.push_back(perce); break;
+					}
+					
+				}
+			}
+			std::getline(dbfile, value, '\n');
+			for (int i = 0; i <= resetcount; i++)
+			{
+				std::getline(dbfile, value, ',');
+			}
+			counter++;
+
+		}
+
+		
+		resetcount++;
+		resetcount++;
+		dbfile.close();
+	}
+
+
+
+}
+
+void MarkovChain::CalculateLore()
+{
+	vector <string> CharacterLore;
+	vector <string> selection;
+	//==================================================================
+	for (int j = 0; j < Lore_Origin.size(); j++)
+	{
+		for (float i = 0; i < Lore_Origin_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_Origin.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();
+
+	//=================================================================PART 2
+	for (int j = 0; j < Lore_ConnectorWord.size(); j++)
+	{
+		for (float i = 0; i < Lore_ConnectorWord_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_ConnectorWord.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();
+
+	//=================================================================
+	for (int j = 0; j < Lore_CITY.size(); j++)
+	{
+		for (float i = 0; i < Lore_CITY_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_CITY.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();
+
+	//=================================================================
+	for (int j = 0; j < Lore_ConnectorWordSecond.size(); j++)
+	{
+		for (float i = 0; i < Lore_ConnectorWordSecond_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_ConnectorWordSecond.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();
+	//=================================================================
+	for (int j = 0; j < Lore_Characteristic.size(); j++)
+	{
+		for (float i = 0; i < Lore_Characteristic_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_Characteristic.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();//=================================================================
+	for (int j = 0; j < Lore_Occupation.size(); j++)
+	{
+		for (float i = 0; i < Lore_Occupation_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_Occupation.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();//=================================================================
+	for (int j = 0; j < Lore_Ambition.size(); j++)
+	{
+		for (float i = 0; i < Lore_Ambition_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_Ambition.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+	selection.clear();//=================================================================
+	for (int j = 0; j < Lore_ConnectorWordThird.size(); j++)
+	{
+		for (float i = 0; i < Lore_ConnectorWordThird_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_ConnectorWordThird.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();//=================================================================
+	for (int j = 0; j < Lore_Ambition_2.size(); j++)
+	{
+		for (float i = 0; i < Lore_Ambition_2_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_Ambition_2.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();//=================================================================
+	for (int j = 0; j < Lore_Ambition3.size(); j++)
+	{
+		for (float i = 0; i < Lore_Ambition3_Percentage.at(j); i += 1)
+		{
+			selection.push_back(Lore_Ambition3.at(j));
+		}
+	}
+
+	std::random_shuffle(selection.begin(), selection.end());
+	CharacterLore.push_back(selection.at(0));
+
+	selection.clear();
+
+	Arfui.importLore(CharacterLore);
+	CharacterLore.clear();
+	
+}
+
 string MarkovChain::ClassStateOne_Backend()
 {
 	vector <string> Classes;
@@ -308,6 +526,9 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	//CALCULATE INVENTORY
 
 	//CHECK FOR LORE ASSIGNMENT
+	
+	CalculateLore();
+	Arfui.ProcessLore();
 	//ASSIGN LORE
 	
 	//STORE CHARACTER TO VECTOR

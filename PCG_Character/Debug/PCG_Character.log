@@ -5,4 +5,4 @@ C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Characte
 C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Main.cpp(181,22): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Main.cpp(189,15): warning C4018: '>': signed/unsigned mismatch
 C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Main.cpp(194,22): warning C4018: '<': signed/unsigned mismatch
-  PCG_Character.vcxproj -> C:\Users\Exeline\Source\Repos\SavLef\ProceduralGenerationCharacters\Debug\PCG_Character.exe
+  PCG_Character.vcxproj -> C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\Debug\PCG_Character.exe

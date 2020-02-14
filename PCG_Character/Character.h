@@ -23,6 +23,8 @@ public:
 	void CalculateInventory();
 	void ClearSheet();
 	void PrintSheet();
+	void importLore(vector <string> Lore);
+	void ProcessLore();
 
 	string getRace();
 	string getClass();
@@ -40,6 +42,7 @@ public:
 	vector <int> stats;
 	vector <string> statname;
 	vector <int> statpercent;
+	vector <string> lore;
 
 	int inventoryslots = 0;
 	int emptyslots = 0;

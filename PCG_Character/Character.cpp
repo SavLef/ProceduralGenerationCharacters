@@ -90,7 +90,7 @@ void Character::ReadInventory(vector<string> Neutral_Inventory_Items, vector<flo
 			{
 				temprolls.push_back(0);
 			}
-		
+
 			std::random_shuffle(temprolls.begin(), temprolls.end());
 			tempselection = temprolls.at(0);
 
@@ -120,6 +120,8 @@ void Character::ClearSheet()
 	Inventory.clear();
 	Real_Inventory.clear();
 	Inventory_Percentage.clear();
+	lore.clear();
+	lore.resize(0);
 	stats.clear();
 	stats.resize(nostats);
 	pointstospend = 50;
@@ -132,7 +134,7 @@ void Character::PrintSheet()
 	myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);
 
 	//CAPTIONS
-	
+
 	myFile << "Race" << "," << "Class" << ",";
 	for (int i = 0; i < statname.size(); i++)
 	{
@@ -152,21 +154,48 @@ void Character::PrintSheet()
 	myFile << std::endl;
 	for (int i = 0; i < Real_Inventory.size(); i++)
 	{
-		for (int j = 0; j < stats.size()+4; j++)
+		for (int j = 0; j < stats.size() + 4; j++)
 		{
 			myFile << ",";
 		}
 		myFile << Real_Inventory.at(i);
 		myFile << std::endl;
-		
+
 	}
 
+	//PRINT LORE
+	for (int i = 0; i < lore.size(); i++)
+	{
+		myFile << " " << lore.at(i);
+	}
 	myFile << std::endl;
 	myFile << std::endl;
 	myFile << "___________________________________________________________________________________________________________________________________________________________________________________________";
 	myFile << std::endl;
-	
 	myFile.close();
+}
+
+void Character::importLore(vector<string> Lore)
+{
+	lore = Lore;
+}
+
+void Character::ProcessLore()
+{
+	for (int i = 0; i < lore.size(); i++)
+	{
+		if (lore.at(i) == "CLASS")
+		{
+			lore.at(i) = getClass();
+		}
+
+		else if (lore.at(i) == "RACE")
+		{
+			lore.at(i) = getRace();
+		}
+
+	}
+	
 }
 
 string Character::getRace()
