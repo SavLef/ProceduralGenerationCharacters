@@ -1,94 +1,47 @@
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Troll,Druid,,3,1,4,4,2,3,3,,1 out of 10
+Human,Warrior,,7,1,5,1,1,5,0,,1 out of 12
 
 ,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
- Descending from Timeless Isle ; this relentless jewelcrafter campaigns to learn the truth about their destiny.
- Their old skin is guarded by a heavy red dog outfit that  does not suit their small ears
+ Originating from Ashran ; this disloyal inscriptionist wishes to profit from their origins.
+ Their long hair fall upon their a royal green maid outfit which was passed down from their parents. It seems to have a weird effect on  their gigantic ears.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Human,Mage,,3,5,3,5,5,1,4,,4 out of 6
-
-,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,,HUMAN ITEM 1
-,,,,,,,,,,,HUMAN ITEM 2
-,,,,,,,,,,,MAGE ITEM 1
- Living with her sister in Ratchet ; this cooperative Mage yearns to destroy their family.
- Their apparel consists of a commoner white helmet that  outshines their huge nosedrills
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Gnome,Slav,,2,11,5,0,0,0,0,,2 out of 5
-
-,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,,GNOME ITEM
- Living with his sister in Gorgrond ; this impatient blacksmith is looking  to learn the truth about their origins.
- They wear a plate hazel suggestive outfit that bears a crest. It perfectly fits their big toes
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Undead,Rogue,,1,1,4,2,3,10,6,,2 out of 5
-
-,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,,UNDEAD ITEM
- Belonging to the poorest family of Mulgore ; this pettiful enchanter aspires to vanquish their future.
- They wear a cloth red outfit which  destroys the appearance coherency with  their beautiful ears
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Human,Warrior,,11,1,7,1,2,4,6,,3 out of 11
+Human,Paladin,,12,11,16,0,6,3,2,,2 out of 14
 
 ,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
 ,,,,,,,,,,,HUMAN ITEM 1
-,,,,,,,,,,,WARRIOR ITEM 1
- Living with her brother in Tanaan Jungle ; this unkind mid-class anticipates to vanquish their ego.
- They wear a heavy dark maid outfit that resembles the gear of the late king. It destroys the appearance coherency with  their relatively small nosedrills
+ Her family gave birth to her in Storm Peaks ; this charismatic enchanter strives to profit from their future.
+ Their inhuman looking body is covered by a handmade orange pair of shoulderpads that  does not suit their beautiful toes.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Night Elf,Rogue,,3,1,2,11,2,7,6,,2 out of 8
-
-,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,,NE ITEM
- Originating from Twilight Highlands ; this deceptive Rogue craves to unearth their ego.
- Their old skin is covered by a spoiled black royal outfit that  looks absurd compared to their absurdly large feet
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Blood Elf,Death Knight,,3,1,3,2,1,4,5,,3 out of 11
-
-,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,,BELF ITEM
-,,,,,,,,,,,DEATHKNIGHT ITEM 2
- Grew up rich in The Jade Forest ; this persistant inscriptionist campaigns to forsake their ego.
- They wear a cloth black maid outfit which bears a royal crest. It does not suit their fake-looking feet
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Gnome,Monk,,1,3,9,8,8,2,5,,2 out of 10
-
-,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,,GNOME ITEM
- Born in Redridge Mountains ; this resourceful skinner expects to vanquish their future.
- Their apparel consists of a heavy black legplate that bears the crest of your family. It does not suit their abnormaly large mouth
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Human,Rogue,,1,1,6,11,3,6,1,,3 out of 10
+Blood Elf,Paladin,,10,9,14,1,6,4,6,,3 out of 11
 
 ,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
 ,,,,,,,,,,,Mark of Honour
-,,,,,,,,,,,HUMAN ITEM 1
- Their family gave birth to them in Isle of Thunder ; this quarrelsome archaeologist expects to profit from their future.
- Their old skin is guarded by a commoner red dog outfit which resembles the gear of the late queen. It seems to have a weird effect on  their fake-looking nosedrills
+,,,,,,,,,,,BELF ITEM
+ Her family gave birth to her in Molten Front ; this unkind inscriptionist expects to unearth their future.
+ Their apparel consists of a cloth green maid outfit that bears a crest. It perfectly contrasts their absurdly large mouth.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Human,Warlock,,2,5,3,4,2,6,6,,2 out of 7
+Blood Elf,Paladin,,14,9,15,1,5,3,3,,4 out of 6
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,BELF ITEM
+,,,,,,,,,,,PALADIN ITEM 2
+ Their family gave birth to them in Un'goro Crater ; this relentless miner expects to vanquish their destiny.
+ Their body is covered by a mail white legplate which bears a crest. It perfectly fits their abnormaly large nosedrills.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Paladin,,9,10,16,1,5,5,4,,2 out of 10
 
 ,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
 ,,,,,,,,,,,HUMAN ITEM 1
- Coming from Eastern Plaguelands ; this persistant miner aspires to find their future.
- Their apparel consists of a spoiled hazel troll outfit that bears the crest of your family. It is a perfect fit with their big arms
+ Originating from Eastern Plaguelands ; this determined Human desires to profit from their destiny.
+ Their long hair fall upon their a plate blue outfit that  outshines their tiny mouth.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________

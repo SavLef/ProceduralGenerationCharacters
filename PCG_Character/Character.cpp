@@ -41,10 +41,41 @@ void Character::addStats(int value, int index)
 void Character::StatCalc(vector <int> statpercents)
 {
 	statpercent = statpercents;
-	
-	for (int i = 0; i < statpercent.size(); i++)
+	vector <string> selection;
+	string answer;
+
+	while (pointstospend > 0)
 	{
-		addStats(statpercent.at(i), i);
+
+
+		for (int j = 0; j < statname.size(); j++)
+		{
+			for (float i = 0; i < statpercent.at(j); i += 1)
+			{
+				selection.push_back(statname.at(j));
+			}
+		}
+
+
+		std::random_shuffle(selection.begin(), selection.end());
+
+		answer = selection.at(0);
+
+		for (int z = 0; z < stats.size(); z++)
+		{
+			if (statname.at(z) == answer)
+			{
+
+				if (pointstospend > 0)
+				{
+					stats.at(z) += 1;
+					pointstospend -= 1;
+				}
+
+			}
+		}
+		selection.clear();
+
 	}
 }
 
@@ -124,6 +155,7 @@ void Character::ClearSheet()
 	description.clear();
 	lore.resize(0);
 	stats.clear();
+	statpercent.clear();
 	stats.resize(nostats);
 	pointstospend = 50;
 }
