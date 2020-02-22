@@ -1,47 +1,193 @@
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Human,Warrior,,7,1,5,1,1,5,0,,1 out of 12
+Human,Paladin,,5,3,5,1,2,2,2,,1 out of 14
 
 ,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
- Originating from Ashran ; this disloyal inscriptionist wishes to profit from their origins.
- Their long hair fall upon their a royal green maid outfit which was passed down from their parents. It seems to have a weird effect on  their gigantic ears.
+ Belonging in the ancient Royal family of  Desolace ; this mean runeforger expects to conquer their family.
+ Their youthful skin is protected by a baggy pink pair of shoulderpads that was reported stolen by authorities. It looks absurd compared to their tiny arms.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Human,Paladin,,12,11,16,0,6,3,2,,2 out of 14
-
-,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,,HUMAN ITEM 1
- Her family gave birth to her in Storm Peaks ; this charismatic enchanter strives to profit from their future.
- Their inhuman looking body is covered by a handmade orange pair of shoulderpads that  does not suit their beautiful toes.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Blood Elf,Paladin,,10,9,14,1,6,4,6,,3 out of 11
+Blood Elf,Hunter,,4,1,3,23,0,5,14,,3 out of 9
 
 ,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
 ,,,,,,,,,,,Mark of Honour
 ,,,,,,,,,,,BELF ITEM
- Her family gave birth to her in Molten Front ; this unkind inscriptionist expects to unearth their future.
- Their apparel consists of a cloth green maid outfit that bears a crest. It perfectly contrasts their absurdly large mouth.
+ Living with her mother in Zul'Drak ; this fair blacksmith expects to learn the truth about their destiny.
+ Their apparel consists of a ruggy white outfit which was recently auctioned. It is a perfect fit with their absurdly large arms.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Blood Elf,Paladin,,14,9,15,1,5,3,3,,4 out of 6
+Tauren,Shaman,,0,15,2,18,1,9,5,,4 out of 7
 
 ,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
-,,,,,,,,,,,Mark of Honour
-,,,,,,,,,,,BELF ITEM
-,,,,,,,,,,,PALADIN ITEM 2
- Their family gave birth to them in Un'goro Crater ; this relentless miner expects to vanquish their destiny.
- Their body is covered by a mail white legplate which bears a crest. It perfectly fits their abnormaly large nosedrills.
+,,,,,,,,,,,TAUREN ITEM
+,,,,,,,,,,,TAUREN ITEM
+,,,,,,,,,,,SHAMAN ITEM 5
+ Originating from Northern Barrens ; this greedy miner wishes to unearth their destiny.
+ They wear a commoner black helmet that resembles the gear of the late king. It outshines their terrifyingly big nosedrills.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
 Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Human,Paladin,,9,10,16,1,5,5,4,,2 out of 10
+Human,Hunter,,1,3,3,24,2,11,6,,2 out of 9
 
 ,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
 ,,,,,,,,,,,HUMAN ITEM 1
- Originating from Eastern Plaguelands ; this determined Human desires to profit from their destiny.
- Their long hair fall upon their a plate blue outfit that  outshines their tiny mouth.
+ Descending from Wintergrasp ; this relentless low-class desires to conquer their family.
+ Their apparel consists of a woolen red chestplate that  seems to have a weird effect on  their fake-looking arms.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Hunter,,2,3,3,22,2,5,13,,2 out of 11
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,BELF ITEM
+ Heir to the throne of The Dragon Islands ; this peaceful tavern owner is looking  to conquer their future.
+ Their old skin is protected by a luxurious dark legplate that was recently auctioned. It does not suit their absurdly large feet.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Dwarf,Mage,,0,12,9,2,6,17,4,,3 out of 13
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,DWARF ITEM
+,,,,,,,,,,,MAGE ITEM 1
+ Coming from Redridge Mountains ; this determined salesperson desires to discover their origins.
+ Their long hair fall upon their a commoner black pair of shoulderpads that  outshines their unaturally smooth arms.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Demon Hunter,,12,2,18,5,1,8,4,,4 out of 8
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Reins of the Grand Ice Mammoth
+,,,,,,,,,,,BELF ITEM
+,,,,,,,,,,,DH ITEM 2
+ Living with his sister in Tol Barad ; this dominant low-class seeks to conquer their ego.
+ Their pale skin is guarded bya  cloth red maid outfit which looks familiar. It destroys the appearance coherency with  their relatively big ears.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Orc,Death Knight,,17,0,16,1,2,6,8,,2 out of 9
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,ORC ITEM
+ Flew to Terokkar Forest ; this pessimistic dancer anticipates to learn the truth about their destiny.
+ They wear a plate red helmet which was recently auctioned. It looks absurd compared to their big arms.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Demon Hunter,,18,1,16,0,3,6,6,,3 out of 8
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,HUMAN ITEM 1
+,,,,,,,,,,,DH ITEM 1
+ Champion of  Dun Morrogh ; this cooperative tavern worker anticipates to conquer their destiny.
+ They wear a mail green goblin outfit that bears the crest of your family. It looks absurd compared to their abnormaly large mouth.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Warlock,,0,14,3,2,6,16,9,,2 out of 9
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,HUMAN ITEM 1
+ Coming from Tol Barad ; this unmerciful runeforger aims to find their future.
+ They wear a luxurious dark royal outfit that  is a perfect fit with their absurdly small mouth.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Orc,Warlock,,4,6,4,2,4,18,12,,3 out of 8
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,ORC ITEM
+ Born in The Broken Shore ; this evil jewelcrafter hopes to conquer their origins.
+ They wear a plate dark helmet which was reported stolen by authorities. It destroys the appearance coherency with  their absurdly small mouth.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Death Knight,,18,1,19,0,0,4,8,,3 out of 6
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Decaying Fusion Core
+,,,,,,,,,,,BELF ITEM
+ Taking part in the annual festival in  Arathi Highlands ; this patient lockpicker plans to conquer their origins.
+ They wear a heavy pink goblin outfit that resembles the gear of the late king. It perfectly contrasts their abnormaly large mouth.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Undead,Warlock,,2,18,9,1,5,11,4,,2 out of 8
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,UNDEAD ITEM
+ Living with his mother in Borean Tundra ; this unforgiving blacksmith aspires to discover their origins.
+ Their apparel consists of a baggy transparent chestplate that was reported stolen by authorities. It perfectly fits their terrifyingly big toes.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Demon Hunter,,22,2,14,1,0,4,7,,3 out of 6
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,HUMAN ITEM 1
+ Descending from Loch Modan ; this adventurous champion spares no effort to to learn the truth about their future.
+ Their old skin is protected by a baggy hazel pair of trousers that was recently auctioned. It looks absurd compared to their beautiful nosedrills.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Night Elf,Warrior,,11,1,16,1,3,11,7,,2 out of 11
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,NE ITEM
+ Hailing from Highmountain ; this evil cook wishes to unearth their future.
+ Their apparel consists of a baggy red soldier outfit which bears the crest of your family. It perfectly contrasts their big nosedrills.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Night Elf,Slav,,6,5,10,0,9,9,11,,4 out of 13
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,NE ITEM
+,,,,,,,,,,,SLAV ITEM 1
+ Living with his father in Mount Hyjal ; this relentless mid-class is looking  to forsake their ego.
+ Their youthful skin is protected by a posh pink helmet which bears a crest. It is a perfect fit with their absurdly small mouth.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Hunter,,2,2,1,24,1,13,7,,3 out of 9
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,HUMAN ITEM 1
+,,,,,,,,,,,HUNTER ITEM 1
+ Worked as a slave in Tanaan Jungle ; this generous lockpicker makes every effort to unearth their ego.
+ Their apparel consists of a cloth orange troll outfit that bears a royal crest. It compliments their relatively big face.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Undead,Priest,,4,19,3,1,4,14,5,,2 out of 14
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,UNDEAD ITEM
+ Living with his father in Stormheim ; this unforgiving Priest aspires to unearth their ego.
+ Their body is covered by a handmade hazel pair of shoulderpads that was passed down from their parents. It perfectly fits their tiny ears.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Troll,Druid,,0,18,2,17,3,6,4,,2 out of 9
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,TROLL ITEM
+ Moved to  Teldrassil ; this patient tavern worker seeks to destroy their origins.
+ Their dark skin is guarded by a ruggy dark troll outfit which  perfectly contrasts their abnormaly small nosedrills.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Night Elf,Slav,,3,3,9,9,1,11,14,,3 out of 14
+
+,,,,,,,,,,,Ashjra'Kamas Shroud of Resolve
+,,,,,,,,,,,Mark of Honour
+,,,,,,,,,,,NE ITEM
+ Originating from Everlook ; this patient tavern owner wants to find their origins.
+ Their youthful skin is protected by a spoiled white soldier outfit which  does not suit their relatively small mouth.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________

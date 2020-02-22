@@ -46,7 +46,7 @@ void MarkovChain::StateStats()
 			{
 
 
-				if (value != "")
+				if (value != "" && value != "-")
 				{
 					perce = std::stoi(value);
 					StatPercent.push_back(perce);

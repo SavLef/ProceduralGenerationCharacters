@@ -77,14 +77,14 @@ void inptstats()
 	std::getline(dbfile, value, ',');
 
 
-
+	
 	StatName.push_back(value);
 	while (dbfile.good())
 	{
 
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, ',');// read a string until next comma
-		if (value != "")
+		if (value != "" && value != "-")
 		{
 		
 			StatName.push_back(value);
