@@ -237,6 +237,7 @@ int main()
 	system("CLS");
 	RaceGenerated = new MarkovChain;
 	RaceGenerated->StateLore_Neutral();
+	RaceGenerated->StateDescription_Neutral();
 	RaceGenerated->SendStats(StatName);
 	RaceGenerated->ClassStateOne(&Classes);
 	RaceGenerated->CalculateRace(&Races,&RacesPercentage,charamount);

@@ -24,6 +24,7 @@ public:
 	void ClearSheet();
 	void PrintSheet();
 	void importLore(vector <string> Lore);
+	void importDescription(vector <string> Lore);
 	void ProcessLore();
 
 	string getRace();
@@ -43,6 +44,7 @@ public:
 	vector <string> statname;
 	vector <int> statpercent;
 	vector <string> lore;
+	vector <string> description;
 
 	int inventoryslots = 0;
 	int emptyslots = 0;

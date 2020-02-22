@@ -1,48 +1,21 @@
-﻿  Algorithms.cpp
-  Character.cpp
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(45,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(64,26): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(77,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(139,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(148,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(155,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(157,21): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(167,20): warning C4018:  '<': signed/unsigned mismatch
-  Main.cpp
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(185,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(142,22): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(150,15): warning C4018:  '>': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(155,22): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(181,22): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(189,15): warning C4018:  '>': signed/unsigned mismatch
-  MarkovChain.cpp
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(194,22): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(15,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(29,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(45,36): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(74,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(92,36): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(98,36): warning C4244:  'argument': conversion from 'int' to 'const _Ty', possible loss of data
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(98,36): warning C4244:         with
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(98,36): warning C4244:         [
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(98,36): warning C4244:             _Ty=float
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(98,36): warning C4244:         ]
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(115,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(123,26): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(139,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(155,36): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(182,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(198,36): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(344,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(358,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(372,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(386,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(399,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(411,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(423,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(434,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(446,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(458,20): warning C4018:  '<': signed/unsigned mismatch
-  Generating Code...
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(481,21): warning C4018:  '<': signed/unsigned mismatch
-  PCG_Character.vcxproj -> C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\Debug\PCG_Character.exe
+﻿  MarkovChain.cpp
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(15,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(29,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(45,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(74,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(92,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(98,36): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(115,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(123,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(139,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(155,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(182,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(198,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(377,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(404,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(428,21): warning C4018: '<': signed/unsigned mismatch
+  PCG_Character.vcxproj -> C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\Debug\PCG_Character.exe

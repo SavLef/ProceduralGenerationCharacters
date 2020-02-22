@@ -121,6 +121,7 @@ void Character::ClearSheet()
 	Real_Inventory.clear();
 	Inventory_Percentage.clear();
 	lore.clear();
+	description.clear();
 	lore.resize(0);
 	stats.clear();
 	stats.resize(nostats);
@@ -169,6 +170,12 @@ void Character::PrintSheet()
 		myFile << " " << lore.at(i);
 	}
 	myFile << std::endl;
+	//PRINT LORE
+	for (int i = 0; i < description.size(); i++)
+	{
+		myFile << " " << description.at(i);
+	}
+	myFile << std::endl;
 	myFile << std::endl;
 	myFile << "___________________________________________________________________________________________________________________________________________________________________________________________";
 	myFile << std::endl;
@@ -178,6 +185,11 @@ void Character::PrintSheet()
 void Character::importLore(vector<string> Lore)
 {
 	lore = Lore;
+}
+
+void Character::importDescription(vector<string> Desc)
+{
+	description = Desc;
 }
 
 void Character::ProcessLore()
@@ -193,6 +205,12 @@ void Character::ProcessLore()
 		{
 			lore.at(i) = getRace();
 		}
+
+		if (description.at(i) == "EMPTY")
+		{
+			description.at(i) = "";
+		}
+
 
 	}
 	
