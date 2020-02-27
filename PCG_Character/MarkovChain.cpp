@@ -447,7 +447,10 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	//LOOP BASED ON No. Characters
 	for (float i = 0; i < charsize; i += 1)
 	{
-	
+
+	//RESET NEXT CHARACTER
+	Arfui.ClearSheet();
+
 	//CHECK FOR RACEE ASSIGNMENT PERCENTAGE
 	StateRace(*Race_vector, *Race_Percentage_Vector);
 
@@ -486,8 +489,6 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	 //DISPLAY GENERATED NUMBER
 	 std::cout << "Characters generated: " << Characters.size() << std::endl;
 
-	 //RESET NEXT CHARACTER
-	 Arfui.ClearSheet();
 
 	 
 		}

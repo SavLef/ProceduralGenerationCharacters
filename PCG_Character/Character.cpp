@@ -66,10 +66,26 @@ void Character::StatCalc(vector <int> statpercents)
 			if (statname.at(z) == answer)
 			{
 
-				if (pointstospend > 0)
+				if (pointstospend > 0 && stats.at(z) <20)
 				{
-					stats.at(z) += 1;
-					pointstospend -= 1;
+
+					if (stats.at(z) > 16 && pointstospend > 2)
+					{
+						stats.at(z) += 1;
+						pointstospend -= 3;
+					}
+
+					else if (stats.at(z) > 12 && pointstospend >1)
+					{
+						stats.at(z) += 1;
+						pointstospend -= 2;
+					}
+
+					else 
+					{
+						stats.at(z) += 1;
+						pointstospend -= 1;
+					}
 				}
 
 			}
@@ -157,7 +173,18 @@ void Character::ClearSheet()
 	stats.clear();
 	statpercent.clear();
 	stats.resize(nostats);
-	pointstospend = 50;
+	for (int i = 0; i < stats.size(); i++)
+	{
+		stats.at(i) = 4;
+	}
+
+
+	
+	int newvalue = rand() % (20) + 1;
+	level = newvalue;
+
+	//points to spend relative to level
+	pointstospend = level * 2.5;
 }
 
 void Character::PrintSheet()
@@ -183,8 +210,14 @@ void Character::PrintSheet()
 		myFile << "," << stats.at(i);
 	}
 	myFile << "," << "," << inventoryslots - emptyslots << " out of " << inventoryslots;
+
+	//Print level
 	myFile << std::endl;
+	myFile << "Level" << "," << level;
+
 	myFile << std::endl;
+
+
 	for (int i = 0; i < Real_Inventory.size(); i++)
 	{
 		for (int j = 0; j < stats.size() + 4; j++)

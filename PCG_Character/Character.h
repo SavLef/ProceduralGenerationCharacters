@@ -50,5 +50,6 @@ public:
 	int emptyslots = 0;
 	int nostats;
 	int pointstospend = 20;
+	int level = 1;
 };
 
