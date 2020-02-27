@@ -269,6 +269,8 @@ void MarkovChain::CalculateLoreSize()
 			lore_column_size++;
 		}
 
+		Lore = new vector <string>[lore_column_size / 2];
+		Lore_Percentage = new vector <float>[lore_column_size / 2];
 }
 
 void MarkovChain::CalculateCharacteristicSize()
@@ -285,6 +287,10 @@ void MarkovChain::CalculateCharacteristicSize()
 		std::getline(dbfile, value, ',');
 		characteristic_column_size++;
 	}
+
+	Desc = new vector <string>[characteristic_column_size/2];
+	Desc_Percentage = new vector <float>[characteristic_column_size / 2];
+
 }
 void MarkovChain::StateLore_Neutral()
 {
@@ -403,7 +409,7 @@ void MarkovChain::CalculateLore()
 	vector <string> selection;
 	//==================================================================
 
-	for (int t = 0; t < 10; t++)
+	for (int t = 0; t < lore_column_size/2; t++)
 	{
 		for (int j = 0; j < Lore[t].size(); j++)
 		{
@@ -430,7 +436,7 @@ void MarkovChain::CalculateDescription()
 	vector <string> selection;
 	//==================================================================
 
-	for (int t = 0; t < 10; t++)
+	for (int t = 0; t < characteristic_column_size/2; t++)
 	{
 		for (int j = 0; j < Desc[t].size(); j++)
 		{
@@ -523,6 +529,19 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 
 	 
 		}
+
+	//MEMORYCLEANUP After Generation
+	delete[] Lore;  
+	Lore = NULL;    
+
+	delete[] Lore_Percentage;  
+	Lore_Percentage = NULL;     
+
+	delete[] Desc; 
+	Desc = NULL;    
+
+	delete[] Desc_Percentage;  
+	Desc_Percentage = NULL;     
 }
 
 

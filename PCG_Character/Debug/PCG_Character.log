@@ -15,7 +15,7 @@ C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Char
 C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(155,36): warning C4018:  '<': signed/unsigned mismatch
 C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(182,20): warning C4018:  '<': signed/unsigned mismatch
 C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(198,36): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(408,21): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(435,21): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(459,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(414,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(441,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(465,21): warning C4018:  '<': signed/unsigned mismatch
   PCG_Character.vcxproj -> C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\Debug\PCG_Character.exe

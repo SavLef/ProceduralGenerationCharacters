@@ -57,8 +57,12 @@ public:
 
 
 
-	vector <string> Lore[30]; vector <float> Lore_Percentage[30];
+	/*vector <string> Lore[30]; vector <float> Lore_Percentage[30];
 	vector <string> Desc[30]; vector <float> Desc_Percentage[30];
+*/
+
+	vector <string>* Lore; vector <float>* Lore_Percentage;
+	vector <string>* Desc; vector <float>* Desc_Percentage;
 
 	int lore_column_size;
 	int characteristic_column_size;
