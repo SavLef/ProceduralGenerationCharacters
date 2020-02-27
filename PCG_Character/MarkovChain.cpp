@@ -31,7 +31,7 @@ void MarkovChain::StateStats()
 		if (Arfui.getClass() == Class_State_Name.at(j))
 		{
 			counter = 0;
-			ifstream dbfile("Database_Stats.csv");
+			ifstream dbfile("DATABASES/Database_Stats.csv");
 			string value;
 			std::getline(dbfile, value, '\n');
 			std::getline(dbfile, value, ','); // read a string until next comma
@@ -75,7 +75,7 @@ void MarkovChain::StateClass(vector <string> Race_vector)
 	{
 		if (Arfui.getRace() == Race_vector.at(j))
 		{
-			ifstream dbfile("Database.csv");
+			ifstream dbfile("DATABASES/Database.csv");
 			string value;
 			int counter = 0;
 
@@ -141,7 +141,7 @@ void MarkovChain::StateInventory(vector<string> Race_vector)
 		if (Arfui.getRace() == Race_vector.at(j))
 		{
 			counter = 0;
-			ifstream dbfile("Database_Inventory_Race.csv");
+			ifstream dbfile("DATABASES/Database_Inventory_Race.csv");
 			string value;
 			std::getline(dbfile, value, '\n');
 
@@ -184,7 +184,7 @@ void MarkovChain::StateInventory(vector<string> Race_vector)
 		if (Arfui.getClass() == Class_State_Name.at(j))
 		{
 			counter = 0;
-			ifstream dbfile("Database_Inventory_Class.csv");
+			ifstream dbfile("DATABASES/Database_Inventory_Class.csv");
 			string value;
 			std::getline(dbfile, value, '\n');
 			
@@ -230,7 +230,7 @@ void MarkovChain::StateInventory_Neutral()
 
 	int counter = 0;
 	float perce = 0;
-	ifstream dbfile("Database_Inventory_Neutral.csv");
+	ifstream dbfile("DATABASES/Database_Inventory_Neutral.csv");
 	string value;
 	std::getline(dbfile, value, ',');
 
@@ -268,7 +268,7 @@ void MarkovChain::StateLore_Neutral()
 	//TILL CURRENT END OF DB
 	while (resetcount <= 18)
 	{
-		ifstream dbfile("Database_Lore_Neutral.csv");
+		ifstream dbfile("DATABASES/Database_Lore_Neutral.csv");
 		std::getline(dbfile, value, '\n');
 		for (int i = 0; i <= resetcount; i++)
 		{
@@ -324,7 +324,7 @@ void MarkovChain::StateDescription_Neutral()
 	//TILL CURRENT END OF DB
 	while (resetcount <= 18)
 	{
-		ifstream dbfile("Database_Description_Neutral.csv");
+		ifstream dbfile("DATABASES/Database_Description_Neutral.csv");
 		std::getline(dbfile, value, '\n');
 		for (int i = 0; i <= resetcount; i++)
 		{

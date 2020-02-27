@@ -191,7 +191,7 @@ void Character::PrintSheet()
 {
 
 	std::ofstream myFile;
-	myFile.open("Characterlist.csv", std::ofstream::out | std::ofstream::app);
+	myFile.open("GENERATED CHARACTERS/Characterlist.csv", std::ofstream::out | std::ofstream::app);
 
 	//CAPTIONS
 

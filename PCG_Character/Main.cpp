@@ -7,7 +7,7 @@
 #include "MarkovChain.h"
 #include "Algorithms.h"
 
-std::ofstream myFile("Characterlist.csv");
+std::ofstream myFile("GENERATED CHARACTERS/Characterlist.csv");
 
 
 
@@ -27,7 +27,7 @@ vector <int> ClassPercentage;
 
 void inptraces()
 {
-	ifstream dbfile("Database.csv");
+	ifstream dbfile("DATABASES/Database.csv");
 	string value;
 	int perc;
 
@@ -64,12 +64,12 @@ void inptraces()
 
 void inptclasses()
 {
-	Algorithms::string_ReadFromCSV(&Classes,"Database.csv",2,0,1,0);
+	Algorithms::string_ReadFromCSV(&Classes,"DATABASES/Database.csv",2,0,1,0);
 }
 
 void inptstats()
 {
-	ifstream dbfile("Database_Stats.csv");
+	ifstream dbfile("DATABASES/Database_Stats.csv");
 	string value;
 
 
@@ -98,7 +98,7 @@ void inptstats()
 void update()
 {
 		system("CLS");
-		std::ofstream myFile("Characterlist.csv");
+		std::ofstream myFile("GENERATED CHARACTERS/Characterlist.csv");
 		std::cout << "Characters created! Choose what to do." << std::endl;
 		std::cout << "1. Print all generated characters." << std::endl;
 		std::cout << "2. Filter by Race" << std::endl;

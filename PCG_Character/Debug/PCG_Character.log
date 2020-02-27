@@ -1,15 +1,8 @@
-﻿  Character.cpp
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(51,21): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(64,21): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(111,26): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(124,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(176,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(187,24): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(199,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(208,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(221,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(223,21): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(233,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(239,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Character.cpp(262,20): warning C4018:  '<': signed/unsigned mismatch
+﻿  Main.cpp
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(138,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(146,15): warning C4018:  '>': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(151,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(177,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(185,15): warning C4018:  '>': signed/unsigned mismatch
+C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\PCG_Character\Main.cpp(190,22): warning C4018:  '<': signed/unsigned mismatch
   PCG_Character.vcxproj -> C:\Users\Lefkos Savvides\Desktop\ProcGen\ProceduralGenerationCharacters\Debug\PCG_Character.exe
