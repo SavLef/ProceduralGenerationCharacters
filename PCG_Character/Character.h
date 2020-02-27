@@ -51,5 +51,8 @@ public:
 	int nostats;
 	int pointstospend = 20;
 	int level = 1;
+	const int basehp = 5;
+
+	int HP;
 };
 

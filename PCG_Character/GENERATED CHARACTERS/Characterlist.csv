@@ -1,156 +1,175 @@
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Night Elf,Warrior,,5,4,8,4,4,4,4,,0 out of 12
-Level,2
- With origins unknown but ending up in  The Cape of Stranglethorn ; this spiritualistic miner anticipates to discover their rage.
- Their apparel consists of a mail green helmet that  is a perfect fit with their gigantic arms.
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Dwarf,Death Knight,,7,4,4,4,4,5,5,,1 out of 13
+LVL: 2,HP: 19
+,,,,,,,,,,,Mark of Honour
+
+ Her family gave birth to her in Zangarmarsh ; this relentless Death Knight desires to discover their rage.
+ They wear a luxurious white troll outfit which  does not suit their terrifyingly big face.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Blood Elf,Demon Hunter,,16,5,13,4,4,8,7,,0 out of 7
-Level,13
- Taking part in the annual festival in  Ashran ; this immortal archaeologist expects to vanquish their destiny.
- Their apparel consists of a heavy orange pair of boots that looks like it was stolen from a dungeon; but does not suit their unaturally smooth cheek.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Gnome,Warrior,,5,4,4,4,4,4,5,,0 out of 9
-Level,1
- Coming from Shattrath City ; this deceptive inscriptionist seeks to learn the truth about their ego.
- Their pale skin is guarded bya baggy orange chestplate which  perfectly contrasts their absurdly large toes.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Night Elf,Warrior,,9,5,14,5,5,8,6,,0 out of 13
-Level,10
- Belonging to a noble family of Isle of Thunder ; this caustic dancer ventures to discover their destiny.
- Their apparel consists of a mail blue pair of gloves that  is a perfect fit with their big nosedrills.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Night Elf,Slav,,7,6,5,8,6,6,7,,2 out of 11
-Level,7
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Gnome,Slav,,7,7,12,10,14,11,11,,2 out of 11
+LVL: 18,HP: 51
 ,,,,,,,,,,,Mark of Honour
 ,,,,,,,,,,,SLAV ITEM 1
- His family gave birth to him in  Shimmering Expanse ; this authoritan runeforger desires to conquer their true origins.
- They wear a plate hazel cat outfit which was recently auctioned. It perfectly fits their relatively small hands.
+
+ Coming from The Broken Isles ; this generous runeforger hopes to learn the truth about their true origins.
+ Their inhuman looking body is covered by a cloth hazel maid outfit that  is a perfect fit with their absurdly large feet.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Troll,Breadmaster,,9,10,6,7,6,11,11,,1 out of 6
-Level,13
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Rogue,,5,5,4,12,5,7,7,,0 out of 9
+LVL: 7,HP: 26
+
+ Grew up in Grizzly Hills ; this loving tavern worker craves to learn the truth about their future.
+ Their apparel consists of a handmade red cat outfit that  perfectly contrasts their relatively big cheek.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Demon Hunter,,12,5,7,4,5,9,6,,0 out of 10
+LVL: 8,HP: 39
+
+ Originating from Dun Morrogh ; this pettiful lockpicker plans to forsake their past.
+ Their inhuman looking body is covered by a woolen pink suggestive outfit which looks familiar. It outshines their beautiful nails.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Dwarf,Breadmaster,,9,5,5,9,7,8,15,,1 out of 9
+LVL: 13,HP: 44
 ,,,,,,,,,,,Bread Sword
- Born in Shadowmoon Valley ; this obnoxious soldier fights to unearth their family.
- Their pale skin is guarded bya mail green royal outfit which  looks absurd compared to their tiny hands.
+
+ Coming from Argus ; this kind tavern worker expects to vanquish their real family.
+ They wear a spoiled rainbow cat outfit which looks familiar. It seems to have a weird effect on  their abnormaly small eyes.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Undead,Breadmaster,,4,4,5,4,4,4,5,,2 out of 14
-Level,1
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Demon Hunter,,12,4,10,4,4,4,5,,0 out of 7
+LVL: 6,HP: 35
+
+ Belonging to the poorest family of Antoran Wastes ; this bossy mid-class is looking  to unearth their true origins.
+ Their old skin is covered by a spoiled rainbow maid outfit which resembles the gear of the late king. It perfectly fits their relatively small nosedrills.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Gnome,Mage,,7,8,4,5,6,16,7,,0 out of 12
+LVL: 11,HP: 37
+
+ Belonging to a noble family of Tanaan Jungle ; this evil tailor hopes to forsake their origins.
+ Their apparel consists of a plate white goblin outfit that bears a crest. It perfectly contrasts their fake-looking legs.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Tauren,Druid,,4,4,4,5,4,5,4,,0 out of 5
+LVL: 1,HP: 13
+
+ Living with his mother in Isle of Quel'Danas ; this persistant low-class spares no effort to to profit from their past.
+ Their youthful skin is protected by a ruggy hazel goblin outfit which  compliments their absurdly small nails.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Worgen,Slav,,8,11,8,8,8,17,11,,3 out of 6
+LVL: 19,HP: 55
 ,,,,,,,,,,,Mark of Honour
-,,,,,,,,,,,Bread Sword
- Living with her brother in Sholazar Basin ; this caustic auctioneer anticipates to conquer their origins.
- Their apparel consists of a baggy transparent dog outfit which bears a royal crest. It looks absurd compared to their absurdly small feet.
+,,,,,,,,,,,Gloves
+,,,,,,,,,,,SLAV ITEM 1
+
+ Living with his father in Tiragarde Sound ; this murderous Slav yearns to conquer their true destiny.
+ They wear a posh red pair of shoulderpads which  looks absurd compared to their terrifyingly big ears.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Blood Elf,Breadmaster,,5,5,5,4,5,7,9,,3 out of 6
-Level,5
-,,,,,,,,,,,Suntouched Amulet
-,,,,,,,,,,,BELF ITEM
-,,,,,,,,,,,Bread Sword
- Originating from Blade's Edge Mountains ; this rude lockpicker makes every effort to destroy their destiny.
- Their inhuman looking body is covered by a plate orange suggestive outfit which  compliments their big toes.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Troll,Breadmaster,,5,9,13,12,9,14,14,,1 out of 14
-Level,20
-,,,,,,,,,,,Bread Sword
- Hailing from Dread Wastes ; this mean lockpicker strives to vanquish their family.
- They wear a woolen rainbow goblin outfit that bears a royal crest. It is a perfect fit with their small arms.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Gnome,Mage,,4,15,9,5,8,17,6,,1 out of 8
-Level,17
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Night Elf,Rogue,,4,4,4,16,4,9,6,,1 out of 5
+LVL: 9,HP: 29
 ,,,,,,,,,,,Mark of Honour
- Grew up poor in Kelp'thar Forest ; this quarrelsome salesperson ventures to unearth their future.
- They wear a woolen white outfit that bears a crest. It perfectly contrasts their relatively small eyebrows.
+
+ Born in Moonglade ; this obnoxious blacksmith anticipates to discover their origins.
+ Their apparel consists of a luxurious dark pair of shoulderpads that resembles the gear of the late queen. It compliments their big nose.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Orc,Breadmaster,,10,4,8,13,7,13,13,,2 out of 13
-Level,16
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Paladin,,5,5,7,4,4,5,5,,0 out of 10
+LVL: 3,HP: 18
+
+ Fled from Dragonblight ; this peaceful archaeologist aspires to profit from their destiny.
+ Their inhuman looking body is covered by a ripped blue chestplate that was recently auctioned. It does not suit their abnormaly large hands.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Hunter,,4,6,4,15,6,7,7,,1 out of 6
+LVL: 9,HP: 29
+,,,,,,,,,,,Mark of Honour
+
+ Living with his brother in Maelstrom ; this persuasive archaeologist seeks to conquer their true destiny.
+ Their youthful skin is covered by a spoiled dark goblin outfit which  perfectly contrasts their absurdly large legs.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Orc,Hunter,,5,4,5,18,5,8,5,,1 out of 14
+LVL: 11,HP: 34
+,,,,,,,,,,,Boots
+
+ Living with her brother in Booty Bay ; this tolerant tailor makes every effort to find their past.
+ Their apparel consists of a ruggy red chestplate that was passed down from their parents. It looks absurd compared to their small eyes.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Death Knight,,6,4,7,4,4,5,5,,1 out of 6
+LVL: 3,HP: 20
+,,,,,,,,,,,Devastation's Hour
+
+ Taking part in the annual festival in  Borean Tundra ; this evil blacksmith wants to destroy their true destiny.
+ Their inhuman looking body is covered by a ruggy orange royal outfit which bears the crest of your family. It destroys the appearance coherency with  their unaturally smooth nose.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Orc,Warrior,,14,4,15,5,4,11,7,,0 out of 5
+LVL: 14,HP: 54
+
+ Grew up in Loch Modan ; this impatient enchanter yearns to vanquish their true destiny.
+ They wear a woolen pink helmet that bears a royal crest. It is a perfect fit with their small face.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Warrior,,4,4,6,4,5,5,5,,1 out of 6
+LVL: 2,HP: 15
+,,,,,,,,,,,Decaying Fusion Core
+
+ Her family gave birth to her in Deadwind Pass ; this bossy alchemist craves to learn the truth about their true origins.
+ Their long hair fall upon their  plate orange royal outfit which seems like a royal heilroom. It perfectly fits their small nose.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Blood Elf,Breadmaster,,8,12,8,6,13,15,11,,2 out of 11
+LVL: 19,HP: 55
 ,,,,,,,,,,,Staff
 ,,,,,,,,,,,Bread Sword
- Living with his brother in Maelstrom ; this selfish cook desires to unearth their real family.
- Their apparel consists of a commoner red pair of trousers which  looks absurd compared to their gigantic feet.
+
+ Originally born in  Borean Tundra ; this patient Blood Elf desires to vanquish their future.
+ Their apparel consists of a spoiled transparent troll outfit which was reported stolen by authorities. It perfectly contrasts their abnormaly large face.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Human,Hunter,,4,4,5,18,4,4,7,,0 out of 8
-Level,9
- Moved to  Shadowmoon Valley ; this generous blacksmith wants to find their real family.
- They wear a luxurious black soldier outfit that was recently auctioned. It perfectly fits their relatively big cheek.
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Warlock,,9,14,6,4,10,14,9,,0 out of 12
+LVL: 16,HP: 50
+
+ Moved to  Abyssal Depths ; this selfish blacksmith plans to vanquish their future.
+ Their old skin is covered by a handmade dark troll outfit that was reported stolen by authorities. It looks absurd compared to their big face.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Draenai,Mage,,4,14,6,7,12,17,11,,0 out of 5
-Level,19
- Living with her sister in Hellfire Peninsula ; this persuasive inscriptionist hopes to discover their past.
- Their apparel consists of a woolen black pair of gloves that looks familiar. It perfectly contrasts their unaturally smooth ears.
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Undead,Rogue,,4,5,5,17,5,11,4,,1 out of 5
+LVL: 11,HP: 33
+,,,,,,,,,,,Rusty coin
+
+ Grew up in the streets of Shimmering Expanse ; this disrespectful bar owner yearns to find their true destiny.
+ Their apparel consists of a handmade rainbow troll outfit that  perfectly fits their absurdly small ears.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Troll,Hunter,,4,5,4,9,6,6,6,,0 out of 7
-Level,5
- Living with his mother in Frostfire Ridge ; this charismatic soldier seeks to unearth their rage.
- Their short hair fall-sort upon their  ruggy white royal outfit which bears the crest of your family. It destroys the appearance coherency with  their huge arms.
+Race,Class,,STM,INT,STR,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
+Human,Paladin,,6,6,5,4,4,4,4,,0 out of 14
+LVL: 2,HP: 18
 
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Tauren,Druid,,4,6,6,7,4,5,6,,0 out of 5
-Level,4
- Their family gave birth to them in Hrothgar's Landing ; this unmerciful tavern worker wishes to vanquish their future.
- Their old skin is covered by a ruggy orange pair of gloves that was reported stolen by authorities. It compliments their fake-looking nose.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Orc,Breadmaster,,7,5,6,9,5,9,7,,1 out of 11
-Level,8
-,,,,,,,,,,,Bread Sword
- Belonging to a noble family of Shadowmoon Valley ; this loyal tavern owner wants to discover their ego.
- Their apparel consists of a ripped blue helmet which  compliments their tiny eyebrows.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Troll,Druid,,5,18,5,14,4,8,5,,0 out of 5
-Level,15
- Grew up poor in Lost Isles ; this decisive mid-class aims to destroy their destiny.
- Their pale skin is guarded bya heavy transparent pair of trousers which looks familiar. It compliments their gigantic hands.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Tauren,Druid,,4,18,4,17,4,10,6,,0 out of 7
-Level,18
- Originating from Molten Front ; this decisive inscriptionist seeks to profit from their ego.
- Their apparel consists of a mail rainbow maid outfit that looks like it was stolen from a dungeon; but destroys the appearance coherency with  their abnormaly large hands.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Troll,Breadmaster,,5,7,8,8,6,7,9,,2 out of 6
-Level,9
-,,,,,,,,,,,Mark of Honour
-,,,,,,,,,,,Bread Sword
- Living with her mother in The Hinterlands ; this dominant cook plans to conquer their destiny.
- Their old skin is guarded by a commoner pink outfit that looks like it was stolen from a dungeon; but does not suit their fake-looking nails.
-
-___________________________________________________________________________________________________________________________________________________________________________________________
-Race,Class,,STR,INT,STM,AGI,SPIRIT,CRIT,HASTE,,INVENTORY,
-Worgen,Breadmaster,,4,4,4,5,5,4,4,,1 out of 5
-Level,1
-,,,,,,,,,,,Bread Sword
- Her family gave birth to her in Suramar ; this patient low-class campaigns to learn the truth about their true destiny.
- They wear a ripped red goblin outfit that  perfectly fits their huge legs.
+ Living with his sister in Wetlands ; this tolerant soldier makes every effort to destroy their origins.
+ Their old skin is protected by a posh orange pair of gloves which bears a crest. It perfectly contrasts their tiny toes.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________

@@ -93,6 +93,8 @@ void Character::StatCalc(vector <int> statpercents)
 		selection.clear();
 
 	}
+
+	HP += stats.at(0) * 1.5;
 }
 
 void Character::InitStats(vector<string> statnumber)
@@ -181,13 +183,17 @@ void Character::ClearSheet()
 		stats.at(i) = 4;
 	}
 
-
+	HP = basehp;
 	
 	int newvalue = rand() % (20) + 1;
 	level = newvalue;
-
-	//points to spend relative to level
 	pointstospend = level * 2.5;
+	for (int i = 0; i < level; i++)
+	{
+		HP+=2;
+	}
+	//points to spend relative to level
+	
 }
 
 void Character::PrintSheet()
@@ -216,11 +222,10 @@ void Character::PrintSheet()
 
 	//Print level
 	myFile << std::endl;
-	myFile << "Level" << "," << level;
+	myFile << "LVL: " << level << "," << "HP: " << HP;
 
 	myFile << std::endl;
-
-
+	
 	for (int i = 0; i < Real_Inventory.size(); i++)
 	{
 		for (int j = 0; j < stats.size() + 4; j++)
@@ -232,6 +237,7 @@ void Character::PrintSheet()
 
 	}
 
+	myFile << std::endl;
 	//PRINT LORE
 	for (int i = 0; i < lore.size(); i++)
 	{
