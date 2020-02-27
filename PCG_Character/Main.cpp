@@ -23,7 +23,47 @@ vector <string> StatName;
 vector <int> RacesPercentage;
 vector <int> ClassPercentage;
 
+void printSavLefLogo()
+{
 
+	std::cout << "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" << std::endl;
+	std::cout << "@@.                                                                           &@" << std::endl;
+	std::cout << "@@.                                                                           &@" << std::endl;
+	std::cout << "@@.       *                                                                   &@" << std::endl;
+	std::cout << "@@.       ,%                                                                  &@" << std::endl;
+	std::cout << "@@.        #&,                                                                &@" << std::endl;
+	std::cout << "@@.        ,@@/                                                               &@" << std::endl;
+	std::cout << "@@.         &@@%                 .*                                           &@" << std::endl;
+	std::cout << "@@.         ,@@@&.               (@#                                          &@" << std::endl;
+	std::cout << "@@.          %@@@&*             .&@@&.                                        &@" << std::endl;
+	std::cout << "@@.          *@@@@@#            #@@@@&/                                       &@" << std::endl;
+	std::cout << "@@.           %@@@@@%.         ,&@@@@@@%                                      &@" << std::endl;
+	std::cout << "@@.           *&@@@@@&*        #@@@@@@@@&,                  .,,               &@" << std::endl;
+	std::cout << "@@.            &@@@@@@&(      *@@@@@@@@@@@(             .#&@&(#@&(            &@" << std::endl;
+	std::cout << "@@.            /@@@@@@@@%     %@@@@@@@@@@@@%.          ,&@@@&/%&@@@&(.        &@" << std::endl;
+	std::cout << "@@.             %@@@@@@@@&,  /&@@@@@@@@@@@@@&/        *&@@@@&,     .,/#(.     &@" << std::endl;
+	std::cout << "@@.             /@@@@@@@@@@/ %@@@@@@@@@@@@@@@@#      /&@@@@@&.                &@" << std::endl;
+	std::cout << "@@.             .&@@@@@@@@@@#,&@@@@@@&/,&@@@@@@&,   (&@@@@@@%                 &@" << std::endl;
+	std::cout << "@@.              (@@@@@@@@@@@%,#@@@&*.%&/,%@@@@@&( (@@@@@@@@(                 &@" << std::endl;
+	std::cout << "@@.              .&@@@@@@@@@@@&*(%,,&@@@@&/.#@@@&,#@@@@@@@@@/                 &@" << std::endl;
+	std::cout << "@@.               (@@@@@&/*%&@@%.,&@@@@@@@@&(.(&,%@@@@@@@@@&,                 &@" << std::endl;
+	std::cout << "@@.               .&@@@&*,&%*  .&@@@@@@@@@@@@&( #@@@@@@@@@@&.                 &@" << std::endl;
+	std::cout << "@@.                (@@&*,@@@@@@&#*.*#&@@@@@@@@@&#.(@@@@@@@@#                  &@" << std::endl;
+	std::cout << "@@.                .&&/*@@@@@@@@@@@@&#*.*%&@@@@@@&#.(&@@@@@(                  &@" << std::endl;
+	std::cout << "@@.                 (/*@@@@@@@@@@@@@@@@@@&#,,/%&@@@@%./&@@&*                  &@" << std::endl;
+	std::cout << "@@.                  /@@@@@@@@@@@@@@@@@@@@@@@@&(,,(%&@%,*&&,                  &@" << std::endl;
+	std::cout << "@@.                 /@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&/.,#&,,                   &@" << std::endl;
+	std::cout << "@@.                (@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&#,                    &@" << std::endl;
+	std::cout << "@@.               (@@@@@@@@@@@@@@@@@@@@@@@@&&%#/*.                            &@" << std::endl;
+	std::cout << "@@.              #@@@@@@@@@@@@@@&&%#/*..                                      &@" << std::endl;
+	std::cout << "@@.             #@@@@&&%#(*,.                                                 &@" << std::endl;
+	std::cout << "@@.            ,.                                                             &@" << std::endl;
+	std::cout << "@@.                                                                           &@" << std::endl;
+	std::cout << "@@.                                                                           &@" << std::endl;
+	std::cout << "@@.                   SAVLEF'S RPG CHARACTER GENERATOR                        &@" << std::endl;
+	std::cout << "@@.                                                                           &@" << std::endl;
+	std::cout << "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" << std::endl << std::endl;
+}
 
 void inptraces()
 {
@@ -39,21 +79,21 @@ void inptraces()
 
 	std::getline(dbfile, value, ',');// read a string until next comma
 	Races.push_back(value);
-	while (dbfile.good() && value != "-")
+	while (dbfile.good() && value != "END" && value != "end")
 	{
 
 		
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, ',');// read a string until next comma
 
-		if (value != "-") 
+		if (value != "") 
 		{
 			perc = std::stoi(value);
 			RacesPercentage.push_back(perc);
 		}
 		
 		std::getline(dbfile, value, ',');// read a string until next comma
-		if (value != "-")
+		if (value != "")
 		{
 			Races.push_back(value);
 		}
@@ -79,12 +119,12 @@ void inptstats()
 
 	
 	StatName.push_back(value);
-	while (dbfile.good())
+	while (dbfile.good() && value != "END" && value != "end")
 	{
 
 		std::getline(dbfile, value, '\n');
 		std::getline(dbfile, value, ',');// read a string until next comma
-		if (value != "" && value != "-")
+		if (value != "" && value != "END" && value!= "end")
 		{
 		
 			StatName.push_back(value);
@@ -99,6 +139,7 @@ void update()
 {
 		system("CLS");
 		std::ofstream myFile("GENERATED CHARACTERS/Characterlist.csv");
+		printSavLefLogo();
 		std::cout << "Characters created! Choose what to do." << std::endl;
 		std::cout << "1. Print all generated characters." << std::endl;
 		std::cout << "2. Filter by Race" << std::endl;
@@ -109,7 +150,8 @@ void update()
 
 		while (choice != 1 && choice != 2 && choice != 3 && choice != -99 || choice == 99 )
 		{
-			
+			system("CLS");
+			printSavLefLogo();
 			std::cout << "Characters created! Choose what to do." << std::endl;
 			std::cout << "1. Print all generated characters." << std::endl;
 			std::cout << "2. Filter by Race" << std::endl;
@@ -129,7 +171,11 @@ void update()
 				RaceGenerated->Characters.at(i).PrintSheet();
 			}
 			choice = 99;
-			std::cout << "Press Enter to continue..." << std::endl;
+			system("CLS");
+			printSavLefLogo();
+			std::cout << "Characters have been printed into the Characterlist file in the  GENERATED CHARACTERS folder." << std::endl << std::endl;
+			std::cout << "To save it, simply SAVE AS the file anywhere on your system." << std::endl << std::endl;
+			std::cout << "Press ENTER to wipe it and filter again." << std::endl << std::endl;
 			cin.get();
 			cin.get();
 			break;
@@ -139,6 +185,7 @@ void update()
 
 		{
 			system("CLS");
+			printSavLefLogo();
 			for (int i = 0; i < Races.size(); i++)
 			{
 				std::cout << i + 1 << ":  " << Races.at(i) << std::endl;
@@ -167,7 +214,9 @@ void update()
 				}
 			}
 
-			std::cout << "Press Enter to continue..." << std::endl;
+			std::cout << "Characters have been printed into the Characterlist file in the  GENERATED CHARACTERS folder." << std::endl << std::endl;
+			std::cout << "To save it, simply SAVE AS the file anywhere on your system." << std::endl << std::endl;
+			std::cout << "Press ENTER to wipe it and filter again." << std::endl << std::endl;
 			cin.get();
 			cin.get();
 			break;
@@ -178,6 +227,7 @@ void update()
 
 		{
 			system("CLS");
+			printSavLefLogo();
 			for (int i = 0; i < Classes.size(); i++)
 			{
 				std::cout << i + 1 << ":  " << Classes.at(i) << std::endl;
@@ -206,7 +256,9 @@ void update()
 				}
 			}
 
-			std::cout << "Press Enter to continue..." << std::endl;
+			std::cout << "Characters have been printed into the Characterlist file in the  GENERATED CHARACTERS folder." << std::endl << std::endl;
+			std::cout << "To save it, simply SAVE AS the file anywhere on your system." << std::endl << std::endl;
+			std::cout << "Press ENTER to wipe it and filter again." << std::endl << std::endl;
 			cin.get();
 			cin.get();
 			break;
@@ -224,7 +276,9 @@ int main()
 	inptraces();
 	inptclasses();
 
-	std::cout << "How many characters do you want to generate? Up to 1000" << std::endl;
+	printSavLefLogo();
+	std::cout << "Welcome to SavLef's RPG Character Generator!" << std::endl << std::endl;
+	std::cout << "How many characters do you want to generate? Up to 1000" << std::endl << std::endl;
 	std::cin >> choice;
 
 	while (choice < 1 || choice > 1000) 
