@@ -255,6 +255,37 @@ void MarkovChain::StateInventory_Neutral()
 	dbfile.close();
 }
 
+void MarkovChain::CalculateLoreSize()
+{
+		string value;
+		lore_column_size = 0;
+
+		ifstream dbfile("DATABASES/Database_Lore_Neutral.csv");
+		std::getline(dbfile, value, ',');
+
+		while (value != "END")
+		{
+			std::getline(dbfile, value, ',');
+			lore_column_size++;
+		}
+
+}
+
+void MarkovChain::CalculateCharacteristicSize()
+{
+
+	string value;
+	characteristic_column_size = 0;
+
+	ifstream dbfile("DATABASES/Database_Description_Neutral.csv");
+	std::getline(dbfile, value, ',');
+
+	while (value != "END")
+	{
+		std::getline(dbfile, value, ',');
+		characteristic_column_size++;
+	}
+}
 void MarkovChain::StateLore_Neutral()
 {
 	//READ FOR NEUTRAL
@@ -266,7 +297,7 @@ void MarkovChain::StateLore_Neutral()
 
 
 	//TILL CURRENT END OF DB
-	while (resetcount <= 18)
+	while (resetcount <= lore_column_size-2)
 	{
 		ifstream dbfile("DATABASES/Database_Lore_Neutral.csv");
 		std::getline(dbfile, value, '\n');
@@ -322,7 +353,7 @@ void MarkovChain::StateDescription_Neutral()
 
 
 	//TILL CURRENT END OF DB
-	while (resetcount <= 18)
+	while (resetcount <= characteristic_column_size-2)
 	{
 		ifstream dbfile("DATABASES/Database_Description_Neutral.csv");
 		std::getline(dbfile, value, '\n');

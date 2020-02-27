@@ -236,6 +236,8 @@ int main()
 	charamount = choice;
 	system("CLS");
 	RaceGenerated = new MarkovChain;
+	RaceGenerated->CalculateLoreSize();
+	RaceGenerated->CalculateCharacteristicSize();
 	RaceGenerated->StateLore_Neutral();
 	RaceGenerated->StateDescription_Neutral();
 	RaceGenerated->SendStats(StatName);

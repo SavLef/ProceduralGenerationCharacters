@@ -28,6 +28,8 @@ public:
 	void StateDescription_Neutral();
 	void CalculateLore();
 	void CalculateDescription();
+	void CalculateLoreSize();
+	void CalculateCharacteristicSize();
 
 	string  ClassStateOne_Backend();
 
@@ -53,30 +55,14 @@ public:
 	vector <string> Race_Inventory;
 	vector <float> Race_Inventory_Percentage;
 
-	//vector <string> Lore_Origin; vector <float> Lore_Origin_Percentage;
 
-	vector <string> Lore[10]; vector <float> Lore_Percentage[10];
-	/*vector <string> Lore_ConnectorWord; vector <float> Lore_ConnectorWord_Percentage;
-	vector <string> Lore_CITY; vector <float> Lore_CITY_Percentage;
-	vector <string> Lore_ConnectorWordSecond; vector <float> Lore_ConnectorWordSecond_Percentage;
-	vector <string> Lore_Characteristic; vector<float> Lore_Characteristic_Percentage;
-	vector <string> Lore_Occupation; vector <float> Lore_Occupation_Percentage;
-	vector <string> Lore_ConnectorWordThird; vector <float> Lore_ConnectorWordThird_Percentage;
-	vector <string> Lore_Ambition; vector <float> Lore_Ambition_Percentage;
-	vector <string> Lore_Ambition_2; vector <float> Lore_Ambition_2_Percentage;
-	vector <string> Lore_Ambition3; vector <float> Lore_Ambition3_Percentage;*/
 
-	vector <string> Desc[10]; vector <float> Desc_Percentage[10];
+	vector <string> Lore[30]; vector <float> Lore_Percentage[30];
+	vector <string> Desc[30]; vector <float> Desc_Percentage[30];
 
-	//vector <string> Desc_2; vector <float> Desc_2_Percentage;
-	//vector <string> Desc_3; vector <float> Desc_3_Percentage;
-	//vector <string>	Desc_4; vector <float> Desc_4_Percentage;
-	//vector <string> Desc_5; vector<float> Desc_5_Percentage;
-	//vector <string> Desc_6; vector <float> Lore_Occupation_Percentage;
-	//vector <string> Desc_7; vector <float> Lore_ConnectorWordThird_Percentage;
-	//vector <string> Desc_8; vector <float> Lore_Ambition_Percentage;
-	//vector <string> Desc_9; vector <float> Lore_Ambition_2_Percentage;
-	//vector <string> Desc_10; vector <float> Lore_Ambition3_Percentage;
+	int lore_column_size;
+	int characteristic_column_size;
+
 
 
 };
