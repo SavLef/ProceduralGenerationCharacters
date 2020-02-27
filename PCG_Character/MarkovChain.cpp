@@ -507,8 +507,11 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 
 	Arfui.ReadInventory(Neutral_Inventory, Neutral_Inventory_Percentage, Race_Inventory, Race_Inventory_Percentage, Class_Inventory, Class_Inventory_Percentage);
 	Class_Inventory.clear();
+	Class_Inventory_Percentage.clear();
 	Race_Inventory.clear();
+	Race_Inventory_Percentage.clear();
 	Neutral_Inventory.clear();
+	Neutral_Inventory_Percentage.clear();
 
 	//CALCULATE INVENTORY
 

@@ -113,6 +113,9 @@ void Character::ReadInventory(vector<string> Neutral_Inventory_Items, vector<flo
 	inventoryslots = rand() % 10 + 5;
 	emptyslots = inventoryslots;
 
+	Inventory_Percentage.clear();
+	Inventory.clear();
+
 	Inventory.insert(Inventory.end(), Neutral_Inventory_Items.begin(), Neutral_Inventory_Items.end());
 	Inventory.insert(Inventory.end(), Race_Inventory_Items.begin(), Race_Inventory_Items.end());
 	Inventory.insert(Inventory.end(), Class_Inventory_Items.begin(), Class_Inventory_Items.end());

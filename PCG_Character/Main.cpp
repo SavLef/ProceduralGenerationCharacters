@@ -197,6 +197,7 @@ void update()
 			if (choice > Races.size() || choice < 0)
 			{
 				choice = 99;
+				break;
 			}
 
 			for (int j = 0; j < Races.size(); j++)
@@ -239,6 +240,7 @@ void update()
 			if (choice > Classes.size() || choice < 0)
 			{
 				choice = 99;
+				break;
 			}
 
 			for (int j = 0; j < Classes.size(); j++)
