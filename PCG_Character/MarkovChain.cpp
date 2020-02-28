@@ -310,6 +310,55 @@ void MarkovChain::CalculateCharacteristicSize()
 	Desc_Percentage = new vector <float>[characteristic_column_size / 2];
 
 }
+void MarkovChain::StatePassives(vector<string> Race_vector)
+{
+	//READ ITEM DATABASE
+	float perce;
+	int counter = 0;
+
+	//READ FOR RACE
+	for (int j = 0; j < Race_vector.size(); j++)
+	{
+		if (Arfui.getRace() == Race_vector.at(j))
+		{
+			counter = 0;
+			ifstream dbfile("DATABASES/Database_Passives_Race.csv");
+			string value;
+			std::getline(dbfile, value, '\n');
+
+
+			for (int i = 0; i < j; i++)
+			{
+				std::getline(dbfile, value, ','); // read a string until next comma
+				std::getline(dbfile, value, ','); // read a string until next comma
+			}
+			std::getline(dbfile, value, ','); // read a string until next comma
+			while (dbfile.good() && counter < Race_vector.size())
+			{
+				if (value != "")
+				{
+					Race_Passives.push_back(value);
+					std::getline(dbfile, value, ','); // read a string until next comma
+					if (value != "")
+					{
+						perce = std::stof(value);
+						Race_Passives_Percentage.push_back(perce);
+					}
+				}
+				std::getline(dbfile, value, '\n');
+				for (int t = 0; t < j; t++)
+				{
+					std::getline(dbfile, value, ','); // read a string until next comma
+					std::getline(dbfile, value, ','); // read a string until next comma
+				}
+				std::getline(dbfile, value, ','); // read a string until next comma
+				counter++;
+
+			}
+			dbfile.close();
+		}
+	}
+}
 void MarkovChain::StateLore_Neutral()
 {
 	//READ FOR NEUTRAL
@@ -606,14 +655,19 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	//CHECK FOR INTENTORY ASSIGNMENT PERCENTAGE
 	StateInventory_Neutral();
 	StateInventory(*Race_vector);
+	StatePassives(*Race_vector);
 
 	Arfui.ReadInventory(Neutral_Inventory, Neutral_Inventory_Percentage, Race_Inventory, Race_Inventory_Percentage, Class_Inventory, Class_Inventory_Percentage);
+	Arfui.ReadPassives(Race_Passives, Race_Passives_Percentage);
 	Class_Inventory.clear();
 	Class_Inventory_Percentage.clear();
 	Race_Inventory.clear();
 	Race_Inventory_Percentage.clear();
 	Neutral_Inventory.clear();
 	Neutral_Inventory_Percentage.clear();
+
+	Race_Passives.clear();
+	Race_Passives_Percentage.clear();
 
 	//CALCULATE INVENTORY
 

@@ -20,6 +20,7 @@ public:
 	void StatCalc(vector <int> statpercents);
 	void InitStats(vector <string> statnumber);
 	void ReadInventory(vector<string> Neutral_Inventory_Items, vector<float> Neutral_Inventory_Percentage, vector<string> Race_Inventory_Items, vector<float> Race_Inventory_Percentage, vector<string> Class_Inventory_Items, vector<float> Class_Inventory_Percentage);
+	void ReadPassives(vector<string> Passives, vector<float> Passives_Percentage);
 	void CalculateInventory();
 	void ClearSheet();
 	void PrintSheet();
@@ -47,6 +48,8 @@ public:
 	vector <string> lore;
 	vector <string> personality;
 	vector <string> description;
+	vector <string> passiveslist;
+	vector <string> Real_Passives;
 
 	int inventoryslots = 0;
 	int emptyslots = 0;

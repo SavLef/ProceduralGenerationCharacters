@@ -31,6 +31,8 @@ public:
 	void CalculateLoreSize();
 	void CalculateCharacteristicSize();
 
+	void StatePassives(vector<string> Race_vector);
+
 	void CalculatePersonalitySize();
 	void CalculatePersonality();
 	void StatePersonality_Neutral();
@@ -59,6 +61,8 @@ public:
 	vector <string> Race_Inventory;
 	vector <float> Race_Inventory_Percentage;
 
+	vector <string> Race_Passives;
+	vector <float> Race_Passives_Percentage;
 
 
 	/*vector <string> Lore[30]; vector <float> Lore_Percentage[30];

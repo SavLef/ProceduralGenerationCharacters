@@ -164,6 +164,44 @@ void Character::ReadInventory(vector<string> Neutral_Inventory_Items, vector<flo
 	}
 }
 
+void Character::ReadPassives(vector<string> Passives, vector<float> Passives_Percentage)
+{
+	vector <int> temprolls;
+	int tempselection;
+
+	for (int i = 0; i < Passives.size(); i++)
+	{
+		//Fill with positive data
+		for (int j = 0; j < Passives_Percentage.at(i); j++)
+		{
+			temprolls.push_back(1);
+		}
+		//Fill with negative data
+		while (temprolls.size() < 100)
+		{
+			temprolls.push_back(0);
+		}
+
+		std::random_shuffle(temprolls.begin(), temprolls.end());
+		tempselection = temprolls.at(0);
+
+		switch (tempselection)
+		{
+		case 0:
+			break;
+		case 1:
+			Real_Passives.push_back(Passives.at(i));
+
+			break;
+		default:
+			break;
+		}
+		temprolls.clear();
+	}
+	
+}
+
+
 void Character::ClearSheet()
 {
 	Race = "";
@@ -175,6 +213,9 @@ void Character::ClearSheet()
 	lore.clear();
 	description.clear();
 	lore.resize(0);
+	personality.clear();
+	passiveslist.clear();
+	Real_Passives.clear();
 	stats.clear();
 	statpercent.clear();
 	stats.resize(nostats);
@@ -209,7 +250,7 @@ void Character::PrintSheet()
 	{
 		myFile << "," << statname.at(i);
 	}
-	myFile << "," << "," << "INVENTORY" << ",";
+	myFile << "," << "," << "," << "," << "," << "INVENTORY" << ",";
 	myFile << std::endl;
 
 	//ACTUAL VALUES
@@ -218,17 +259,32 @@ void Character::PrintSheet()
 	{
 		myFile << "," << stats.at(i);
 	}
-	myFile << "," << "," << inventoryslots - emptyslots << " out of " << inventoryslots;
+
+
+	myFile << "," << "," << "," << "," << "," << inventoryslots - emptyslots << " out of " << inventoryslots;
 
 	//Print level
 	myFile << std::endl;
 	myFile << "LVL: " << level << "," << "HP: " << HP;
 
 	myFile << std::endl;
+	myFile << std::endl;
 	
+	myFile << "Racial boons: ";
+	myFile << std::endl;
+	//PRINT PASSIVES
+	if (Real_Passives.size() == 0)
+	{
+		myFile << "NONE";
+	}
+	for (int i = 0; i < Real_Passives.size(); i++)
+	{
+		myFile << Real_Passives.at(i);
+		myFile << std::endl;
+	}
 	for (int i = 0; i < Real_Inventory.size(); i++)
 	{
-		for (int j = 0; j < stats.size() + 4; j++)
+		for (int j = 0; j < stats.size() + 7; j++)
 		{
 			myFile << ",";
 		}
@@ -258,7 +314,7 @@ void Character::PrintSheet()
 	}
 	myFile << std::endl;
 	myFile << std::endl;
-	myFile << "___________________________________________________________________________________________________________________________________________________________________________________________";
+	myFile << "____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________";
 	myFile << std::endl;
 	myFile.close();
 }
