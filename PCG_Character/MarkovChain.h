@@ -31,6 +31,10 @@ public:
 	void CalculateLoreSize();
 	void CalculateCharacteristicSize();
 
+	void CalculatePersonalitySize();
+	void CalculatePersonality();
+	void StatePersonality_Neutral();
+
 	string  ClassStateOne_Backend();
 
 	string race_selection = "";
@@ -63,9 +67,11 @@ public:
 
 	vector <string>* Lore; vector <float>* Lore_Percentage;
 	vector <string>* Desc; vector <float>* Desc_Percentage;
+	vector <string>* Personality; vector <float>* Personality_Percentage;
 
 	int lore_column_size;
 	int characteristic_column_size;
+	int personality_column_size;
 
 
 

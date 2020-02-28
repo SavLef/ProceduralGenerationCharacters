@@ -273,6 +273,24 @@ void MarkovChain::CalculateLoreSize()
 		Lore_Percentage = new vector <float>[lore_column_size / 2];
 }
 
+void MarkovChain::CalculatePersonalitySize()
+{
+	string value;
+	personality_column_size = 0;
+
+	ifstream dbfile("DATABASES/Database_Personality_Neutral.csv");
+	std::getline(dbfile, value, ',');
+
+	while (value != "END")
+	{
+		std::getline(dbfile, value, ',');
+		personality_column_size++;
+	}
+
+	Personality = new vector <string>[personality_column_size / 2];
+	Personality_Percentage = new vector <float>[personality_column_size / 2];
+}
+
 void MarkovChain::CalculateCharacteristicSize()
 {
 
@@ -403,6 +421,62 @@ void MarkovChain::StateDescription_Neutral()
 
 }
 
+//PERSONALITY
+void MarkovChain::StatePersonality_Neutral()
+{
+	//READ FOR NEUTRAL
+
+	int resetcount = 0;
+	int counter = 0;
+	float perce = 0;
+	string value;
+
+
+	//TILL CURRENT END OF DB
+	while (resetcount <= personality_column_size - 2)
+	{
+		ifstream dbfile("DATABASES/Database_Personality_Neutral.csv");
+		std::getline(dbfile, value, '\n');
+		for (int i = 0; i <= resetcount; i++)
+		{
+			std::getline(dbfile, value, ',');
+		}
+
+		while (dbfile.good() && value != "")
+		{
+			if (value != "")
+
+			{
+				Personality[counter].push_back(value);
+
+				std::getline(dbfile, value, ','); // read a string until next comma
+				if (value != "")
+				{
+					perce = std::stof(value);
+					Personality_Percentage[counter].push_back(perce);
+
+				}
+			}
+			std::getline(dbfile, value, '\n');
+			for (int i = 0; i <= resetcount; i++)
+			{
+				std::getline(dbfile, value, ',');
+			}
+
+
+		}
+
+		counter++;
+		resetcount++;
+		resetcount++;
+
+		dbfile.close();
+	}
+
+
+
+}
+
 void MarkovChain::CalculateLore()
 {
 	vector <string> CharacterLore;
@@ -454,6 +528,34 @@ void MarkovChain::CalculateDescription()
 
 	Arfui.importDescription(CharacterDescription);
 	CharacterDescription.clear();
+
+}
+
+void MarkovChain::CalculatePersonality()
+{
+	vector <string> CharacterPersonality;
+	vector <string> selection;
+	//==================================================================
+
+
+	for (int t = 0; t < personality_column_size / 2; t++)
+	{
+		for (int j = 0; j < Personality[t].size(); j++)
+		{
+			for (float i = 0; i < Personality_Percentage[t].at(j); i += 1)
+			{
+				selection.push_back(Personality[t].at(j));
+			}
+		}
+
+		std::random_shuffle(selection.begin(), selection.end());
+		CharacterPersonality.push_back(selection.at(0));
+
+		selection.clear();
+	}
+
+	Arfui.importPersonality(CharacterPersonality);
+	CharacterPersonality.clear();
 
 }
 
@@ -519,6 +621,7 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	
 	CalculateLore();
 	CalculateDescription();
+	CalculatePersonality();
 	Arfui.ProcessLore();
 	//ASSIGN LORE
 	
@@ -544,7 +647,13 @@ void MarkovChain::CalculateRace(vector<string>* Race_vector, vector <int>* Race_
 	Desc = NULL;    
 
 	delete[] Desc_Percentage;  
-	Desc_Percentage = NULL;     
+	Desc_Percentage = NULL;   
+
+	delete[] Personality_Percentage;
+	Personality_Percentage = NULL;
+
+	delete[] Personality;
+	Personality = NULL;
 }
 
 

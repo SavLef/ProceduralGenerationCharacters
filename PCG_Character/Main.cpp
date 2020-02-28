@@ -294,8 +294,10 @@ int main()
 	RaceGenerated = new MarkovChain;
 	RaceGenerated->CalculateLoreSize();
 	RaceGenerated->CalculateCharacteristicSize();
+	RaceGenerated->CalculatePersonalitySize();
 	RaceGenerated->StateLore_Neutral();
 	RaceGenerated->StateDescription_Neutral();
+	RaceGenerated->StatePersonality_Neutral();
 	RaceGenerated->SendStats(StatName);
 	RaceGenerated->ClassStateOne(&Classes);
 	RaceGenerated->CalculateRace(&Races,&RacesPercentage,charamount);

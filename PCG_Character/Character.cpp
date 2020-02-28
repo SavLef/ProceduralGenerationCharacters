@@ -244,10 +244,17 @@ void Character::PrintSheet()
 		myFile << " " << lore.at(i);
 	}
 	myFile << std::endl;
-	//PRINT LORE
+	//PRINT DESCRIPTION
 	for (int i = 0; i < description.size(); i++)
 	{
 		myFile << " " << description.at(i);
+	}
+
+	myFile << std::endl;
+	//PRINT PERSONALITY
+	for (int i = 0; i < personality.size(); i++)
+	{
+		myFile << " " << personality.at(i);
 	}
 	myFile << std::endl;
 	myFile << std::endl;
@@ -259,6 +266,11 @@ void Character::PrintSheet()
 void Character::importLore(vector<string> Lore)
 {
 	lore = Lore;
+}
+
+void Character::importPersonality(vector<string> Lore)
+{
+	personality = Lore;
 }
 
 void Character::importDescription(vector<string> Desc)
