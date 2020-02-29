@@ -6,10 +6,11 @@
 #include <stdlib.h>
 #include "MarkovChain.h"
 #include "Algorithms.h"
+#include <windows.h>
+#include <shellapi.h>
+
 
 std::ofstream myFile("GENERATED CHARACTERS/Characterlist.csv");
-
-
 
 
 
@@ -22,6 +23,16 @@ vector <string> Classes;
 vector <string> StatName;
 vector <int> RacesPercentage;
 vector <int> ClassPercentage;
+
+void OpenCharacterList()
+{
+	//OPEN THE FILE
+	std::wstring FilePath = L"GENERATED CHARACTERS\\Characterlist.csv";
+	std::wstring CommandT = L"open";
+	ShellExecute(NULL, CommandT.c_str(), FilePath.c_str(), NULL, NULL, SW_SHOWDEFAULT);
+}
+
+
 
 void printSavLefLogo()
 {
@@ -173,9 +184,13 @@ void update()
 			choice = 99;
 			system("CLS");
 			printSavLefLogo();
-			std::cout << "Characters have been printed into the Characterlist file in the  GENERATED CHARACTERS folder." << std::endl << std::endl;
-			std::cout << "To save it, simply SAVE AS the file anywhere on your system." << std::endl << std::endl;
-			std::cout << "Press ENTER to wipe it and filter again." << std::endl << std::endl;
+
+			OpenCharacterList();
+			
+
+			std::cout << "To SAVE printed characters -> File -> Save As." << std::endl << std::endl;
+			std::cout << "Close spreadsheet before filtering again." << std::endl << std::endl;
+			std::cout << "Press ENTER to continue." << std::endl << std::endl;
 			cin.get();
 			cin.get();
 			break;
@@ -215,9 +230,10 @@ void update()
 				}
 			}
 
-			std::cout << "Characters have been printed into the Characterlist file in the  GENERATED CHARACTERS folder." << std::endl << std::endl;
-			std::cout << "To save it, simply SAVE AS the file anywhere on your system." << std::endl << std::endl;
-			std::cout << "Press ENTER to wipe it and filter again." << std::endl << std::endl;
+			OpenCharacterList();
+			std::cout << "To SAVE printed characters -> File -> Save As." << std::endl << std::endl;
+			std::cout << "Close spreadsheet before filtering again." << std::endl << std::endl;
+			std::cout << "Press ENTER to continue." << std::endl << std::endl;
 			cin.get();
 			cin.get();
 			break;
@@ -255,12 +271,19 @@ void update()
 							RaceGenerated->Characters.at(i).PrintSheet();
 						}
 					}
+
+					
+
+					
 				}
 			}
 
-			std::cout << "Characters have been printed into the Characterlist file in the  GENERATED CHARACTERS folder." << std::endl << std::endl;
-			std::cout << "To save it, simply SAVE AS the file anywhere on your system." << std::endl << std::endl;
-			std::cout << "Press ENTER to wipe it and filter again." << std::endl << std::endl;
+
+			
+			OpenCharacterList();
+			std::cout << "To SAVE printed characters -> File -> Save As." << std::endl << std::endl;
+			std::cout << "Close spreadsheet before filtering again." << std::endl << std::endl;
+			std::cout << "Press ENTER to continue." << std::endl << std::endl;
 			cin.get();
 			cin.get();
 			break;
