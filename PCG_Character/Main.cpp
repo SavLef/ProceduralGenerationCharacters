@@ -32,6 +32,14 @@ void OpenCharacterList()
 	ShellExecute(NULL, CommandT.c_str(), FilePath.c_str(), NULL, NULL, SW_SHOWDEFAULT);
 }
 
+void OpenReadME()
+{
+	//OPEN THE FILE
+	std::wstring FilePath = L"README\\README.docx";
+	std::wstring CommandT = L"open";
+	ShellExecute(NULL, CommandT.c_str(), FilePath.c_str(), NULL, NULL, SW_SHOWDEFAULT);
+}
+
 
 
 void printSavLefLogo()
@@ -295,22 +303,19 @@ void update()
 		}
 }
 
-int main()
+void generateLoop()
 {
-	inptstats();
-	inptraces();
-	inptclasses();
-
+	system("CLS");
 	printSavLefLogo();
-	std::cout << "Welcome to SavLef's RPG Character Generator!" << std::endl << std::endl;
+
 	std::cout << "How many characters do you want to generate? Up to 1000" << std::endl << std::endl;
 	std::cin >> choice;
 
-	while (choice < 1 || choice > 1000) 
+	while (choice < 1 || choice > 1000)
 	{
 		std::cout << "How many characters do you want to generate? Up to 1000" << std::endl;
 		std::cin >> choice;
-		
+
 	}
 	charamount = choice;
 	system("CLS");
@@ -323,14 +328,67 @@ int main()
 	RaceGenerated->StatePersonality_Neutral();
 	RaceGenerated->SendStats(StatName);
 	RaceGenerated->ClassStateOne(&Classes);
-	RaceGenerated->CalculateRace(&Races,&RacesPercentage,charamount);
-	
-	
+	RaceGenerated->CalculateRace(&Races, &RacesPercentage, charamount);
+
+
 	while (choice != -99)
 	{
 		update();
 	}
-	
 }
+
+void mainMenu()
+{
+	system("CLS");
+	printSavLefLogo();
+	std::cout << "Welcome to SavLef's RPG Character Generator!" << std::endl << std::endl;
+	std::cout << "1. Generate Characters." << std::endl << std::endl;
+	std::cout << "2. View ReadME." << std::endl << std::endl;
+	std::cout << "-99. EXIT Application." << std::endl << std::endl;
+	std::cin >> choice;
+}
+
+int main()
+{
+	inptstats();
+	inptraces();
+	inptclasses();
+
+	mainMenu();
+
+	while (choice != -99)
+	{
+
+		while (choice != 1 && choice != 2 && choice != -99)
+		{
+			mainMenu();
+		}
+
+
+		switch (choice)
+		{
+		case 1: generateLoop(); break;
+
+		case 2:
+		{
+			OpenReadME();
+			choice = 0;
+			break;
+		}
+
+		case -99:
+		{
+			break;
+		}
+		default:
+			break;
+		}
+	}
+
+
+	}
+	
+	
+
 
 
