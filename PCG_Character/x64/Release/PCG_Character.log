@@ -1,0 +1,19 @@
+﻿  Algorithms.cpp
+  Character.cpp
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(97,25): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(104,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(113,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\Character.cpp(231,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Main.cpp
+  MarkovChain.cpp
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(98,36): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\PCG_Character\MarkovChain.cpp(123,26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 608 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PCG_Character.vcxproj -> C:\Users\Exeline\source\repos\SavLef\ProceduralGenerationCharacters\x64\Release\PCG_Character.exe
